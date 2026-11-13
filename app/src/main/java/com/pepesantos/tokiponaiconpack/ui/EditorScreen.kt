@@ -78,6 +78,7 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
     LaunchedEffect(Unit) { vm.messages.collect { snackbar.showSnackbar(it) } }
     var pickerMode by rememberSaveable { mutableStateOf<PickerMode?>(null) }
     var showMissing by rememberSaveable { mutableStateOf(false) }
+    var showCredits by rememberSaveable { mutableStateOf(false) }
     val missing = vm.apps?.let { vm.missingApps(it, assignments) }
 
     val exportSvg = rememberLauncherForActivityResult(
@@ -92,7 +93,12 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
     val previewBg = bg ?: MaterialTheme.colorScheme.surfaceVariant
 
     Scaffold(
-        topBar = { TopAppBar(title = { Text("sitelen pona") }) },
+        topBar = {
+            TopAppBar(
+                title = { Text("sitelen pona") },
+                actions = { TextButton(onClick = { showCredits = true }) { Text("Créditos") } },
+            )
+        },
         snackbarHost = { SnackbarHost(snackbar) },
     ) { padding ->
         val dir = LocalLayoutDirection.current
@@ -261,10 +267,16 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                     stringResource(R.string.how_to_apply),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(top = 16.dp),
+                    modifier = Modifier
+                        .padding(top = 16.dp)
+                        .clickable { showCredits = true },
                 )
             }
         }
+    }
+
+    if (showCredits) {
+        CreditsDialog(onDismiss = { showCredits = false })
     }
 
     if (showMissing && missing != null) {
