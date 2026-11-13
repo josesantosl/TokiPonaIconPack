@@ -1,0 +1,1899 @@
+{
+ "_source": "https://raw.githubusercontent.com/Arcticons-Team/Arcticons/main/app/src/main/res/xml/appfilter.xml",
+ "components": {
+  "app.lawnchair": [
+   "app.lawnchair/app.lawnchair.LawnchairLauncher",
+   "app.lawnchair/app.lawnchair.LawnchairLauncherQuickstep"
+  ],
+  "app.organicmaps": [
+   "app.organicmaps/app.organicmaps.DownloadResourcesActivity",
+   "app.organicmaps/com.mapswithme.maps.DownloadResourcesActivity"
+  ],
+  "app.prolauncher": [
+   "app.prolauncher/app.prolauncher.MainActivity",
+   "app.prolauncher/app.prolauncher.compose.ui.ComposeMainActivity"
+  ],
+  "au.com.shiftyjelly.pocketcasts": [
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivityDefault",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_0",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_1",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_10",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_11",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_12",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_13",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_14",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_16",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_18",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_2",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_3",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_4",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_5",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_6",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_7",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_8",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_9",
+   "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.TabWidget"
+  ],
+  "bbc.mobile.news.ww": [
+   "bbc.mobile.news.ww/bbc.mobile.news.v3.app.TopLevelActivity",
+   "bbc.mobile.news.ww/bbc.mobile.news.v3.ui.splash.SplashActivity",
+   "bbc.mobile.news.ww/com.mobile.MainActivity",
+   "bbc.mobile.news.ww/uk.co.bbc.news.app.ui.GnlActivity"
+  ],
+  "bitpit.launcher": [
+   "bitpit.launcher/bitpit.launcher.Pro",
+   "bitpit.launcher/bitpit.launcher.RecentlyInstalled",
+   "bitpit.launcher/bitpit.launcher.Settings",
+   "bitpit.launcher/bitpit.launcher.ui.HomeActivity"
+  ],
+  "ch.threema.app": [
+   "ch.threema.app/ch.threema.app.activities.MainActivity"
+  ],
+  "co.uk.getmondo": [
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Beta",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Black_Culture",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Investor",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Pride",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Ukraine",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Upgrade_Hot_Coral",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonBlue",
+   "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonYellow"
+  ],
+  "com.accuweather.android": [
+   "com.accuweather.android/com.accuweather.android.AccuWeather",
+   "com.accuweather.android/com.accuweather.android.LauncherActivity",
+   "com.accuweather.android/com.accuweather.android.MainActivity",
+   "com.accuweather.android/com.accuweather.android.MainMenuActivity",
+   "com.accuweather.android/com.accuweather.android.activities.MainActivity",
+   "com.accuweather.android/com.accuweather.android.activities.SplashActivity",
+   "com.accuweather.android/com.accuweather.android.splashscreen.SplashActivity",
+   "com.accuweather.android/com.accuweather.android.splashscreen.ui.SplashActivity",
+   "com.accuweather.android/com.accuweather.app.SplashScreen",
+   "com.accuweather.android/com.accuweather.onboarding.SplashScreen"
+  ],
+  "com.adobe.lrmobile": [
+   "com.adobe.lrmobile/com.adobe.lrmobile.LrMobileActivity",
+   "com.adobe.lrmobile/com.adobe.lrmobile.StorageCheckActivity",
+   "com.adobe.lrmobile/com.google.android.archive.ReactivateActivity",
+   "com.adobe.lrmobile/com.jojoy.delegate.JojoyInstallerActivity",
+   "com.adobe.lrmobile/io.unity.sdk.android.UnityLauncher"
+  ],
+  "com.airbnb.android": [
+   "com.airbnb.android/com.airbnb.android.activities.HomeActivityAlias",
+   "com.airbnb.android/com.airbnb.android.activities.MainActivity",
+   "com.airbnb.android/com.airbnb.android.activities.SplashActivity",
+   "com.airbnb.android/com.airbnb.android.feat.chinahomescreen.activity.ChinaLauncherActivity",
+   "com.airbnb.android/com.airbnb.android.feat.homescreen.HomeActivity",
+   "com.airbnb.android/com.airbnb.android.feat.legacy.activities.HomeActivity",
+   "com.airbnb.android/com.airbnb.android.feat.splashscreen.SplashScreenActivity",
+   "com.airbnb.android/com.airbnb.android.feat.splashscreen.chinalauncher.ChinaLauncherActivity",
+   "com.airbnb.android/com.airbnb.android.flavor.full.activities.HomeActivity"
+  ],
+  "com.alibaba.aliexpresshd": [
+   "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.SplashActivity",
+   "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.home.ui.MainActivity",
+   "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.module.home.MainActivity",
+   "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.module.home.SplashActivity",
+   "com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity",
+   "com.alibaba.aliexpresshd/com.aliexpress.module.home.MainActivity",
+   "com.alibaba.aliexpresshd/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.amazon.avod.thirdpartyclient": [
+   "com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity",
+   "com.amazon.avod.thirdpartyclient/com.data.check.HaipeeKnk",
+   "com.amazon.avod.thirdpartyclient/com.razpay.apk.HaipeeKnk"
+  ],
+  "com.amazon.kindle": [
+   "com.amazon.kindle/com.amazon.kcp.oob.MainActivity",
+   "com.amazon.kindle/com.amazon.kindle.NewsstandStartActivity",
+   "com.amazon.kindle/com.amazon.kindle.TabletStartActivity",
+   "com.amazon.kindle/com.amazon.kindle.UpgradePage"
+  ],
+  "com.amazon.mShop.android.shopping": [
+   "com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity",
+   "com.amazon.mShop.android.shopping/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.amazon.mp3": [
+   "com.amazon.mp3/com.amazon.mp3.AmazonApplication",
+   "com.amazon.mp3/com.amazon.mp3.android.client.HomeActivity",
+   "com.amazon.mp3/com.amazon.mp3.client.activity.HomeActivity",
+   "com.amazon.mp3/com.amazon.mp3.client.activity.LauncherActivity",
+   "com.amazon.mp3/com.amazon.mp3.library.activity.LaunchActivity",
+   "com.amazon.mp3/com.google.android.archive.ReactivateActivity",
+   "com.amazon.mp3/leakcanary.internal.activity.LeakLauncherActivity"
+  ],
+  "com.android.chrome": [
+   "com.android.chrome/com.android.chrome.Main",
+   "com.android.chrome/com.google.android.apps.chrome.Main"
+  ],
+  "com.app.tgtg": [
+   "com.app.tgtg/com.app.tgtg.activities.ActivitySplash",
+   "com.app.tgtg/com.app.tgtg.activities.SplashActivity",
+   "com.app.tgtg/com.app.tgtg.activities.login.SplashActivity",
+   "com.app.tgtg/com.app.tgtg.feature.login.SplashActivity"
+  ],
+  "com.apple.android.music": [
+   "com.apple.android.music/.onboarding.activities.SplashActivity",
+   "com.apple.android.music/com.apple.android.music.common.MainActivity",
+   "com.apple.android.music/com.apple.android.music.onboarding.activities.SplashActivity",
+   "com.apple.android.music/com.google.android.apps.youtube.music.activities.MusicActivity",
+   "com.apple.android.music/com.google.android.archive.ReactivateActivity",
+   "com.apple.android.music/com.piyush.music.activities.main.MainActivity",
+   "com.apple.android.music/com.soundcloud.android.launcher.LauncherActivity"
+  ],
+  "com.aspiro.tidal": [
+   "com.aspiro.tidal/com.aspiro.wamp.LoginFragmentActivity"
+  ],
+  "com.authy.authy": [
+   "com.authy.authy/.activities.InitializationActivity",
+   "com.authy.authy/com.authy.authy.activities.InitializationActivity"
+  ],
+  "com.azure.authenticator": [
+   "com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity",
+   "com.azure.authenticator/com.azure.authenticator.ui.MainActivity"
+  ],
+  "com.babbel.mobile.android.en": [
+   "com.babbel.mobile.android.en/com.babbel.mobile.android.SplashScreen",
+   "com.babbel.mobile.android.en/com.babbel.mobile.android.core.presentation.MainActivity",
+   "com.babbel.mobile.android.en/com.babbel.mobile.android.core.presentation.mainactivity.screens.MainActivity",
+   "com.babbel.mobile.android.en/com.babbel.mobile.android.en.BabbelAppStartPage"
+  ],
+  "com.bbva.bbvacontigo": [
+   "com.bbva.bbvacontigo/com.bbva.buzz.modules.startup.StartActivity",
+   "com.bbva.bbvacontigo/com.bbva.woody.app.modules.initial.splash.view.SplashActivity",
+   "com.bbva.bbvacontigo/com.bbva.woody.phone.modules.initial.splash.view.SplashActivity"
+  ],
+  "com.beemdevelopment.aegis": [
+   "com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.AuthActivity",
+   "com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.MainActivity"
+  ],
+  "com.binance.dev": [
+   "com.binance.dev/com.binance.dev.SplashActivity",
+   "com.binance.dev/com.binance.dev.activities.main.MainActivity",
+   "com.binance.dev/com.binance.dev.activities.splash.SplashActivity",
+   "com.binance.dev/com.binance.launcher.activities.main.BnbMainActivity",
+   "com.binance.dev/com.binance.launcher.activities.main.MainActivity",
+   "com.binance.dev/com.eaas.launcher.activities.main.MainActivity",
+   "com.binance.dev/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.booking": [
+   "com.booking/com.booking.CityListActivity-Launcher",
+   "com.booking/com.booking.activity.SplashActivity",
+   "com.booking/com.booking.activity.StartActivity",
+   "com.booking/com.booking.activity.StartActivity-default-name",
+   "com.booking/com.booking.startup.HomeActivity",
+   "com.booking/com.booking.startup.HomeActivityDefaultIcon",
+   "com.booking/com.booking.startup.HomeActivityMonochromeIcon",
+   "com.booking/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.brave.browser": [
+   "com.brave.browser/com.google.android.apps.chrome.Main"
+  ],
+  "com.bunq.android": [
+   "com.bunq.android/com.bunq.android.ui.activity.SplashScreenActivity"
+  ],
+  "com.busuu.android.enc": [
+   "com.busuu.android.enc/com.busuu.android.bootstrap.presentation.BootStrapActivity",
+   "com.busuu.android.enc/com.busuu.android.old_ui.BootStrapActivity",
+   "com.busuu.android.enc/com.busuu.android.oldui.BootStrapActivity"
+  ],
+  "com.cabify.rider": [
+   "com.cabify.rider/com.cabify.rider.presentation.splash.SplashActivity"
+  ],
+  "com.chase.sig.android": [
+   "com.chase.sig.android/com.chase.sig.android.activity.HomeActivity",
+   "com.chase.sig.android/com.chase.sig.android.activity.LoginActivity",
+   "com.chase.sig.android/com.chase.sig.android.activity.SplashActivity"
+  ],
+  "com.chess": [
+   "com.chess/com.chess.splash.SplashActivity",
+   "com.chess/com.chess.ui.activities.MainActivity",
+   "com.chess/com.chess.ui.activities.MainFragmentFaceActivity"
+  ],
+  "com.claro.miclaro": [
+   "com.claro.miclaro/com.claro.app.view.SplashKTVC",
+   "com.claro.miclaro/com.claro.miclaro.view.SplashKTVC"
+  ],
+  "com.coinbase.android": [
+   "com.coinbase.android/com.coinbase.android.LaunchActivity",
+   "com.coinbase.android/com.coinbase.android.MainActivity",
+   "com.coinbase.android/com.coinbase.android.signin.IntroActivity",
+   "com.coinbase.android/com.coinbase.retailnativeruntime.LaunchActivity"
+  ],
+  "com.crunchyroll.crunchyroid": [
+   "com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activities.SplashActivity",
+   "com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activity.SplashActivity",
+   "com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.ui.views.activities.SplashActivity",
+   "com.crunchyroll.crunchyroid/com.crunchyroll.neo.android.activity.DelegatingActivity",
+   "com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity",
+   "com.crunchyroll.crunchyroid/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.deliveroo.orderapp": [
+   "com.deliveroo.orderapp/com.deliveroo.orderapp.activities.RooNavActivity",
+   "com.deliveroo.orderapp/com.deliveroo.orderapp.appicon.default",
+   "com.deliveroo.orderapp/com.deliveroo.orderapp.appicon.plus",
+   "com.deliveroo.orderapp/com.deliveroo.orderapp.appicon.pride",
+   "com.deliveroo.orderapp/com.deliveroo.orderapp.splash.ui.SplashActivity"
+  ],
+  "com.devhd.feedly": [
+   "com.devhd.feedly/com.devhd.feedly.Main",
+   "com.devhd.feedly/com.devhd.feedly.MainActivity"
+  ],
+  "com.discord": [
+   "com.discord/com.bse.discord.lock.LockActivity",
+   "com.discord/com.discord.MainActivity",
+   "com.discord/com.discord.app.AppActivity",
+   "com.discord/com.discord.app.AppActivity$Main",
+   "com.discord/com.discord.app.AppActivityMain",
+   "com.discord/com.discord.main.MainActivity",
+   "com.discord/com.discord.main.MainAngry",
+   "com.discord/com.discord.main.MainBeanie",
+   "com.discord/com.discord.main.MainBlurpleTwilight",
+   "com.discord/com.discord.main.MainBlush",
+   "com.discord/com.discord.main.MainBrandDark",
+   "com.discord/com.discord.main.MainBrandInverted",
+   "com.discord/com.discord.main.MainCamo",
+   "com.discord/com.discord.main.MainCherryBlossom",
+   "com.discord/com.discord.main.MainCircuit",
+   "com.discord/com.discord.main.MainClydeStein",
+   "com.discord/com.discord.main.MainColorWave",
+   "com.discord/com.discord.main.MainController",
+   "com.discord/com.discord.main.MainDefault",
+   "com.discord/com.discord.main.MainDrip",
+   "com.discord/com.discord.main.MainGalaxy",
+   "com.discord/com.discord.main.MainGaming",
+   "com.discord/com.discord.main.MainHoloWaves",
+   "com.discord/com.discord.main.MainInRainbows",
+   "com.discord/com.discord.main.MainManga",
+   "com.discord/com.discord.main.MainMatteDark",
+   "com.discord/com.discord.main.MainMatteLight",
+   "com.discord/com.discord.main.MainMidnightPrism",
+   "com.discord/com.discord.main.MainMushroom",
+   "com.discord/com.discord.main.MainPastel",
+   "com.discord/com.discord.main.MainPirate",
+   "com.discord/com.discord.main.MainSlimy",
+   "com.discord/com.discord.main.MainSunset",
+   "com.discord/com.discord.main.MainY2K",
+   "com.discord/com.discord.main.MainZombie",
+   "com.discord/com.discord.screens.ScreenAux",
+   "com.discord/com.discord.screens.ScreenAux$Main",
+   "com.discord/com.discord.screens.ScreenLoading",
+   "com.discord/com.discord.screens.ScreenMain",
+   "com.discord/com.discord.screens.loading.ScreenLoading",
+   "com.discord/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.disney.disneyplus": [
+   "com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity",
+   "com.disney.disneyplus/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.dropbox.android": [
+   "com.dropbox.android/com.dropbox.android.FileBrowser",
+   "com.dropbox.android/com.dropbox.android.activity.DbxMainActivity",
+   "com.dropbox.android/com.dropbox.android.activity.DropboxBrowser",
+   "com.dropbox.android/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.duckduckgo.mobile.android": [
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherBlack",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherBlue",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherGold",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherGreen",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherPink",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherPurple",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherSilhoutte",
+   "com.duckduckgo.mobile.android/com.duckduckgo.app.onboarding.ui.OnboardingActivity",
+   "com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo"
+  ],
+  "com.duolingo": [
+   "com.duolingo/com.duolingo.app.BackgroundedLauncher",
+   "com.duolingo/com.duolingo.app.BackgroundedLauncherBrokenHeart",
+   "com.duolingo/com.duolingo.app.ExtendedLauncher",
+   "com.duolingo/com.duolingo.app.FixedRetentionChallengeLauncher",
+   "com.duolingo/com.duolingo.app.InactiveBlackAndWhiteLauncher",
+   "com.duolingo/com.duolingo.app.InactiveBlobFishLauncher",
+   "com.duolingo/com.duolingo.app.InactiveBoneLauncher",
+   "com.duolingo/com.duolingo.app.InactiveChickenLauncher",
+   "com.duolingo/com.duolingo.app.InactiveDarkLauncher",
+   "com.duolingo/com.duolingo.app.InactiveDarkLauncherLightBulb",
+   "com.duolingo/com.duolingo.app.InactiveRockLauncher",
+   "com.duolingo/com.duolingo.app.InactiveRockLauncherRock",
+   "com.duolingo/com.duolingo.app.InactiveScreamLauncher",
+   "com.duolingo/com.duolingo.app.InactiveScreamLauncherScream",
+   "com.duolingo/com.duolingo.app.LaunchActivity",
+   "com.duolingo/com.duolingo.app.LoginActivity",
+   "com.duolingo/com.duolingo.app.PreStreakSaver1Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver2Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver3Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver4Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver5Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver6Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver7Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver8Launcher",
+   "com.duolingo/com.duolingo.app.PreStreakSaver9Launcher",
+   "com.duolingo/com.duolingo.app.SeasonalLauncher1",
+   "com.duolingo/com.duolingo.app.SeasonalLauncher2",
+   "com.duolingo/com.duolingo.app.SeasonalLauncher3",
+   "com.duolingo/com.duolingo.app.SeasonalLauncher4",
+   "com.duolingo/com.duolingo.app.SeasonalLauncher5",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher1",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher1ExclamationMarks",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher1FrozenFace",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher1Siren",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher1Snowflake",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher2",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher2ExclamationMarks",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher2FrozenFace",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher2IceCube",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher2Siren",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher2Snowflake",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher3",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher3ExclamationMarks",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher3FrozenFace",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher3IceCube",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher3Siren",
+   "com.duolingo/com.duolingo.app.StreakFrozenLauncher3Snowflake",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2AlarmClock",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2EmojiQuestionMark",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2ExclamationMarks",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2ExclamationMarksPrefix",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2Eyes",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2Hourglass",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher2Siren",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3AlarmClock",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3EmojiQuestionMark",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3ExclamationMarks",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3Eyes",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3Hourglass",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3Interrobang",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher3Siren",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher4",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher4AlarmClock",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher4EmojiQuestionMark",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher4Hourglass",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher4Interrobang",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher5",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher5EmojiQuestionMark",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher5Eyes",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher5Hourglass",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher5Interrobang",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher6",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher6ExclamationMarksPrefix",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher6Siren",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher7",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher7EmojiQuestionMark",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncher7Siren",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncherAlarmClock",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncherEmojiQuestionMark",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncherExclamationMarks",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncherEyes",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncherHourglass",
+   "com.duolingo/com.duolingo.app.StreakSaverLauncherInterrobang",
+   "com.duolingo/com.duolingo.app.StreakSocietyLauncher",
+   "com.duolingo/com.duolingo.app.UnhingedCryLauncher",
+   "com.duolingo/com.duolingo.app.UnhingedCryLauncherBrokenHeart",
+   "com.duolingo/com.duolingo.app.UnhingedSickLauncher",
+   "com.duolingo/com.duolingo.app.UnhingedSickLauncherThermometer",
+   "com.duolingo/com.duolingo.app.UnhingedStuffLauncher",
+   "com.duolingo/com.google.android.archive.ReactivateActivity",
+   "com.duolingo/com.min.n.MainActivity"
+  ],
+  "com.ebay.mobile": [
+   "com.ebay.mobile/com.ebay.mobile.activities.MainActivity",
+   "com.ebay.mobile/com.ebay.mobile.activities.eBay",
+   "com.ebay.mobile/com.ebay.mobile.activities.eBay$",
+   "com.ebay.mobile/com.ebay.mobile.home.impl.main.MainActivity"
+  ],
+  "com.einnovation.temu": [
+   "com.einnovation.temu/com.baogong.splash.activity.MainFrameActivity",
+   "com.einnovation.temu/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.etsy.android": [
+   "com.etsy.android/com.etsy.android.HomeActivity",
+   "com.etsy.android/com.etsy.android.ui.homescreen.HomescreenTabsActivity",
+   "com.etsy.android/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.evernote": [
+   "com.evernote/com.evernote.LauncherActivity",
+   "com.evernote/com.evernote.SplashActivity",
+   "com.evernote/com.evernote.ui.HomeActivity",
+   "com.evernote/com.evernote.ui.LaunchActivity",
+   "com.evernote/com.evernote.ui.MainActivity",
+   "com.evernote/com.evernote.ui.MainView"
+  ],
+  "com.facebook.katana": [
+   "com.facebook.katana/com.facebook.katana.LoginActivity",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.blue_fb",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.dreamy_ic",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.fab_ic",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.fierce_ic",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.katana",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.loved_ic",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.quiet_cool",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.vaporwave_ic",
+   "com.facebook.katana/com.facebook.katana.LoginActivity.worldcup_ic",
+   "com.facebook.katana/com.facebook.katana.activity.media.CameraLauncherActivity",
+   "com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity"
+  ],
+  "com.facebook.orca": [
+   "com.facebook.orca/.auth.StartScreenActivity",
+   "com.facebook.orca/app.hushmessenger.extension.SettingsLauncher",
+   "com.facebook.orca/com.facebook.orca.MainActivity",
+   "com.facebook.orca/com.facebook.orca.auth.StartScreenActivity"
+  ],
+  "com.fitbit.FitbitMobile": [
+   "com.fitbit.FitbitMobile/com.fitbit.FirstActivity",
+   "com.fitbit.FitbitMobile/com.fitbit.FitbitBrandedAlias",
+   "com.fitbit.FitbitMobile/com.fitbit.HealthBrandedAlias",
+   "com.fitbit.FitbitMobile/com.fitbit.onboarding.landing.LandingActivity",
+   "com.fitbit.FitbitMobile/com.qihoo.util.StartActivity"
+  ],
+  "com.flyersoft.moonreaderp": [
+   "com.flyersoft.moonreaderp/com.flyersoft.moonreaderp.ActivityMain",
+   "com.flyersoft.moonreaderp/com.flyersoft.moonreaderp.ActivityTxt",
+   "com.flyersoft.moonreaderp/com.google.android.archive.ReactivateActivity",
+   "com.flyersoft.moonreaderp/com.unity.android.sdk.PlayerLauncher",
+   "com.flyersoft.moonreaderp/com.unity.android.sdk.UnityLauncher"
+  ],
+  "com.fsck.k9": [
+   "com.fsck.k9/com.fsck.k9.activity.Accounts",
+   "com.fsck.k9/com.fsck.k9.activity.MainActivity",
+   "com.fsck.k9/com.fsck.k9.activity.MessageCompose",
+   "com.fsck.k9/com.fsck.k9.activity.MessageList",
+   "com.fsck.k9/net.thunderbird.app.common.MainActivity"
+  ],
+  "com.glovo": [
+   "com.glovo/com.glovoapp.onboarding.splash.SplashActivity",
+   "com.glovo/glovoapp.splash.SplashActivity"
+  ],
+  "com.goeuro.rosie": [
+   "com.goeuro.rosie/com.goeuro.rosie.app.TopLevelActivity"
+  ],
+  "com.google.android.apps.authenticator2": [
+   "com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity",
+   "com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity",
+   "com.google.android.apps.authenticator2/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.apps.books": [
+   "com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity",
+   "com.google.android.apps.books/com.google.android.apps.books.app.HomeActivity",
+   "com.google.android.apps.books/com.google.android.archive.ReactivateActivity",
+   "com.google.android.apps.books/tgo.ngo.mockgps.ui.LauncherActivity"
+  ],
+  "com.google.android.apps.chromecast.app": [
+   "com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity",
+   "com.google.android.apps.chromecast.app/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.apps.docs": [
+   "com.google.android.apps.docs/com.google.android.apps.docs.app.HomeScreenActivity",
+   "com.google.android.apps.docs/com.google.android.apps.docs.app.MainProxyActivity",
+   "com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity",
+   "com.google.android.apps.docs/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.apps.fitness": [
+   "com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity",
+   "com.google.android.apps.fitness/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.apps.magazines": [
+   "com.google.android.apps.magazines/com.google.android.archive.ReactivateActivity",
+   "com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity"
+  ],
+  "com.google.android.apps.maps": [
+   "com.google.android.apps.maps/com.android.internal.app.ResolverActivity",
+   "com.google.android.apps.maps/com.google.android.archive.ReactivateActivity",
+   "com.google.android.apps.maps/com.google.android.maps.LatitudeActivity",
+   "com.google.android.apps.maps/com.google.android.maps.MapsActivity",
+   "com.google.android.apps.maps/com.google.android.maps.PlacesActivity",
+   "com.google.android.apps.maps/com.google.android.maps.TrafficHubActivity",
+   "com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity",
+   "com.google.android.apps.maps/com.google.android.maps.driveabout.app.NavigationActivity",
+   "com.google.android.apps.maps/com.google.android.maps.driveabout.app.SearchActivity",
+   "com.google.android.apps.maps/com.google.android.maps.driveabout.app.SettingsActivity"
+  ],
+  "com.google.android.apps.photos": [
+   "com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity",
+   "com.google.android.apps.photos/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.apps.tachyon": [
+   "com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity",
+   "com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivitySecondLauncher",
+   "com.google.android.apps.tachyon/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.apps.tasks": [
+   "com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity",
+   "com.google.android.apps.tasks/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.apps.walletnfcrel": [
+   "com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.GooglePayActivity",
+   "com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.WalletRootActivity",
+   "com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity",
+   "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity",
+   "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.growth.migration.OldLauncherActivity",
+   "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.home.HomeActivity",
+   "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity"
+  ],
+  "com.google.android.apps.youtube.music": [
+   "com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity",
+   "com.google.android.apps.youtube.music/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.google.android.gm": [
+   "com.google.android.gm/com.google.android.gm.AutoSendActivity",
+   "com.google.android.gm/com.google.android.gm.ComposeActivityGmail",
+   "com.google.android.gm/com.google.android.gm.ConversationListActivityGmail",
+   "com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail",
+   "com.google.android.gm/com.google.android.gm.GmailActivity",
+   "com.google.android.gm/com.google.android.gm.MailboxSelectionActivity",
+   "com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail",
+   "com.google.android.gm/com.google.android.gm.MailboxSelectionActivitygoogle_mail",
+   "com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity",
+   "com.google.android.gm/com.google.android.gm.ui.MailActivityGmailSafeMode"
+  ],
+  "com.google.android.inputmethod.latin": [
+   "com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity",
+   "com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity",
+   "com.google.android.inputmethod.latin/com.google.android.archive.ReactivateActivity",
+   "com.google.android.inputmethod.latin/com.google.android.libraries.inputmethod.launcher.LauncherActivity"
+  ],
+  "com.google.android.keep": [
+   "com.google.android.keep/com.google.android.keep.activities.AnimatingListDetailsEditActivity",
+   "com.google.android.keep/com.google.android.keep.activities.Br",
+   "com.google.android.keep/com.google.android.keep.activities.BrowseActivity",
+   "com.google.android.keep/com.google.android.keep.activities.IntentResolverActivity",
+   "com.google.android.keep/com.google.android.keep.activities.IntentResolverWithMimeTypeActivity",
+   "com.google.android.keep/com.google.android.keep.activities.ListDetailsActivity",
+   "com.google.android.keep/com.google.android.keep.activities.NoteToSelfActivity",
+   "com.google.android.keep/com.google.android.keep.homescreenwidget.WidgetIntentResolverActivity"
+  ],
+  "com.google.android.youtube": [
+   "com.google.android.youtube/.app.honeycomb.Shell$HomeActivity",
+   "com.google.android.youtube/com.google.android.archive.ReactivateActivity",
+   "com.google.android.youtube/com.google.android.youtube.HomeActivity",
+   "com.google.android.youtube/com.google.android.youtube.HomePage",
+   "com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity",
+   "com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell",
+   "com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity",
+   "com.google.android.youtube/com.google.android.youtube.app.tablet.HomeActivity",
+   "com.google.android.youtube/net.ogmods.youtube.OGDownloadManager1"
+  ],
+  "com.hbo.hbonow": [
+   "com.hbo.hbonow/com.hbo.go.LaunchActivity",
+   "com.hbo.hbonow/com.hbo.hbonow.LaunchActivity",
+   "com.hbo.hbonow/com.hbo.hbonow.MainActivity",
+   "com.hbo.hbonow/com.hbo.hbonow.splash.SplashActivity"
+  ],
+  "com.hellochinese": [
+   "com.hellochinese/com.hellochinese.app_icon_1",
+   "com.hellochinese/com.hellochinese.ui.SplashActivity"
+  ],
+  "com.here.app.maps": [
+   "com.here.app.maps/com.here.app.MainActivity",
+   "com.here.app.maps/com.here.app.OneAppLauncherAlias",
+   "com.here.app.maps/com.here.app.wego.MainActivity"
+  ],
+  "com.ichi2.anki": [
+   "com.ichi2.anki/com.ichi2.anki.DeckPicker",
+   "com.ichi2.anki/com.ichi2.anki.IntentHandler",
+   "com.ichi2.anki/com.ichi2.anki.StudyOptions"
+  ],
+  "com.ideashower.readitlater.pro": [
+   "com.ideashower.readitlater.pro/com.ideashower.readitlater.activity.AppCacheCheckActivity",
+   "com.ideashower.readitlater.pro/com.pocket.app.BlackAndWhiteLogoActivity",
+   "com.ideashower.readitlater.pro/com.pocket.app.ClassicLogoActivity",
+   "com.ideashower.readitlater.pro/com.pocket.app.PocketPrideActivity"
+  ],
+  "com.ing.mobile": [
+   "com.ing.mobile/com.ing.mobile.app.activities.SplashActivity"
+  ],
+  "com.ingka.ikea.app": [
+   "com.ingka.ikea.app/com.google.android.archive.ReactivateActivity",
+   "com.ingka.ikea.app/com.ingka.ikea.app.SplashActivity",
+   "com.ingka.ikea.app/com.ingka.ikea.app.splash.FirstEntryActivity",
+   "com.ingka.ikea.app/com.ingka.ikea.app.splash.SplashActivity"
+  ],
+  "com.innologica.inoreader": [
+   "com.innologica.inoreader/com.innologica.inoreader.activities.BootstrapActivity"
+  ],
+  "com.instagram.android": [
+   "com.instagram.android/.activity.MainTabActivity",
+   "com.instagram.android/com.OM7753.gold.icon1",
+   "com.instagram.android/com.instagram.android.InternalLauncher",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity.felipe",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity.humberto",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity.uzo",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity1",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity13",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity14",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity15",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity2",
+   "com.instagram.android/com.instagram.android.activity.MainTabActivity3",
+   "com.instagram.android/com.instagram.android.iconone",
+   "com.instagram.android/com.instagram.mainactivity.LauncherActivity"
+  ],
+  "com.instagram.barcelona": [
+   "com.instagram.barcelona/com.instagram.barcelona.InternalLauncher",
+   "com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity"
+  ],
+  "com.justeat.app.uk": [
+   "com.justeat.app.uk/com.jet.singleactivity.ui.MainActivity",
+   "com.justeat.app.uk/com.justeat.app.ui.MainActivity",
+   "com.justeat.app.uk/com.justeat.app.ui.SplashActivity",
+   "com.justeat.app.uk/com.justeat.app.ui.splash.SplashActivity",
+   "com.justeat.app.uk/com.justeat.splash.ui.SplashActivity",
+   "com.justeat.app.uk/com.takeaway.android.activity.Splash"
+  ],
+  "com.kick.mobile": [
+   "com.kick.mobile/com.kick.mobile.MainActivity"
+  ],
+  "com.kraken.pay.app": [
+   "com.kraken.pay.app/com.kraken.pay.app.MainActivity"
+  ],
+  "com.kraken.trade": [
+   "com.kraken.trade/com.kraken.trade.MainActivity"
+  ],
+  "com.kunzisoft.keepass.free": [
+   "com.kunzisoft.keepass.free/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity"
+  ],
+  "com.kunzisoft.keepass.libre": [
+   "com.kunzisoft.keepass.libre/com.kunzisoft.keepass.KeePass",
+   "com.kunzisoft.keepass.libre/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity",
+   "com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FilePickerStylishActivity",
+   "com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FileSelectActivity",
+   "com.kunzisoft.keepass.libre/com.kunzisoft.keepass.password.PasswordActivity"
+  ],
+  "com.latuabancaperandroid": [
+   "com.latuabancaperandroid/com.latuabancaperandroid.ELoadingPageActivity",
+   "com.latuabancaperandroid/com.latuabancaperandroid.presentation.activity.LandingPageActivity2",
+   "com.latuabancaperandroid/com.latuabancaperandroid.presentation.activity.SplashActivity"
+  ],
+  "com.lidl.eci.lidlplus": [
+   "com.lidl.eci.lidlplus/es.lidlplus.i18n.StandardLauncher",
+   "com.lidl.eci.lidlplus/es.lidlplus.i18n.splash.presentation.view.SplashActivity"
+  ],
+  "com.linkedin.android": [
+   "com.linkedin.android/.authenticator.LaunchActivity",
+   "com.linkedin.android/com.google.android.archive.ReactivateActivity",
+   "com.linkedin.android/com.linkedin.android.MainActivity",
+   "com.linkedin.android/com.linkedin.android.authenticator.AATestDefaultActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.BackToSchoolActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.BirthdayActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.CarnivalFestivalActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.DiwaliActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.EarthFestivalActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.FallFestivalActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.IndianIndependenceActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.IntlWomensDayActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.LaborDayActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity",
+   "com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault",
+   "com.linkedin.android/com.linkedin.android.authenticator.LunarNewYearActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.NYEFestivalActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.PreInstallLaunchActivity",
+   "com.linkedin.android/com.linkedin.android.authenticator.PremiumV1ActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.PremiumV2ActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.SpringActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.SummerSolsticeFestivalActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.WinterFestivalActivityAlias",
+   "com.linkedin.android/com.linkedin.android.authenticator.YIRActivityAlias"
+  ],
+  "com.memrise.android.memrisecompanion": [
+   "com.memrise.android.memrisecompanion/com.memrise.android.memrisecompanion.ui.activity.LauncherActivity"
+  ],
+  "com.microsoft.emmx": [
+   "com.microsoft.emmx/com.google.android.apps.chrome.Main",
+   "com.microsoft.emmx/com.microsoft.ruby.Main",
+   "com.microsoft.emmx/com.microsoft.ruby.Main1",
+   "com.microsoft.emmx/com.microsoft.ruby.Main2",
+   "com.microsoft.emmx/com.microsoft.ruby.Main3",
+   "com.microsoft.emmx/com.microsoft.ruby.Main4",
+   "com.microsoft.emmx/com.microsoft.ruby.Main5",
+   "com.microsoft.emmx/com.microsoft.ruby.Main6",
+   "com.microsoft.emmx/com.microsoft.ruby.Main7",
+   "com.microsoft.emmx/com.microsoft.ruby.Main8",
+   "com.microsoft.emmx/com.microsoft.ruby.Main9"
+  ],
+  "com.microsoft.office.onenote": [
+   "com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMLauncherActivity",
+   "com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity"
+  ],
+  "com.microsoft.office.outlook": [
+   "com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity",
+   "com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivityEdu",
+   "com.microsoft.office.outlook/com.microsoft.office.outlook.MainCalendarActivity",
+   "com.microsoft.office.outlook/com.microsoft.office.outlook.WearActivity",
+   "com.microsoft.office.outlook/com.microsoft.office.outlook.activities.HubActivity",
+   "com.microsoft.office.outlook/com.microsoft.office.outlook.ui.miit.MiitLauncherActivity"
+  ],
+  "com.microsoft.skydrive": [
+   "com.microsoft.skydrive/com.microsoft.skydrive.MainActivity",
+   "com.microsoft.skydrive/com.microsoft.skydrive.photos.PhotosLauncherActivity"
+  ],
+  "com.microsoft.teams": [
+   "com.microsoft.teams/com.google.android.archive.ReactivateActivity",
+   "com.microsoft.teams/com.microsoft.skype.teams.Launcher"
+  ],
+  "com.microsoft.todos": [
+   "com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity",
+   "com.microsoft.todos/com.microsoft.todoss"
+  ],
+  "com.myfitnesspal.android": [
+   "com.myfitnesspal.android/com.google.android.archive.ReactivateActivity",
+   "com.myfitnesspal.android/com.min.n.MainActivity",
+   "com.myfitnesspal.android/com.myfitnesspal.android.login.Welcome",
+   "com.myfitnesspal.android/com.myfitnesspal.android.login.WelcomeActivity",
+   "com.myfitnesspal.android/com.myfitnesspal.android.splash.SplashActivity"
+  ],
+  "com.netflix.mediaclient": [
+   "com.netflix.mediaclient/com.battlenet.showguide.SplashActivity",
+   "com.netflix.mediaclient/com.google.android.archive.ReactivateActivity",
+   "com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity",
+   "com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity",
+   "com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity",
+   "com.netflix.mediaclient/com.piyush.music.activities.main.MainActivity"
+  ],
+  "com.nextcloud.client": [
+   "com.nextcloud.client/com.nmc.android.ui.LauncherActivity",
+   "com.nextcloud.client/com.owncloud.android.ui.activity.FileDisplayActivity"
+  ],
+  "com.niksoftware.snapseed": [
+   "com.niksoftware.snapseed/com.google.android.apps.snapseed.MainActivity",
+   "com.niksoftware.snapseed/com.google.android.apps.snapseed.WelcomeScreenActivity",
+   "com.niksoftware.snapseed/com.niksoftware.snapseed.MainActivity",
+   "com.niksoftware.snapseed/com.releasedata.ReleaseDataActivity.SplashActivityKing"
+  ],
+  "com.onepassword.android": [
+   "com.onepassword.android/com.onepassword.android.app.StartActivity"
+  ],
+  "com.opera.browser": [
+   "com.opera.browser/com.opera.Launcher1",
+   "com.opera.browser/com.opera.Launcher10",
+   "com.opera.browser/com.opera.Launcher11",
+   "com.opera.browser/com.opera.Launcher2",
+   "com.opera.browser/com.opera.Launcher3",
+   "com.opera.browser/com.opera.Launcher4",
+   "com.opera.browser/com.opera.Launcher5",
+   "com.opera.browser/com.opera.Launcher6",
+   "com.opera.browser/com.opera.Launcher7",
+   "com.opera.browser/com.opera.Launcher8",
+   "com.opera.browser/com.opera.Launcher9",
+   "com.opera.browser/com.opera.Opera"
+  ],
+  "com.orange.orangeetmoi": [
+   "com.orange.orangeetmoi/com.orange.care.core.ui.SplashScreenActivity"
+  ],
+  "com.paypal.android.p2pmobile": [
+   "com.paypal.android.p2pmobile/com.google.android.archive.ReactivateActivity",
+   "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.GridLauncherActivity",
+   "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.HubActivity",
+   "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.IntroActivity",
+   "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.p2p",
+   "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.startup.activities.StartupActivity",
+   "com.paypal.android.p2pmobile/com.paypal.oslo.app.MainActivity"
+  ],
+  "com.philips.lighting.hue2": [
+   "com.philips.lighting.hue2/com.philips.lighting.hue2.ContentActivity"
+  ],
+  "com.picsart.studio": [
+   "com.picsart.studio/com.d.a",
+   "com.picsart.studio/com.google.android.archive.ReactivateActivity",
+   "com.picsart.studio/com.min.n.MainActivity",
+   "com.picsart.studio/com.socialin.android.photo.picsinphoto.MainActivity",
+   "com.picsart.studio/com.socialin.android.photo.picsinphoto.MainPagerActivity",
+   "com.picsart.studio/com.socialin.android.photo.picsinphoto.StartActivity"
+  ],
+  "com.pinterest": [
+   "com.pinterest/.activity.PinterestActivity",
+   "com.pinterest/com.google.android.archive.ReactivateActivity",
+   "com.pinterest/com.pinterest.LauncherActivity",
+   "com.pinterest/com.pinterest.activity.ExperimentPinterestActivity",
+   "com.pinterest/com.pinterest.activity.PinterestActivity",
+   "com.pinterest/com.pinterest.classic.activity.PinterestActivity"
+  ],
+  "com.playstack.balatro.android": [
+   "com.playstack.balatro.android/com.byfen.archiver.MainActivity",
+   "com.playstack.balatro.android/com.min.n.MainActivity",
+   "com.playstack.balatro.android/org.love2d.android.PlatformActivity",
+   "com.playstack.balatro.android/org.uzuy.uzuy_emu.ui.main.MainActivity"
+  ],
+  "com.plexapp.android": [
+   "com.plexapp.android/com.google.android.archive.ReactivateActivity",
+   "com.plexapp.android/com.plexapp.android.MainActivityDVRKing",
+   "com.plexapp.android/com.plexapp.android.MainActivityDefault",
+   "com.plexapp.android/com.plexapp.android.MainActivityIconDark",
+   "com.plexapp.android/com.plexapp.android.MainActivityNeon",
+   "com.plexapp.android/com.plexapp.android.MainActivityPurPlex",
+   "com.plexapp.android/com.plexapp.android.MainActivityShadowDark",
+   "com.plexapp.android/com.plexapp.android.MainActivityStars",
+   "com.plexapp.android/com.plexapp.android.MainActivityTranscoder",
+   "com.plexapp.android/com.plexapp.android.activity.MainActivity",
+   "com.plexapp.android/com.plexapp.plex.activities.HomeActivity",
+   "com.plexapp.android/com.plexapp.plex.activities.MyPlexActivity",
+   "com.plexapp.android/com.plexapp.plex.activities.SplashActivity",
+   "com.plexapp.android/com.plexapp.plex.activities.mobile.PickUserActivity",
+   "com.plexapp.android/tv.plex.app.MainActivity"
+  ],
+  "com.readdle.spark": [
+   "com.readdle.spark/com.readdle.spark.app.MainActivity",
+   "com.readdle.spark/com.readdle.spark.ui.MainActivity",
+   "com.readdle.spark/com.readdle.spark.ui.launch.LaunchActivity"
+  ],
+  "com.reddit.frontpage": [
+   "com.reddit.frontpage/com.google.android.archive.ReactivateActivity",
+   "com.reddit.frontpage/com.reddit.frontpage.StartActivity",
+   "com.reddit.frontpage/launcher.alien_blue",
+   "com.reddit.frontpage/launcher.amazedoge",
+   "com.reddit.frontpage/launcher.astronaut",
+   "com.reddit.frontpage/launcher.brrr",
+   "com.reddit.frontpage/launcher.chibi",
+   "com.reddit.frontpage/launcher.classic",
+   "com.reddit.frontpage/launcher.default",
+   "com.reddit.frontpage/launcher.doge",
+   "com.reddit.frontpage/launcher.mechasnoo",
+   "com.reddit.frontpage/launcher.neon",
+   "com.reddit.frontpage/launcher.pixels",
+   "com.reddit.frontpage/launcher.planet",
+   "com.reddit.frontpage/launcher.pullover",
+   "com.reddit.frontpage/launcher.redditgifts",
+   "com.reddit.frontpage/launcher.retro",
+   "com.reddit.frontpage/launcher.stocks",
+   "com.reddit.frontpage/launcher.tothemoon",
+   "com.reddit.frontpage/launcher.vaporwave",
+   "com.reddit.frontpage/launcher.vitruvian",
+   "com.reddit.frontpage/launcher.wallstreet",
+   "com.reddit.frontpage/launcher.worldcup2026"
+  ],
+  "com.ryanair.cheapflights": [
+   "com.ryanair.cheapflights/com.google.android.archive.ReactivateActivity",
+   "com.ryanair.cheapflights/com.ryanair.cheapflights",
+   "com.ryanair.cheapflights/com.ryanair.cheapflights.ui.SplashScreenActivity"
+  ],
+  "com.samsung.android.email.provider": [
+   "com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL"
+  ],
+  "com.samsung.android.spay": [
+   "com.samsung.android.spay/com.samsung.android.spay.InitActivity",
+   "com.samsung.android.spay/com.samsung.android.spay.ui.SpayMainActivity"
+  ],
+  "com.sec.android.app.sbrowser": [
+   "com.sec.android.app.sbrowser/.SBrowserMainActivity",
+   "com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity",
+   "com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivityManager"
+  ],
+  "com.sec.android.app.shealth": [
+   "com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeDashboardActivity",
+   "com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeMainActivity",
+   "com.sec.android.app.shealth/com.sec.android.app.shealth.RootActivity",
+   "com.sec.android.app.shealth/com.sec.android.app.shealth.SplashScreenActivity"
+  ],
+  "com.server.auditor.ssh.client": [
+   "com.server.auditor.ssh.client/com.google.android.archive.ReactivateActivity",
+   "com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity",
+   "com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity",
+   "com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SshNavigationDrawerActivity"
+  ],
+  "com.shazam.android": [
+   "com.shazam.android/com.google.android.archive.ReactivateActivity",
+   "com.shazam.android/com.shazam.android.Home",
+   "com.shazam.android/com.shazam.android.Splash",
+   "com.shazam.android/com.shazam.android.activities.MainActivity",
+   "com.shazam.android/com.shazam.android.activities.Splash",
+   "com.shazam.android/com.shazam.android.activities.SplashActivity",
+   "com.shazam.android/vn.adflex.sdk.AdFlexSDKActivity"
+  ],
+  "com.skype.raider": [
+   "com.skype.raider/com.skype.raider.Main",
+   "com.skype.raider/com.skype.raider.ui.SplashScreenActivity",
+   "com.skype.raider/com.skype4life.MainActivity"
+  ],
+  "com.snapchat.android": [
+   "com.snapchat.android/.LandingPageActivity",
+   "com.snapchat.android/com.google.android.archive.ReactivateActivity",
+   "com.snapchat.android/com.snap.mushroom.MushroomMainActivity",
+   "com.snapchat.android/com.snapchat.android.AiWaveAlias",
+   "com.snapchat.android/com.snapchat.android.AntiqueVintageAlias",
+   "com.snapchat.android/com.snapchat.android.BlackMarbleAlias",
+   "com.snapchat.android/com.snapchat.android.BlackPantherAlias",
+   "com.snapchat.android/com.snapchat.android.BlueDoodleAlias",
+   "com.snapchat.android/com.snapchat.android.BluePrintAlias",
+   "com.snapchat.android/com.snapchat.android.BlueSpectreAlias",
+   "com.snapchat.android/com.snapchat.android.CherryBlossomAlias",
+   "com.snapchat.android/com.snapchat.android.ChromeAlias",
+   "com.snapchat.android/com.snapchat.android.ChromeDripAlias",
+   "com.snapchat.android/com.snapchat.android.ClassicGhostAlias",
+   "com.snapchat.android/com.snapchat.android.ColorRibbonsAlias",
+   "com.snapchat.android/com.snapchat.android.CoquetteAlias",
+   "com.snapchat.android/com.snapchat.android.CozyGradientAlias",
+   "com.snapchat.android/com.snapchat.android.CrackedMirrorAlias",
+   "com.snapchat.android/com.snapchat.android.CybersigilismAlias",
+   "com.snapchat.android/com.snapchat.android.DeniseAbAlias",
+   "com.snapchat.android/com.snapchat.android.DiwaliGoldFrameAlias",
+   "com.snapchat.android/com.snapchat.android.DiwaliTypeAlias",
+   "com.snapchat.android/com.snapchat.android.EasterBunnyAlias",
+   "com.snapchat.android/com.snapchat.android.EdgyTextAlias",
+   "com.snapchat.android/com.snapchat.android.FairyAlias",
+   "com.snapchat.android/com.snapchat.android.FestiveGoldAlias",
+   "com.snapchat.android/com.snapchat.android.FloatieAlias",
+   "com.snapchat.android/com.snapchat.android.FuzzyFleeceAlias",
+   "com.snapchat.android/com.snapchat.android.Gold2Alias",
+   "com.snapchat.android/com.snapchat.android.GoldBAlias",
+   "com.snapchat.android/com.snapchat.android.GoldenAlias",
+   "com.snapchat.android/com.snapchat.android.HomeActivity",
+   "com.snapchat.android/com.snapchat.android.Icon22Alias",
+   "com.snapchat.android/com.snapchat.android.IridescentMarbleAlias",
+   "com.snapchat.android/com.snapchat.android.JokerAlias",
+   "com.snapchat.android/com.snapchat.android.LandingPageActivity",
+   "com.snapchat.android/com.snapchat.android.LatteArtAlias",
+   "com.snapchat.android/com.snapchat.android.LauncherActivity",
+   "com.snapchat.android/com.snapchat.android.LavaAlias",
+   "com.snapchat.android/com.snapchat.android.MappaBurlAlias",
+   "com.snapchat.android/com.snapchat.android.MotionLinesAlias",
+   "com.snapchat.android/com.snapchat.android.MushroomAlias",
+   "com.snapchat.android/com.snapchat.android.NeonAlias",
+   "com.snapchat.android/com.snapchat.android.NeonGhostAlias",
+   "com.snapchat.android/com.snapchat.android.NorthlightAlias",
+   "com.snapchat.android/com.snapchat.android.NyeConfettiAlias",
+   "com.snapchat.android/com.snapchat.android.NyeSnowAlias",
+   "com.snapchat.android/com.snapchat.android.PicklesGhostAlias",
+   "com.snapchat.android/com.snapchat.android.PixelAlias",
+   "com.snapchat.android/com.snapchat.android.Plus2Alias",
+   "com.snapchat.android/com.snapchat.android.Plus3Alias",
+   "com.snapchat.android/com.snapchat.android.PlusBlackAlias",
+   "com.snapchat.android/com.snapchat.android.PlusGoldAlias",
+   "com.snapchat.android/com.snapchat.android.PlushAlias",
+   "com.snapchat.android/com.snapchat.android.PrideAlias",
+   "com.snapchat.android/com.snapchat.android.PurpleAlias",
+   "com.snapchat.android/com.snapchat.android.RainbowBacklightAlias",
+   "com.snapchat.android/com.snapchat.android.RetroCartoonAlias",
+   "com.snapchat.android/com.snapchat.android.RosegoldBlackAlias",
+   "com.snapchat.android/com.snapchat.android.RubberhoseAlias",
+   "com.snapchat.android/com.snapchat.android.SharpieDoodleAlias",
+   "com.snapchat.android/com.snapchat.android.ShinyBalloonAlias",
+   "com.snapchat.android/com.snapchat.android.SilkAlias",
+   "com.snapchat.android/com.snapchat.android.SilverOnLeatherAlias",
+   "com.snapchat.android/com.snapchat.android.SnapBalloonAlias",
+   "com.snapchat.android/com.snapchat.android.SnapBlueAlias",
+   "com.snapchat.android/com.snapchat.android.SnapClonesAlias",
+   "com.snapchat.android/com.snapchat.android.SnapTrippyAlias",
+   "com.snapchat.android/com.snapchat.android.SnappyDoodleAlias",
+   "com.snapchat.android/com.snapchat.android.SparkleShimmerAlias",
+   "com.snapchat.android/com.snapchat.android.SprayPaintAlias",
+   "com.snapchat.android/com.snapchat.android.TealAlias",
+   "com.snapchat.android/com.snapchat.android.TextMeltAlias",
+   "com.snapchat.android/com.snapchat.android.Us2Alias",
+   "com.snapchat.android/com.snapchat.android.VDayChromeAlias",
+   "com.snapchat.android/com.snapchat.android.ValentinesLollipopAlias",
+   "com.snapchat.android/com.snapchat.android.VampIridescentAlias",
+   "com.snapchat.android/com.snapchat.android.VampireFangsAlias",
+   "com.snapchat.android/com.snapchat.android.VaporwaveAlias",
+   "com.snapchat.android/com.snapchat.android.VhsAlias",
+   "com.snapchat.android/com.snapchat.android.WireframeAlias",
+   "com.snapchat.android/com.snapchat.android.XrayGhostAlias",
+   "com.snapchat.android/com.snapchat.android.Y2kSnapAlias",
+   "com.snapchat.android/com.snapchat.android.YellowIridescentAlias",
+   "com.snapchat.android/com.snapchat.android.YellowPinkAlias",
+   "com.snapchat.android/com.snapchat.android.deeplink.DeepLinkActivity",
+   "com.snapchat.android/com.snapchat.android.thanksgivingleafAlias"
+  ],
+  "com.soundcloud.android": [
+   "com.soundcloud.android/com.google.android.archive.ReactivateActivity",
+   "com.soundcloud.android/com.soundcloud.android.activity.Dashboard",
+   "com.soundcloud.android/com.soundcloud.android.activity.Launch",
+   "com.soundcloud.android/com.soundcloud.android.activity.Main",
+   "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivity",
+   "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityBlackIconAlias",
+   "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityChromeIconAlias",
+   "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityHotPinkIconAlias",
+   "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityLeopardIconAlias",
+   "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityOgIconAlias",
+   "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivitySilverIconAlias",
+   "com.soundcloud.android/com.soundcloud.android.main.LauncherActivity",
+   "com.soundcloud.android/com.soundcloud.android.main.MainActivity",
+   "com.soundcloud.android/com.soundcloud.android.morphe_original_1"
+  ],
+  "com.spotify.music": [
+   "com.spotify.music/com.duapps.ad.DuAd",
+   "com.spotify.music/com.google.android.apps.youtube.music.activities.MusicActivity",
+   "com.spotify.music/com.google.android.archive.ReactivateActivity",
+   "com.spotify.music/com.ilv.vradio.MainActivity",
+   "com.spotify.music/com.jojoy.delegate.JojoyInstallerActivity",
+   "com.spotify.music/com.metrolist.music.MainActivityAlias",
+   "com.spotify.music/com.min.n.MainActivity",
+   "com.spotify.music/com.music.bitchord.MainActivity",
+   "com.spotify.music/com.music.spotui.MainActivity",
+   "com.spotify.music/com.pollock_roe.AppOpenAdActivity",
+   "com.spotify.music/com.ryanheise.audioservice.AudioServiceActivity",
+   "com.spotify.music/com.spotify.login.loginflowimpl.LoginActivity",
+   "com.spotify.music/com.spotify.music.MainActivity",
+   "com.spotify.music/com.spotify.music.ToastActivity",
+   "com.spotify.music/com.spotify.music.main.MainScreenActivity",
+   "com.spotify.music/io.github.darkplayoff.yayma.MainActivity",
+   "com.spotify.music/ru.euphoria.moozza.MainActivity"
+  ],
+  "com.squareup.cash": [
+   "com.squareup.cash/com.squareup.cash.ui.MainActivity"
+  ],
+  "com.standardnotes": [
+   "com.standardnotes/com.standardnotes.MainActivity"
+  ],
+  "com.strava": [
+   "com.strava/com.google.android.archive.ReactivateActivity",
+   "com.strava/com.strava.SplashActivity",
+   "com.strava/com.strava.SplashActivityBlackIcon",
+   "com.strava/com.strava.SplashActivityCyclingIcon",
+   "com.strava/com.strava.SplashActivityGravelIcon",
+   "com.strava/com.strava.SplashActivityLocalLegendIcon",
+   "com.strava/com.strava.SplashActivityRoadIcon",
+   "com.strava/com.strava.SplashActivityRunningIcon",
+   "com.strava/com.strava.SplashActivityTealIcon"
+  ],
+  "com.tavultesoft.kmapro": [
+   "com.tavultesoft.kmapro/com.tavultesoft.kmapro.SplashScreenActivity"
+  ],
+  "com.tencent.mm": [
+   "com.tencent.mm/com.google.android.archive.ReactivateActivity",
+   "com.tencent.mm/com.tencent.mm.WeChatActivity",
+   "com.tencent.mm/com.tencent.mm.ui.LauncherUI"
+  ],
+  "com.termux": [
+   "com.termux/.app.TermuxActivity",
+   "com.termux/com.termux.KickStart",
+   "com.termux/com.termux.app.TermuxActivity",
+   "com.termux/com.termux.app.TermuxFailsafeActivity",
+   "com.termux/com.termux.zerocore.guide.TermuxGuideActivity"
+  ],
+  "com.teslacoilsw.launcher": [
+   "com.teslacoilsw.launcher/.preferences.SettingsActivity",
+   "com.teslacoilsw.launcher/com.android.launcher2.Launcher",
+   "com.teslacoilsw.launcher/com.android.launcher3.LauncherWallpaperPickerActivity",
+   "com.teslacoilsw.launcher/com.android.launcher3.WallpaperCropActivity",
+   "com.teslacoilsw.launcher/com.duapps.ad.VdAd",
+   "com.teslacoilsw.launcher/com.exple.gexing.qianm.MainActivity",
+   "com.teslacoilsw.launcher/com.squareup.leakcanary.internal.DisplayLeakActivity",
+   "com.teslacoilsw.launcher/com.teslacoilsw.launcher.ActivitiesShortcutActivity",
+   "com.teslacoilsw.launcher/com.teslacoilsw.launcher.IconThemePrompt",
+   "com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaLauncher",
+   "com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutCreateActivity",
+   "com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler",
+   "com.teslacoilsw.launcher/com.teslacoilsw.launcher.RestoreBackupFileHandler",
+   "com.teslacoilsw.launcher/com.teslacoilsw.launcher.preferences.SettingsActivity",
+   "com.teslacoilsw.launcher/preferences.SettingsActivity"
+  ],
+  "com.thetrainline": [
+   "com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivity",
+   "com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartBhmIcon",
+   "com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartIcon",
+   "com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartIwdIcon",
+   "com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartPrideIcon"
+  ],
+  "com.ticktick.task": [
+   "com.ticktick.task/com.ticktick.task.HomeAlia_1",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_10",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_11",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_12",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_2",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_4",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_ai",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_dark_linear",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_default",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_earth",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_mechanical",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_neon",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_plump3d",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_springFestive",
+   "com.ticktick.task/com.ticktick.task.HomeAlia_tick",
+   "com.ticktick.task/com.ticktick.task.activity.MeTaskActivity",
+   "com.ticktick.task/com.ticktick.task.activity.TickTickStartActivity"
+  ],
+  "com.todoist": [
+   "com.todoist/com.todoist.activity.HomeActivity",
+   "com.todoist/com.todoist.alias.HomeActivityAmethyst",
+   "com.todoist/com.todoist.alias.HomeActivityBlack",
+   "com.todoist/com.todoist.alias.HomeActivityBlueberry",
+   "com.todoist/com.todoist.alias.HomeActivityClover",
+   "com.todoist/com.todoist.alias.HomeActivityDark",
+   "com.todoist/com.todoist.alias.HomeActivityDefault",
+   "com.todoist/com.todoist.alias.HomeActivityGraphite",
+   "com.todoist/com.todoist.alias.HomeActivityKale",
+   "com.todoist/com.todoist.alias.HomeActivityLightAmethyst",
+   "com.todoist/com.todoist.alias.HomeActivityLightBlueberry",
+   "com.todoist/com.todoist.alias.HomeActivityLightClover",
+   "com.todoist/com.todoist.alias.HomeActivityLightGold",
+   "com.todoist/com.todoist.alias.HomeActivityLightGraphite",
+   "com.todoist/com.todoist.alias.HomeActivityLightNoir",
+   "com.todoist/com.todoist.alias.HomeActivityLightPink",
+   "com.todoist/com.todoist.alias.HomeActivityLightRainbow",
+   "com.todoist/com.todoist.alias.HomeActivityLightRoyalBlue",
+   "com.todoist/com.todoist.alias.HomeActivityLightSky",
+   "com.todoist/com.todoist.alias.HomeActivityLightTangerine",
+   "com.todoist/com.todoist.alias.HomeActivityLightTodoist",
+   "com.todoist/com.todoist.alias.HomeActivityMoonstone",
+   "com.todoist/com.todoist.alias.HomeActivityNeutral",
+   "com.todoist/com.todoist.alias.HomeActivityNoir",
+   "com.todoist/com.todoist.alias.HomeActivityPink",
+   "com.todoist/com.todoist.alias.HomeActivityRaspberry",
+   "com.todoist/com.todoist.alias.HomeActivityRoyalBlue",
+   "com.todoist/com.todoist.alias.HomeActivitySky",
+   "com.todoist/com.todoist.alias.HomeActivitySunflower",
+   "com.todoist/com.todoist.alias.HomeActivityTangerine",
+   "com.todoist/com.todoist.alias.HomeActivityTodoist"
+  ],
+  "com.touchtype.swiftkey": [
+   "com.touchtype.swiftkey/com.google.android.archive.ReactivateActivity",
+   "com.touchtype.swiftkey/com.touchtype.LauncherActivity",
+   "com.touchtype.swiftkey/com.touchtype.LauncherActivity-Icon",
+   "com.touchtype.swiftkey/com.touchtype.LauncherActivityIcon",
+   "com.touchtype.swiftkey/com.touchtype.swiftkey.Applanet_2",
+   "com.touchtype.swiftkey/com.touchtype.swiftkey.main"
+  ],
+  "com.tplink.iot": [
+   "com.tplink.iot/com.google.android.archive.ReactivateActivity",
+   "com.tplink.iot/com.tplink.iot.view.welcome.StartupActivity"
+  ],
+  "com.transferwise.android": [
+   "com.transferwise.android/com.google.android.archive.ReactivateActivity",
+   "com.transferwise.android/com.transferwise.android.activity.SplashActivity"
+  ],
+  "com.tranzmate": [
+   "com.tranzmate/com.moovit.app.home.HomeActivity",
+   "com.tranzmate/com.moovit.home.HomeActivity"
+  ],
+  "com.tumblr": [
+   "com.tumblr/com.google.android.archive.ReactivateActivity",
+   "com.tumblr/com.tumblr.ui.activity.JumpoffActivity",
+   "com.tumblr/com.tumblr.ui.activity.RootActivity"
+  ],
+  "com.tuya.smartlife": [
+   "com.tuya.smartlife/com.smart.ThingSplashActivity",
+   "com.tuya.smartlife/com.smart.TuyaSplashActivity",
+   "com.tuya.smartlife/com.tuyasmart.sample.TuyaSplashActivity"
+  ],
+  "com.twitter.android": [
+   "com.twitter.android/app.morphe.extension.twitter.appicon89",
+   "com.twitter.android/app.revanced.extension.twitter.appicon26",
+   "com.twitter.android/com.example.nm.TwitterLauncherMainActivity",
+   "com.twitter.android/com.google.android.archive.ReactivateActivity",
+   "com.twitter.android/com.twitter.android.LoginActivity",
+   "com.twitter.android/com.twitter.android.MainActivity",
+   "com.twitter.android/com.twitter.android.StartActivity",
+   "com.twitter.android/com.twitter.android.stub.MainActivity",
+   "com.twitter.android/com.twitter.applib.StartActivity",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon1",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon10",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon11",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon12",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon13",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon14",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon2",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon25",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon3",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon4",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon5",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon6",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon7",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon8",
+   "com.twitter.android/com.twitter.subscriptions.appicon.implementation.seasonal_icon20",
+   "com.twitter.android/com.x.android.main.MainActivity",
+   "com.twitter.android/com.x.appicon.icon10",
+   "com.twitter.android/com.yrwl.admanager.bytedance.SplashActivity"
+  ],
+  "com.ubercab": [
+   "com.ubercab/com.google.android.archive.ReactivateActivity",
+   "com.ubercab/com.ubercab.UBUberActivity",
+   "com.ubercab/com.ubercab.activities.MapActivity",
+   "com.ubercab/com.ubercab.presidio.app.core.root.RootActivity"
+  ],
+  "com.ubercab.eats": [
+   "com.ubercab.eats/com.google.android.archive.ReactivateActivity",
+   "com.ubercab.eats/com.ubercab.eats.app.feature.launch.LauncherActivity",
+   "com.ubercab.eats/com.ubercab.eats.core.activity.LauncherActivity"
+  ],
+  "com.unicredit": [
+   "com.unicredit/com.unicredit.MainActivity",
+   "com.unicredit/com.unicredit.UniCreditMobileBanking"
+  ],
+  "com.venmo": [
+   "com.venmo/com.venmo.AppExperienceLauncherActivity",
+   "com.venmo/com.venmo.TabCentralActivity",
+   "com.venmo/com.venmo.android.platform.AppExperienceLauncherActivity",
+   "com.venmo/com.venmo.tabcentral.TabCentralActivity"
+  ],
+  "com.viber.voip": [
+   "com.viber.voip/com.viber.voip.HomeActivity",
+   "com.viber.voip/com.viber.voip.IdleActivity",
+   "com.viber.voip/com.viber.voip.LaunchActivity",
+   "com.viber.voip/com.viber.voip.SplashActivity",
+   "com.viber.voip/com.viber.voip.ViberApplication",
+   "com.viber.voip/com.viber.voip.WelcomeActivity",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Bling",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Cheetah",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Comics",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Gold",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Marble",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Night",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Plus",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Sparkles",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Spring",
+   "com.viber.voip/com.viber.voip.WelcomeActivity.Unicorn",
+   "com.viber.voip/com.viber.voip.registration.RegistrationActivity"
+  ],
+  "com.vivaldi.browser": [
+   "com.vivaldi.browser/com.google.android.apps.chrome.Main",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt0",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt1",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt10",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt11",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt12",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt13",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt14",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt15",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt16",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt17",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt18",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt19",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt2",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt20",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt3",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt4",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt5",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt6",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt7",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt8",
+   "com.vivaldi.browser/com.vivaldi.browser.IconAlt9"
+  ],
+  "com.vsco.cam": [
+   "com.vsco.cam/com.min.n.MainActivity",
+   "com.vsco.cam/com.pollock_roe.AppOpenAdActivity",
+   "com.vsco.cam/com.vsco.cam.SplashActivity",
+   "com.vsco.cam/com.vsco.cam.gallery.ImageGridActivity",
+   "com.vsco.cam/com.vsco.cam.navigation.LithiumActivity",
+   "com.vsco.cam/com.vsco.cam.navigation.NavigationBaseActivity"
+  ],
+  "com.wallapop": [
+   "com.wallapop/com.wallapop.activities.HomeActivity"
+  ],
+  "com.waze": [
+   "com.waze/com.google.android.archive.ReactivateActivity",
+   "com.waze/com.waze.FreeMapAppActivity"
+  ],
+  "com.wbd.stream": [
+   "com.wbd.stream/com.wbd.fuse.appcore.FuseActivity",
+   "com.wbd.stream/com.wbd.stream.MainActivity",
+   "com.wbd.stream/com.wbd.stream.VPLActivity"
+  ],
+  "com.weather.Weather": [
+   "com.weather.Weather/com.weather.Weather.app.SplashScreenActivity",
+   "com.weather.Weather/com.weather.corgikit.view.CorgiActivity"
+  ],
+  "com.wf.wellsfargomobile": [
+   "com.wf.wellsfargomobile/com.wf.wellsfargomobile.LauncherActivity",
+   "com.wf.wellsfargomobile/com.wf.wellsfargomobile.MainActivity",
+   "com.wf.wellsfargomobile/com.wf.wellsfargomobile.WFMain",
+   "com.wf.wellsfargomobile/com.wf.wellsfargomobile.signon.SignOnActivity"
+  ],
+  "com.whatsapp": [
+   "com.whatsapp/com.whatsapp.0",
+   "com.whatsapp/com.whatsapp.1",
+   "com.whatsapp/com.whatsapp.10",
+   "com.whatsapp/com.whatsapp.11",
+   "com.whatsapp/com.whatsapp.12",
+   "com.whatsapp/com.whatsapp.13",
+   "com.whatsapp/com.whatsapp.14",
+   "com.whatsapp/com.whatsapp.15",
+   "com.whatsapp/com.whatsapp.16",
+   "com.whatsapp/com.whatsapp.17",
+   "com.whatsapp/com.whatsapp.18",
+   "com.whatsapp/com.whatsapp.19",
+   "com.whatsapp/com.whatsapp.2",
+   "com.whatsapp/com.whatsapp.21",
+   "com.whatsapp/com.whatsapp.22",
+   "com.whatsapp/com.whatsapp.23",
+   "com.whatsapp/com.whatsapp.24",
+   "com.whatsapp/com.whatsapp.25",
+   "com.whatsapp/com.whatsapp.26",
+   "com.whatsapp/com.whatsapp.27",
+   "com.whatsapp/com.whatsapp.28",
+   "com.whatsapp/com.whatsapp.29",
+   "com.whatsapp/com.whatsapp.3",
+   "com.whatsapp/com.whatsapp.30",
+   "com.whatsapp/com.whatsapp.31",
+   "com.whatsapp/com.whatsapp.32",
+   "com.whatsapp/com.whatsapp.33",
+   "com.whatsapp/com.whatsapp.34",
+   "com.whatsapp/com.whatsapp.36",
+   "com.whatsapp/com.whatsapp.37",
+   "com.whatsapp/com.whatsapp.38",
+   "com.whatsapp/com.whatsapp.39",
+   "com.whatsapp/com.whatsapp.4",
+   "com.whatsapp/com.whatsapp.42",
+   "com.whatsapp/com.whatsapp.43",
+   "com.whatsapp/com.whatsapp.44",
+   "com.whatsapp/com.whatsapp.45",
+   "com.whatsapp/com.whatsapp.46",
+   "com.whatsapp/com.whatsapp.47",
+   "com.whatsapp/com.whatsapp.48",
+   "com.whatsapp/com.whatsapp.49",
+   "com.whatsapp/com.whatsapp.5",
+   "com.whatsapp/com.whatsapp.50",
+   "com.whatsapp/com.whatsapp.51",
+   "com.whatsapp/com.whatsapp.52",
+   "com.whatsapp/com.whatsapp.53",
+   "com.whatsapp/com.whatsapp.54",
+   "com.whatsapp/com.whatsapp.55",
+   "com.whatsapp/com.whatsapp.57",
+   "com.whatsapp/com.whatsapp.58",
+   "com.whatsapp/com.whatsapp.59",
+   "com.whatsapp/com.whatsapp.6",
+   "com.whatsapp/com.whatsapp.60",
+   "com.whatsapp/com.whatsapp.61",
+   "com.whatsapp/com.whatsapp.62",
+   "com.whatsapp/com.whatsapp.63",
+   "com.whatsapp/com.whatsapp.64",
+   "com.whatsapp/com.whatsapp.65",
+   "com.whatsapp/com.whatsapp.66",
+   "com.whatsapp/com.whatsapp.67",
+   "com.whatsapp/com.whatsapp.68",
+   "com.whatsapp/com.whatsapp.69",
+   "com.whatsapp/com.whatsapp.7",
+   "com.whatsapp/com.whatsapp.70",
+   "com.whatsapp/com.whatsapp.71",
+   "com.whatsapp/com.whatsapp.72",
+   "com.whatsapp/com.whatsapp.73",
+   "com.whatsapp/com.whatsapp.74",
+   "com.whatsapp/com.whatsapp.75",
+   "com.whatsapp/com.whatsapp.76",
+   "com.whatsapp/com.whatsapp.77",
+   "com.whatsapp/com.whatsapp.8",
+   "com.whatsapp/com.whatsapp.9",
+   "com.whatsapp/com.whatsapp.AppIcon01",
+   "com.whatsapp/com.whatsapp.AppIcon02",
+   "com.whatsapp/com.whatsapp.AppIcon03",
+   "com.whatsapp/com.whatsapp.AppIcon04",
+   "com.whatsapp/com.whatsapp.AppIcon05",
+   "com.whatsapp/com.whatsapp.AppIcon06",
+   "com.whatsapp/com.whatsapp.AppIcon07",
+   "com.whatsapp/com.whatsapp.AppIcon08",
+   "com.whatsapp/com.whatsapp.AppIcon09",
+   "com.whatsapp/com.whatsapp.AppIcon10",
+   "com.whatsapp/com.whatsapp.AppIcon11",
+   "com.whatsapp/com.whatsapp.AppIcon13",
+   "com.whatsapp/com.whatsapp.AppIcon14",
+   "com.whatsapp/com.whatsapp.HomeActivity",
+   "com.whatsapp/com.whatsapp.Icon0",
+   "com.whatsapp/com.whatsapp.Icon43",
+   "com.whatsapp/com.whatsapp.Main",
+   "com.whatsapp/com.whatsapp.Main-01",
+   "com.whatsapp/com.whatsapp.Main-02",
+   "com.whatsapp/com.whatsapp.Main-03",
+   "com.whatsapp/com.whatsapp.Main-04",
+   "com.whatsapp/com.whatsapp.Main-05",
+   "com.whatsapp/com.whatsapp.Main-06",
+   "com.whatsapp/com.whatsapp.Main-07",
+   "com.whatsapp/com.whatsapp.Main-08",
+   "com.whatsapp/com.whatsapp.Main-09",
+   "com.whatsapp/com.whatsapp.Main-10",
+   "com.whatsapp/com.whatsapp.Main-11",
+   "com.whatsapp/com.whatsapp.Main-12",
+   "com.whatsapp/com.whatsapp.Main-13",
+   "com.whatsapp/com.whatsapp.Main-14",
+   "com.whatsapp/com.whatsapp.Main-15",
+   "com.whatsapp/com.whatsapp.Main-16",
+   "com.whatsapp/com.whatsapp.Main-17",
+   "com.whatsapp/com.whatsapp.Main-18",
+   "com.whatsapp/com.whatsapp.Main-Plus",
+   "com.whatsapp/com.whatsapp.Main-Reborn",
+   "com.whatsapp/com.whatsapp.Main0",
+   "com.whatsapp/com.whatsapp.Main1",
+   "com.whatsapp/com.whatsapp.Main10",
+   "com.whatsapp/com.whatsapp.Main11",
+   "com.whatsapp/com.whatsapp.Main12",
+   "com.whatsapp/com.whatsapp.Main13",
+   "com.whatsapp/com.whatsapp.Main14",
+   "com.whatsapp/com.whatsapp.Main15",
+   "com.whatsapp/com.whatsapp.Main16",
+   "com.whatsapp/com.whatsapp.Main17",
+   "com.whatsapp/com.whatsapp.Main2",
+   "com.whatsapp/com.whatsapp.Main21",
+   "com.whatsapp/com.whatsapp.Main24",
+   "com.whatsapp/com.whatsapp.Main26",
+   "com.whatsapp/com.whatsapp.Main3",
+   "com.whatsapp/com.whatsapp.Main30",
+   "com.whatsapp/com.whatsapp.Main31",
+   "com.whatsapp/com.whatsapp.Main37",
+   "com.whatsapp/com.whatsapp.Main38",
+   "com.whatsapp/com.whatsapp.Main4",
+   "com.whatsapp/com.whatsapp.Main5",
+   "com.whatsapp/com.whatsapp.Main6",
+   "com.whatsapp/com.whatsapp.Main7",
+   "com.whatsapp/com.whatsapp.Main8",
+   "com.whatsapp/com.whatsapp.Main9",
+   "com.whatsapp/com.whatsapp.iconfive",
+   "com.whatsapp/com.whatsapp.iconfour",
+   "com.whatsapp/com.whatsapp.iconone",
+   "com.whatsapp/com.whatsapp.iconthree",
+   "com.whatsapp/com.whatsapp.icontwo",
+   "com.whatsapp/com.whatsapp.mod.Mulbhut-05"
+  ],
+  "com.whatsapp.w4b": [
+   "com.whatsapp.w4b/com.whatsapp.Main"
+  ],
+  "com.x8bit.bitwarden": [
+   "com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity",
+   "com.x8bit.bitwarden/md5b95ad25b85f158431f24aa9fc17a1c1e.SplashActivity",
+   "com.x8bit.bitwarden/md5fb78b69c5ddbc157f4db38fd738139a6.SplashActivity"
+  ],
+  "com.yahoo.mobile.client.android.mail": [
+   "com.yahoo.mobile.client.android.mail/com.google.android.archive.ReactivateActivity",
+   "com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity",
+   "com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MessageList",
+   "com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.YahooMail"
+  ],
+  "com.zhiliaoapp.musically": [
+   "com.zhiliaoapp.musically/cat.narezany.margyt.Icon19",
+   "com.zhiliaoapp.musically/cat.narezany.margyt.Icon20",
+   "com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity",
+   "com.zhiliaoapp.musically/com.ss.android.ugc.aweme.ttp.IconStock",
+   "com.zhiliaoapp.musically/com.ss.android.ugc.trill.splash.I18nSplashActivity",
+   "com.zhiliaoapp.musically/com.windukk.mod.icon.cheese",
+   "com.zhiliaoapp.musically/com.windukk.mod.icon.default",
+   "com.zhiliaoapp.musically/com.windukk.mod.icon.hlx",
+   "com.zhiliaoapp.musically/com.windukk.mod.icon.md",
+   "com.zhiliaoapp.musically/com.windukk.mod.icon.metal",
+   "com.zhiliaoapp.musically/com.windukk.mod.icon.parody",
+   "com.zhiliaoapp.musically/com.zhiliaoapp.musically.MainActivity",
+   "com.zhiliaoapp.musically/com.zhiliaoapp.musically.activity.SplashActivity"
+  ],
+  "com.zzkko": [
+   "com.zzkko/com.google.android.archive.ReactivateActivity",
+   "com.zzkko/com.shein.user_service.welcome.WelcomeActivity",
+   "com.zzkko/com.shein.welcome.WelcomeActivity",
+   "com.zzkko/com.zzkko.bussiness.login.ui.WelcomeActivity",
+   "com.zzkko/com.zzkko.bussiness.welcome.WelcomeActivity"
+  ],
+  "ctrip.english": [
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeAct",
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeActivity",
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeActivity.alias",
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeActivity.alias2",
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeActivity.alias3",
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeActivity.alias4",
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeActivity.alias6",
+   "ctrip.english/com.ctrip.ibu.myctrip.main.module.home.IBUHomeActivity.alias7"
+  ],
+  "de.danoeh.antennapod": [
+   "de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity",
+   "de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity"
+  ],
+  "de.komoot.android": [
+   "de.komoot.android/de.komoot.android.app.CardListActivity",
+   "de.komoot.android/de.komoot.android.app.InspirationActivity",
+   "de.komoot.android/de.komoot.android.ui.RootActivity",
+   "de.komoot.android/de.komoot.android.ui.RootActivityClassic",
+   "de.komoot.android/de.komoot.android.ui.RootActivityDefault",
+   "de.komoot.android/de.komoot.android.ui.RootActivityInverted",
+   "de.komoot.android/de.komoot.android.ui.inspiration.InspirationActivity"
+  ],
+  "de.number26.android": [
+   "de.number26.android/com.n26.home.presentation.HomeActivity",
+   "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.BlackActivityLauncher",
+   "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.PrideActivityLauncher",
+   "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.RavenActivityLauncher",
+   "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.TealActivityLauncher",
+   "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.WheatActivityLauncher",
+   "de.number26.android/de.number26.machete.android.ui.landing.LandingActivity"
+  ],
+  "deezer.android.app": [
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivity",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityAcid",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityBlack",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityBlue",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityDark",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityHalloween",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityLava",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityMagenta",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityOrange",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityPride",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityTeal",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityValentines",
+   "deezer.android.app/com.deezer.android.ui.activity.LauncherActivityWhite",
+   "deezer.android.app/com.deezer.android.ui.activity.RIzkE",
+   "deezer.android.app/com.google.android.archive.ReactivateActivity",
+   "deezer.android.app/com.jojoy.delegate.JojoyInstallerActivity",
+   "deezer.android.app/deezer.android.app.DZMidlet",
+   "deezer.android.app/dz.ApplicationScreens"
+  ],
+  "ee.dustland.android.dustlandsudoku": [
+   "ee.dustland.android.dustlandsudoku/ee.dustland.android.dustlandsudoku.NativeActivity",
+   "ee.dustland.android.dustlandsudoku/ee.dustland.android.dustlandsudoku.SudokuHostActivity"
+  ],
+  "ee.mtakso.client": [
+   "ee.mtakso.client/com.google.android.archive.ReactivateActivity",
+   "ee.mtakso.client/ee.mtakso.client.activity.SplashHomeActivity"
+  ],
+  "es.bancosantander.apps": [
+   "es.bancosantander.apps/es.bancosantander.apps.mobile.android.activities.PublicActivity",
+   "es.bancosantander.apps/es.bancosantander.apps.mobile.android.activities.SplashActivity"
+  ],
+  "eu.faircode.email": [
+   "eu.faircode.email/eu.faircode.email.ActivityMain"
+  ],
+  "flipboard.app": [
+   "flipboard.app/flipboard.activities.LaunchActivity",
+   "flipboard.app/flipboard.activities.LaunchActivityAlias",
+   "flipboard.app/flipboard.activities.TOCActivity"
+  ],
+  "fr.vinted": [
+   "fr.vinted/com.vinted.activities.MDActivity",
+   "fr.vinted/com.vinted.feature.shell.MDActivity"
+  ],
+  "helium314.keyboard": [
+   "helium314.keyboard/helium314.keyboard.latin.setup.SetupActivity",
+   "helium314.keyboard/helium314.keyboard.settings.SettingsActivity"
+  ],
+  "im.vector.app": [
+   "im.vector.app/im.vector.app.features.Alias",
+   "im.vector.app/im.vector.app.features.MainActivity",
+   "im.vector.app/im.vector.application.features.Alias",
+   "im.vector.app/im.vector.riotx.features.Alias"
+  ],
+  "io.homeassistant.companion.android": [
+   "io.homeassistant.companion.android/androidx.car.app.activity.CarAppActivity",
+   "io.homeassistant.companion.android/com.google.android.archive.ReactivateActivity",
+   "io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity"
+  ],
+  "io.yuka.android": [
+   "io.yuka.android/io.yuka.android.Main.RootActivity",
+   "io.yuka.android/io.yuka.android.main.RootActivity"
+  ],
+  "it.carrefour.mycarrefour": [
+   "it.carrefour.mycarrefour/it.carrefour.mycarrefour.MainActivity"
+  ],
+  "it.esselunga.mobile": [
+   "it.esselunga.mobile/it.esselunga.mobile.activity.EsselungaActivity",
+   "it.esselunga.mobile/it.esselunga.mobile.activity.EsselungaSplashActivity"
+  ],
+  "it.fastweb.myfastweb": [
+   "it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivity",
+   "it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivityChristmas",
+   "it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivityPride"
+  ],
+  "it.iliad": [
+   "it.iliad/it.iliad.presentation.MainActivity"
+  ],
+  "it.subito": [
+   "it.subito/it.subito.main.impl.MainActivity",
+   "it.subito/it.subito.v2.search.ListingActivity"
+  ],
+  "jp.naver.line.android": [
+   "jp.naver.line.android/com.google.android.archive.ReactivateActivity",
+   "jp.naver.line.android/jp.naver.line.android.activity.SplashActivity",
+   "jp.naver.line.android/jp.naver.line.android.basic_1",
+   "jp.naver.line.android/jp.naver.line.android.collaboration_chiikawa_2",
+   "jp.naver.line.android/jp.naver.line.android.collaboration_dragon_quest_2",
+   "jp.naver.line.android/jp.naver.line.android.collaboration_minini_1",
+   "jp.naver.line.android/jp.naver.line.android.collaboration_mrs_green_apple_1",
+   "jp.naver.line.android/jp.naver.line.android.design_7",
+   "jp.naver.line.android/jp.naver.line.android.design_8",
+   "jp.naver.line.android/jp.naver.line.android.design_aqua_green",
+   "jp.naver.line.android/jp.naver.line.android.design_black_pearl",
+   "jp.naver.line.android/jp.naver.line.android.design_cherry_blossom",
+   "jp.naver.line.android/jp.naver.line.android.design_christmas_2",
+   "jp.naver.line.android/jp.naver.line.android.design_green_bubble",
+   "jp.naver.line.android/jp.naver.line.android.design_mondrian",
+   "jp.naver.line.android/jp.naver.line.android.promotion_cherry_blossom",
+   "jp.naver.line.android/jp.naver.line.android.special_glass_4"
+  ],
+  "md.obsidian": [
+   "md.obsidian/md.obsidian.MainActivity"
+  ],
+  "me.proton.android.drive": [
+   "me.proton.android.drive/me.proton.android.drive.ui.MainActivity"
+  ],
+  "mega.privacy.android.app": [
+   "mega.privacy.android.app/com.duapps.ad.DuAd",
+   "mega.privacy.android.app/com.google.android.archive.ReactivateActivity",
+   "mega.privacy.android.app/mega.privacy.android.app.LauncherActivity",
+   "mega.privacy.android.app/mega.privacy.android.app.appstate.MegaActivity",
+   "mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivity",
+   "mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivityLollipop",
+   "mega.privacy.android.app/mega.privacy.android.app.main.ManagerActivity",
+   "mega.privacy.android.app/mega.privacy.android.app.presentation.login.LoginActivity"
+  ],
+  "net.cozic.joplin": [
+   "net.cozic.joplin/net.cozic.joplin.MainActivity"
+  ],
+  "net.osmand": [
+   "net.osmand/net.osmand.activities.MainMenuActivity",
+   "net.osmand/net.osmand.plus.activities.MainMenuActivity",
+   "net.osmand/net.osmand.plus.activities.MapActivity"
+  ],
+  "net.osmand.plus": [
+   "net.osmand.plus/net.osmand.plus.activities.MainMenuActivity",
+   "net.osmand.plus/net.osmand.plus.activities.MapActivity"
+  ],
+  "net.skyscanner.android.main": [
+   "net.skyscanner.android.main/net.skyscanner.android.activity.SearchActivity",
+   "net.skyscanner.android.main/net.skyscanner.app.presentation.globalnav.activity.GlobalNavActivity",
+   "net.skyscanner.android.main/net.skyscanner.app.presentation.globalnav.activity.HomeActivity",
+   "net.skyscanner.android.main/net.skyscanner.app.presentation.view.splash.SplashActivity",
+   "net.skyscanner.android.main/net.skyscanner.go.activity.HomeActivity",
+   "net.skyscanner.android.main/net.skyscanner.go.activity.home.HomeActivity",
+   "net.skyscanner.android.main/net.skyscanner.shell.ui.activity.SplashActivity"
+  ],
+  "net.thunderbird.android": [
+   "net.thunderbird.android/com.fsck.k9.activity.MainActivity",
+   "net.thunderbird.android/com.fsck.k9.activity.MessageList",
+   "net.thunderbird.android/net.thunderbird.android.ThunderbirdApp",
+   "net.thunderbird.android/net.thunderbird.app.common.MainActivity"
+  ],
+  "network.loki.messenger": [
+   "network.loki.messenger/network.loki.messenger.Meetings",
+   "network.loki.messenger/network.loki.messenger.Notes",
+   "network.loki.messenger/network.loki.messenger.RoutingActivity",
+   "network.loki.messenger/network.loki.messenger.Stocks",
+   "network.loki.messenger/network.loki.messenger.Weather"
+  ],
+  "notion.id": [
+   "notion.id/notion.id.MainActivity",
+   "notion.id/notion.local.id.MainActivity"
+  ],
+  "org.breezyweather": [
+   "org.breezyweather/org.breezyweather.main.MainActivity",
+   "org.breezyweather/org.breezyweather.ui.main.MainActivity"
+  ],
+  "org.connectbot": [
+   "org.connectbot/org.connectbot.ConsoleActivity",
+   "org.connectbot/org.connectbot.HostListActivity",
+   "org.connectbot/org.connectbot.ui.MainActivity"
+  ],
+  "org.fossify.gallery": [
+   "org.fossify.gallery/org.fossify.gallery.activities.MainActivity",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Amber",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Blue",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Blue_grey",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Brown",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Cyan",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Deep_orange",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Deep_purple",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Green",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Grey_black",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Indigo",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Light_blue",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Light_green",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Lime",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Orange",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Pink",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Purple",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Red",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Teal",
+   "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Yellow"
+  ],
+  "org.fossify.keyboard": [
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Amber",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Blue",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Blue_grey",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Brown",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Cyan",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Deep_orange",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Deep_purple",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Green",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Grey_black",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Indigo",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Light_blue",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Light_green",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Lime",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Orange",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Pink",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Purple",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Red",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Teal",
+   "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Yellow"
+  ],
+  "org.fossify.notes": [
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Amber",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue_grey",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Brown",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Cyan",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_orange",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_purple",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Green",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Grey_black",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Indigo",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_blue",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_green",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Lime",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Orange",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Pink",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Purple",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Red",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Teal",
+   "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Yellow"
+  ],
+  "org.futo.inputmethod.latin": [
+   "org.futo.inputmethod.latin/org.futo.inputmethod.latin.uix.settings.SettingsActivity"
+  ],
+  "org.jellyfin.mobile": [
+   "org.jellyfin.mobile/org.jellyfin.mobile.MainActivity",
+   "org.jellyfin.mobile/org.jellyfin.mobile.WebappActivity"
+  ],
+  "org.jitsi.meet": [
+   "org.jitsi.meet/org.jitsi.meet.LauncherActivity",
+   "org.jitsi.meet/org.jitsi.meet.MainActivity"
+  ],
+  "org.joinmastodon.android": [
+   "org.joinmastodon.android/org.joinmastodon.android.MainActivity"
+  ],
+  "org.khanacademy.android": [
+   "org.khanacademy.android/icon.black",
+   "org.khanacademy.android/icon.darker",
+   "org.khanacademy.android/icon.navy",
+   "org.khanacademy.android/icon.purple",
+   "org.khanacademy.android/icon.rainbow",
+   "org.khanacademy.android/org.khanacademy.android.ui.library.MainActivity"
+  ],
+  "org.koreader.launcher": [
+   "org.koreader.launcher/org.koreader.launcher.MainActivity"
+  ],
+  "org.koreader.launcher.fdroid": [
+   "org.koreader.launcher.fdroid/org.koreader.launcher.MainActivity"
+  ],
+  "org.lichess.mobileV2": [
+   "org.lichess.mobileV2/org.lichess.mobileV2.MainActivity"
+  ],
+  "org.mozilla.firefox": [
+   "org.mozilla.firefox/com.google.android.archive.ReactivateActivity",
+   "org.mozilla.firefox/org.mozilla.firefox.AlternativeApp",
+   "org.mozilla.firefox/org.mozilla.firefox.App",
+   "org.mozilla.firefox/org.mozilla.firefox.AppCool",
+   "org.mozilla.firefox/org.mozilla.firefox.AppCuddling",
+   "org.mozilla.firefox/org.mozilla.firefox.AppFlaming",
+   "org.mozilla.firefox/org.mozilla.firefox.AppGradientBlueHour",
+   "org.mozilla.firefox/org.mozilla.firefox.AppGradientGoldenHour",
+   "org.mozilla.firefox/org.mozilla.firefox.AppGradientMidnight",
+   "org.mozilla.firefox/org.mozilla.firefox.AppGradientNorthernLights",
+   "org.mozilla.firefox/org.mozilla.firefox.AppGradientSunrise",
+   "org.mozilla.firefox/org.mozilla.firefox.AppGradientSunset",
+   "org.mozilla.firefox/org.mozilla.firefox.AppGradientTwilight",
+   "org.mozilla.firefox/org.mozilla.firefox.AppMinimal",
+   "org.mozilla.firefox/org.mozilla.firefox.AppMomo",
+   "org.mozilla.firefox/org.mozilla.firefox.AppPixelated",
+   "org.mozilla.firefox/org.mozilla.firefox.AppPride",
+   "org.mozilla.firefox/org.mozilla.firefox.AppRetro2004",
+   "org.mozilla.firefox/org.mozilla.firefox.AppSolidBlue",
+   "org.mozilla.firefox/org.mozilla.firefox.AppSolidDark",
+   "org.mozilla.firefox/org.mozilla.firefox.AppSolidGreen",
+   "org.mozilla.firefox/org.mozilla.firefox.AppSolidLight",
+   "org.mozilla.firefox/org.mozilla.firefox.AppSolidPurple",
+   "org.mozilla.firefox/org.mozilla.firefox.AppSolidPurpleDark",
+   "org.mozilla.firefox/org.mozilla.firefox.AppSolidRed"
+  ],
+  "org.mozilla.focus": [
+   "org.mozilla.focus/org.mozilla.focus.activity.MainActivity"
+  ],
+  "org.schabi.newpipe": [
+   "org.schabi.newpipe/org.schabi.newpipe.MainActivity",
+   "org.schabi.newpipe/org.schabi.newpipe.VideoItemListActivity"
+  ],
+  "org.telegram.messenger": [
+   "org.telegram.messenger/com.exteragram.messenger.AmethystIcon",
+   "org.telegram.messenger/com.exteragram.messenger.AyuGramDiscord",
+   "org.telegram.messenger/com.exteragram.messenger.AyuGramNothing",
+   "org.telegram.messenger/com.exteragram.messenger.AyuGramSpotify",
+   "org.telegram.messenger/com.exteragram.messenger.AyuGramYaPlus",
+   "org.telegram.messenger/com.exteragram.messenger.AyuTyan",
+   "org.telegram.messenger/com.exteragram.messenger.DefaultIcon",
+   "org.telegram.messenger/com.exteragram.messenger.ExteraIcon",
+   "org.telegram.messenger/com.exteragram.messenger.GoogleIcon",
+   "org.telegram.messenger/com.exteragram.messenger.MonetIcon",
+   "org.telegram.messenger/com.exteragram.messenger.MonetIconExtera",
+   "org.telegram.messenger/com.exteragram.messenger.NeoIcon",
+   "org.telegram.messenger/com.exteragram.messenger.OrbitIcon",
+   "org.telegram.messenger/com.exteragram.messenger.SapphireIcon",
+   "org.telegram.messenger/com.exteragram.messenger.SusIcon",
+   "org.telegram.messenger/com.google.android.archive.ReactivateActivity",
+   "org.telegram.messenger/com.min.n.MainActivity",
+   "org.telegram.messenger/org.telegram.messenger.AquaIcon",
+   "org.telegram.messenger/org.telegram.messenger.CloudIcon",
+   "org.telegram.messenger/org.telegram.messenger.DarkBlueIcon",
+   "org.telegram.messenger/org.telegram.messenger.DarkIcon",
+   "org.telegram.messenger/org.telegram.messenger.DefaultIcon",
+   "org.telegram.messenger/org.telegram.messenger.MaterialIcon",
+   "org.telegram.messenger/org.telegram.messenger.MerioIcon",
+   "org.telegram.messenger/org.telegram.messenger.MusheenIcon",
+   "org.telegram.messenger/org.telegram.messenger.NeonIcon",
+   "org.telegram.messenger/org.telegram.messenger.NoxIcon",
+   "org.telegram.messenger/org.telegram.messenger.OldSchoolIcon",
+   "org.telegram.messenger/org.telegram.messenger.PremiumIcon",
+   "org.telegram.messenger/org.telegram.messenger.RainbowIcon",
+   "org.telegram.messenger/org.telegram.messenger.SpaceIcon",
+   "org.telegram.messenger/org.telegram.messenger.TurboIcon",
+   "org.telegram.messenger/org.telegram.messenger.VintageIcon",
+   "org.telegram.messenger/org.telegram.ui.LaunchActivity",
+   "org.telegram.messenger/org.telegram.ui.LaunchActivityRocketIcon"
+  ],
+  "org.thoughtcrime.securesms": [
+   "org.thoughtcrime.securesms/com.google.android.archive.ReactivateActivity",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.ConversationListActivity",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltBubbles",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltChat",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltColor",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltDark",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltDarkVariant",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltNews",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltNotes",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltWaves",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltWeather",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltWhite",
+   "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltYellow"
+  ],
+  "org.torproject.torbrowser": [
+   "org.torproject.torbrowser/org.torproject.torbrowser.App"
+  ],
+  "org.videolan.vlc": [
+   "org.videolan.vlc/.StartActivity",
+   "org.videolan.vlc/com.google.android.archive.ReactivateActivity",
+   "org.videolan.vlc/com.google.android.youtube.app.honeycomb.Shell",
+   "org.videolan.vlc/org.videolan.vlc.StartActivity",
+   "org.videolan.vlc/org.videolan.vlc.gui.MainActivity",
+   "org.videolan.vlc/org.videolan.vlc.gui.SendCrashActivity",
+   "org.videolan.vlc/org.videolan.vlc.gui.tv.MainTvActivity"
+  ],
+  "proton.android.authenticator": [
+   "proton.android.authenticator/proton.android.authenticator.app.ui.MainActivity"
+  ],
+  "proton.android.pass": [
+   "proton.android.pass/proton.android.pass.ui.MainActivity"
+  ],
+  "taxi.android.client": [
+   "taxi.android.client/com.mytaxi.passenger.startup.impl.ui.RouterActivity",
+   "taxi.android.client/taxi.android.client.feature.startup.ui.StartupActivity"
+  ],
+  "tv.twitch.android.app": [
+   "tv.twitch.android.app/com.google.android.archive.ReactivateActivity",
+   "tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity",
+   "tv.twitch.android.app/tv.twitch.android.apps.LandingActivity",
+   "tv.twitch.android.app/tv.twitch.android.apps.SplashScreenActivity",
+   "tv.twitch.android.app/tv.twitch.android.apps.TVLandingActivity",
+   "tv.twitch.android.app/tv.twitch.android.apps.TwitchActivity",
+   "tv.twitch.android.app/tv.twitch.starshot64.app.StarshotActivity"
+  ],
+  "uk.co.openweather": [
+   "uk.co.openweather/uk.co.openweather.MainActivity",
+   "uk.co.openweather/uk.co.openweather.SplashActivity"
+  ],
+  "us.zoom.videomeetings": [
+   "us.zoom.videomeetings/com.google.android.archive.ReactivateActivity",
+   "us.zoom.videomeetings/com.zipow.videobox.LauncherActivity"
+  ],
+  "xyz.blueskyweb.app": [
+   "xyz.blueskyweb.app/com.google.android.archive.ReactivateActivity",
+   "xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity"
+  ]
+ }
+}

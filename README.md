@@ -4,8 +4,9 @@ An Android icon pack made of **sitelen pona** glyphs, drawn with the
 [nasin-nanpa](https://github.com/ETBCOR/nasin-nanpa) font by jan Itan.
 
 Every app gets a toki pona word or compound: the phone is *ilo toki*, the clock
-*ilo tenpo*, the calendar *lipu tenpo* (tenpo inside lipu), the browser *linluwi*,
-Bluesky *waso laso*…
+*ilo tenpo*, the calendar *lipu tenpo* (tenpo inside lipu), Bluesky *waso laso*…
+Apps without a glyph of their own get the one of their **category**: banks *tomo mani*,
+email *lipu*, browsers *linluwi*, music *kalama musi*, and so on (~1,500 apps covered).
 
 Available in English, Español, Français, Italiano and Esperanto.
 
@@ -64,9 +65,22 @@ python3 -m venv ~/.venvs/tokipona-icons
 ~/.venvs/tokipona-icons/bin/python -I tools/generate_icons.py
 ```
 
-- `tools/apps.json`: which glyph each app gets (`components` = `package/Activity`).
+- `tools/categories.json`: one generic glyph per app **category** (banking, email,
+  messaging, video, music, maps…) and the packages that belong to it.
+- `tools/apps.json`: **specific** glyphs for specific apps (`components` =
+  `package/Activity`). They always win over the category glyph.
+- `tools/known_components.json`: exact `package/Activity` names for the packages in
+  `categories.json`. Rebuild it after adding packages with
+  `tools/generate_icons.py --refresh-components`, which extracts only those identifiers
+  from the community-maintained [Arcticons](https://github.com/Arcticons-Team/Arcticons)
+  `appfilter.xml` (no icons are taken from it).
 - At the top of the script: style (`FILL`, `OUTLINE`, `THIN` for stroke weight) and
   `COMBO_HEADS` (the words used to generate the automatic compounds).
+
+Why categories and not “every bank gets the money icon” automatically? A launcher can
+inspect your apps at runtime, but an icon pack is a static `app → icon` table, so the
+category lists are written ahead of time. The app’s *Apps without an icon* screen does the
+runtime guessing for everything else.
 
 ### Debug builds: assign glyphs from your phone
 

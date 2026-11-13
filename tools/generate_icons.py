@@ -248,6 +248,35 @@ def pull_from_device(dest: Path):
                      "has abierto la app al menos una vez?")
 
 
+# Fuente de los nombres exactos de actividad (paquete/Actividad) para las categorías: el
+# appfilter de Arcticons, mantenido por su comunidad. Solo se extraen los identificadores de
+# los paquetes listados en tools/categories.json, nada de sus iconos.
+ARCTICONS_APPFILTER = ("https://raw.githubusercontent.com/Arcticons-Team/Arcticons/main/"
+                       "app/src/main/res/xml/appfilter.xml")
+
+
+def refresh_components(categories, dest: Path):
+    """Descarga el appfilter de Arcticons y guarda los componentes de nuestros paquetes."""
+    import urllib.request
+    wanted = {p for c in categories for p in c.get("packages", [])}
+    print(f"Descargando {ARCTICONS_APPFILTER} …")
+    with urllib.request.urlopen(ARCTICONS_APPFILTER, timeout=60) as r:
+        text = r.read().decode("utf-8", errors="replace")
+    found = {}
+    for comp in set(re.findall(r"ComponentInfo\{([^}]+)\}", text)):
+        pkg = comp.split("/", 1)[0]
+        if pkg in wanted and "/" in comp:
+            found.setdefault(pkg, []).append(comp)
+    data = {"_source": ARCTICONS_APPFILTER,
+            "components": {p: sorted(found[p]) for p in sorted(found)}}
+    dest.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    missing = sorted(wanted - set(found))
+    print(f"{sum(len(v) for v in found.values())} componentes para {len(found)} paquetes -> "
+          f"{dest.relative_to(ROOT)}")
+    if missing:
+        print("Sin componentes conocidos (revisa el nombre del paquete): " + ", ".join(missing))
+
+
 def main():
     ap = argparse.ArgumentParser()
     # Por defecto, la misma fuente que lleva la app (así el pack y el editor coinciden).
@@ -257,7 +286,20 @@ def main():
                     help="asignaciones hechas en la app (se usan si el archivo existe)")
     ap.add_argument("--from-device", action="store_true",
                     help="antes de generar, copia por ADB las asignaciones de la app")
+    ap.add_argument("--categories", default=str(ROOT / "tools" / "categories.json"))
+    ap.add_argument("--known-components", default=str(ROOT / "tools" / "known_components.json"))
+    ap.add_argument("--refresh-components", action="store_true",
+                    help="actualiza known_components.json desde el appfilter de Arcticons")
     args = ap.parse_args()
+
+    categories_file = Path(args.categories)
+    categories = (json.loads(categories_file.read_text(encoding="utf-8"))["categories"]
+                  if categories_file.exists() else [])
+    known_file = Path(args.known_components)
+    if args.refresh_components:
+        refresh_components(categories, known_file)
+    known = (json.loads(known_file.read_text(encoding="utf-8"))["components"]
+             if known_file.exists() else {})
 
     font = Font(Path(args.font))
     apps = json.loads(Path(args.apps).read_text(encoding="utf-8"))["icons"]
@@ -324,6 +366,33 @@ def main():
                 f"    <item component={quoteattr('ComponentInfo{' + comp + '}')} drawable=\"{name}\" />"
             )
 
+    # 2b) Categorías: glifo genérico para apps conocidas que no tienen uno específico.
+    #     Van después de apps.json y del teléfono, así los específicos siempre ganan.
+    n_category, unknown_pkgs = 0, []
+    for cat in categories:
+        comps = list(cat.get("components", []))
+        for pkg in cat.get("packages", []):
+            if pkg in known:
+                comps += known[pkg]
+            else:
+                unknown_pkgs.append(pkg)
+        comps = [c for c in dict.fromkeys(comps) if c not in seen]
+        if not comps:
+            continue
+        name = write_icon(cat["words"])
+        if name not in app_drawables:
+            app_drawables.append(name)
+        filter_items.append(f"    <!-- category: {cat['label']} : {cat['words']} -->")
+        for comp in comps:
+            seen.add(comp)
+            filter_items.append(
+                f"    <item component={quoteattr('ComponentInfo{' + comp + '}')} drawable=\"{name}\" />"
+            )
+            n_category += 1
+    if unknown_pkgs:
+        print(f"AVISO: {len(unknown_pkgs)} paquetes de categories.json sin componentes conocidos "
+              f"(ejecuta con --refresh-components): " + ", ".join(unknown_pkgs))
+
     # 3) Compuestos extra (sin app asignada) para el selector manual.
     for expr in json.loads(Path(args.apps).read_text(encoding="utf-8")).get("extra_compounds", []):
         write_icon(expr)
@@ -385,6 +454,8 @@ def main():
     fg = vector_xml(font, LAUNCHER_WORD, 108, 60, 108, "#FFFFFFFF", None, 0)
     (drawable_dir / "ic_launcher_foreground.xml").write_text(fg, encoding="utf-8")
 
+    print(f"{n_category} componentes cubiertos por categorías "
+          f"({len(categories)} categorías, {len(known)} paquetes conocidos)")
     n_combos = sum(len(n) for _, n in combo_categories)
     print(f"{n_combos} combinaciones automáticas ({combo_failed} parejas que la fuente no compone)")
     print(f"{len(all_words)} palabras/variantes, {len(compounds)} compuestos, "

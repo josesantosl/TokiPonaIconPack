@@ -1,0 +1,146 @@
+{
+  "_comment": "Generic glyph per app category. 'packages' are resolved to exact components via tools/known_components.json (run generate_icons.py --refresh-components after adding packages). 'components' lists exact ones that are not in that lookup. Specific entries in apps.json always win over categories.",
+  "categories": [
+    { "label": "banking", "words": "tomo mani", "packages": [
+      "de.number26.android", "com.transferwise.android", "com.ing.mobile", "com.bbva.bbvacontigo",
+      "es.bancosantander.apps", "com.latuabancaperandroid", "com.unicredit", "co.uk.getmondo",
+      "com.bunq.android", "com.chase.sig.android", "com.wf.wellsfargomobile"
+    ], "components": [
+      "com.bancodeguayaquil/com.bancodeguayaquil.MainActivity"
+    ]},
+    { "label": "payments", "words": "mani", "packages": [
+      "com.google.android.apps.walletnfcrel", "com.samsung.android.spay", "com.paypal.android.p2pmobile",
+      "com.venmo", "com.squareup.cash"
+    ]},
+    { "label": "crypto", "words": "mani sin", "packages": [
+      "com.binance.dev", "com.coinbase.android", "com.kraken.trade", "com.kraken.pay.app"
+    ]},
+    { "label": "email", "words": "lipu", "packages": [
+      "com.google.android.gm", "com.microsoft.office.outlook", "com.yahoo.mobile.client.android.mail",
+      "com.readdle.spark", "eu.faircode.email", "net.thunderbird.android", "com.fsck.k9",
+      "com.samsung.android.email.provider"
+    ]},
+    { "label": "messaging", "words": "toki", "packages": [
+      "com.whatsapp", "com.whatsapp.w4b", "com.facebook.orca", "com.viber.voip", "jp.naver.line.android",
+      "com.tencent.mm", "im.vector.app", "ch.threema.app", "network.loki.messenger",
+      "org.thoughtcrime.securesms", "org.telegram.messenger", "com.discord"
+    ]},
+    { "label": "video calls", "words": "toki lukin", "packages": [
+      "us.zoom.videomeetings", "com.microsoft.teams", "com.skype.raider", "org.jitsi.meet",
+      "com.google.android.apps.tachyon"
+    ]},
+    { "label": "social", "words": "kulupu", "packages": [
+      "com.facebook.katana", "com.instagram.android", "com.instagram.barcelona", "org.joinmastodon.android",
+      "com.tumblr", "com.pinterest", "com.reddit.frontpage", "com.twitter.android", "xyz.blueskyweb.app",
+      "com.snapchat.android", "com.zhiliaoapp.musically", "com.linkedin.android"
+    ]},
+    { "label": "video", "words": "sitelen tawa", "packages": [
+      "com.google.android.youtube", "com.netflix.mediaclient", "com.amazon.avod.thirdpartyclient",
+      "com.disney.disneyplus", "com.hbo.hbonow", "com.wbd.stream", "com.crunchyroll.crunchyroid",
+      "com.plexapp.android", "org.jellyfin.mobile", "org.videolan.vlc", "org.schabi.newpipe",
+      "tv.twitch.android.app", "com.kick.mobile"
+    ]},
+    { "label": "music", "words": "kalama musi", "packages": [
+      "com.spotify.music", "com.google.android.apps.youtube.music", "deezer.android.app",
+      "com.soundcloud.android", "com.apple.android.music", "com.aspiro.tidal", "com.amazon.mp3",
+      "com.shazam.android"
+    ]},
+    { "label": "podcasts", "words": "kute", "packages": [
+      "de.danoeh.antennapod", "au.com.shiftyjelly.pocketcasts"
+    ]},
+    { "label": "shopping", "words": "esun", "packages": [
+      "com.amazon.mShop.android.shopping", "com.alibaba.aliexpresshd", "com.ebay.mobile",
+      "com.einnovation.temu", "com.zzkko", "fr.vinted", "com.wallapop", "it.subito", "com.etsy.android",
+      "com.ingka.ikea.app"
+    ]},
+    { "label": "supermarkets", "words": "tomo esun", "packages": [
+      "it.carrefour.mycarrefour", "com.lidl.eci.lidlplus", "it.esselunga.mobile"
+    ]},
+    { "label": "food", "words": "moku", "packages": [
+      "com.glovo", "com.deliveroo.orderapp", "com.justeat.app.uk", "com.ubercab.eats", "com.app.tgtg",
+      "io.yuka.android"
+    ]},
+    { "label": "transport", "words": "tomo tawa", "packages": [
+      "com.ubercab", "ee.mtakso.client", "com.cabify.rider", "taxi.android.client", "com.goeuro.rosie",
+      "com.thetrainline", "com.tranzmate"
+    ], "components": [
+      "it.to.gtt.tomove/it.fivet.gttmobile.splash.Splash2Activity"
+    ]},
+    { "label": "travel", "words": "tomo lape", "packages": [
+      "com.airbnb.android", "com.booking", "com.ryanair.cheapflights", "net.skyscanner.android.main",
+      "ctrip.english"
+    ]},
+    { "label": "maps", "words": "ma", "packages": [
+      "com.google.android.apps.maps", "app.organicmaps", "net.osmand", "net.osmand.plus", "com.waze",
+      "com.here.app.maps", "de.komoot.android"
+    ]},
+    { "label": "browsers", "words": "linluwi", "packages": [
+      "com.android.chrome", "com.brave.browser", "com.microsoft.emmx", "com.opera.browser",
+      "com.sec.android.app.sbrowser", "com.vivaldi.browser", "org.torproject.torbrowser",
+      "org.mozilla.firefox", "com.duckduckgo.mobile.android", "org.mozilla.focus"
+    ]},
+    { "label": "notes", "words": "lipu lili", "packages": [
+      "com.google.android.keep", "notion.id", "md.obsidian", "com.evernote", "com.microsoft.office.onenote",
+      "net.cozic.joplin", "com.standardnotes", "org.fossify.notes"
+    ]},
+    { "label": "tasks", "words": "lipu pali", "packages": [
+      "com.todoist", "com.microsoft.todos", "com.google.android.apps.tasks", "com.ticktick.task"
+    ]},
+    { "label": "passwords", "words": "nimi len", "packages": [
+      "com.x8bit.bitwarden", "proton.android.pass", "com.onepassword.android",
+      "com.kunzisoft.keepass.free", "com.kunzisoft.keepass.libre"
+    ]},
+    { "label": "authenticators", "words": "nanpa len", "packages": [
+      "com.google.android.apps.authenticator2", "com.beemdevelopment.aegis", "com.authy.authy",
+      "com.azure.authenticator", "proton.android.authenticator"
+    ]},
+    { "label": "learning", "words": "kama sona", "packages": [
+      "com.duolingo", "com.babbel.mobile.android.en", "com.ichi2.anki",
+      "com.memrise.android.memrisecompanion", "com.busuu.android.enc", "org.khanacademy.android",
+      "com.hellochinese"
+    ]},
+    { "label": "reading", "words": "lipu sona", "packages": [
+      "com.amazon.kindle", "org.koreader.launcher.fdroid", "org.koreader.launcher",
+      "com.google.android.apps.books", "com.flyersoft.moonreaderp", "com.ideashower.readitlater.pro"
+    ]},
+    { "label": "news", "words": "lipu sin", "packages": [
+      "com.google.android.apps.magazines", "com.devhd.feedly", "flipboard.app", "com.innologica.inoreader",
+      "bbc.mobile.news.ww"
+    ]},
+    { "label": "cloud storage", "words": "poki", "packages": [
+      "com.dropbox.android", "com.microsoft.skydrive", "me.proton.android.drive", "com.nextcloud.client",
+      "mega.privacy.android.app", "com.google.android.apps.docs"
+    ]},
+    { "label": "photos", "words": "sitelen", "packages": [
+      "com.google.android.apps.photos", "com.adobe.lrmobile", "com.niksoftware.snapseed", "com.vsco.cam",
+      "com.picsart.studio", "org.fossify.gallery"
+    ]},
+    { "label": "weather", "words": "suno", "packages": [
+      "uk.co.openweather", "com.accuweather.android", "com.weather.Weather", "org.breezyweather"
+    ]},
+    { "label": "health", "words": "sijelo", "packages": [
+      "com.strava", "com.google.android.apps.fitness", "com.sec.android.app.shealth",
+      "com.fitbit.FitbitMobile", "com.myfitnesspal.android"
+    ]},
+    { "label": "carriers", "words": "linja toki", "packages": [
+      "it.iliad", "com.orange.orangeetmoi", "com.claro.miclaro", "it.fastweb.myfastweb"
+    ]},
+    { "label": "smart home", "words": "ilo tomo", "packages": [
+      "com.tuya.smartlife", "com.philips.lighting.hue2", "com.tplink.iot",
+      "io.homeassistant.companion.android", "com.google.android.apps.chromecast.app"
+    ]},
+    { "label": "keyboards", "words": "ilo nimi", "packages": [
+      "com.google.android.inputmethod.latin", "com.touchtype.swiftkey", "org.futo.inputmethod.latin",
+      "helium314.keyboard", "org.fossify.keyboard", "com.tavultesoft.kmapro"
+    ]},
+    { "label": "launchers", "words": "tomo ilo", "packages": [
+      "bitpit.launcher", "com.teslacoilsw.launcher", "app.lawnchair", "app.prolauncher"
+    ]},
+    { "label": "terminal", "words": "ilo nanpa", "packages": [
+      "com.termux", "com.server.auditor.ssh.client", "org.connectbot"
+    ]},
+    { "label": "games", "words": "musi", "packages": [
+      "com.chess", "org.lichess.mobileV2", "com.playstack.balatro.android", "ee.dustland.android.dustlandsudoku"
+    ]}
+  ]
+}
