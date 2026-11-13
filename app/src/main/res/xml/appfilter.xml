@@ -222,8 +222,6 @@
     <item component="ComponentInfo{com.hprt.hereprint/com.poooli.wonderfulprinter.activity.WelcomeActivity}" drawable="ilo_lipu" />
     <!-- Minimal To-Do : lipu pali -->
     <item component="ComponentInfo{com.minimalisttodolist.pleasebethelastrecyclerview/com.minimalisttodolist.pleasebethelastrecyclerview.MainActivity}" drawable="lipu_en_pali" />
-    <!-- Balatro : musi lipu -->
-    <item component="ComponentInfo{com.playstack.balatro.android/org.love2d.android.PlatformActivity}" drawable="musi_en_lipu" />
     <!-- Feelfit : ilo sijelo -->
     <item component="ComponentInfo{com.qingniu.feelfit/com.qingniu.oversea.launcher.LauncherActivity}" drawable="ilo_sijelo" />
     <!-- Termius : ilo linja -->
@@ -258,6 +256,8 @@
     <item component="ComponentInfo{uk.co.openweather/uk.co.openweather.MainActivity}" drawable="suno" />
     <!-- Bluesky : waso laso -->
     <item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="waso_laso" />
+    <!-- Balatro : lipu musi -->
+    <item component="ComponentInfo{com.playstack.balatro.android/org.love2d.android.PlatformActivity}" drawable="lipu_en_musi" />
     <!-- MyFastweb : mani+linluwi -->
     <item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivity}" drawable="mani_en_linluwi" />
     <!-- Claude : lawa^powe -->

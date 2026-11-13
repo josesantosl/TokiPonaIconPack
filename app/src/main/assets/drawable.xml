@@ -2,6 +2,7 @@
 <resources>
     <version>1</version>
     <category title="nimi sina (tus palabras)" />
+    <item drawable="lipu_en_musi" />
     <item drawable="mani_en_linluwi" />
     <item drawable="lawa_en_powe" />
     <item drawable="lawa_powe" />
@@ -119,6 +120,7 @@
     <item drawable="pana" />
     <item drawable="suno" />
     <item drawable="waso_laso" />
+    <item drawable="lipu_en_musi" />
     <item drawable="mani_en_linluwi" />
     <item drawable="lawa_powe" />
     <item drawable="kama_ilo" />
@@ -198,6 +200,7 @@
     <item drawable="lipu_en_sona" />
     <item drawable="lipu_en_nanpa" />
     <item drawable="waso_laso" />
+    <item drawable="lipu_en_musi" />
     <item drawable="mani_en_linluwi" />
     <item drawable="lawa_powe" />
     <item drawable="kama_ilo" />
