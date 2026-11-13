@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pini — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M103.5 47.7Q100.2 47.7 100.2 51V141Q100.2 144.3 103.5 144.3H126Q130.2 144.3 130.2 148.5Q130.2 152.7 126 152.7H66Q61.8 152.7 61.8 148.5Q61.8 144.3 66 144.3H88.5Q91.8 144.3 91.8 141V51Q91.8 47.7 88.5 47.7H66Q61.8 47.7 61.8 43.5Q61.8 39.3 66 39.3H126Q130.2 39.3 130.2 43.5Q130.2 47.7 126 47.7Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M103.5 47.7Q100.2 47.7 100.2 51V141Q100.2 144.3 103.5 144.3H126Q130.2 144.3 130.2 148.5Q130.2 152.7 126 152.7H66Q61.8 152.7 61.8 148.5Q61.8 144.3 66 144.3H88.5Q91.8 144.3 91.8 141V51Q91.8 47.7 88.5 47.7H66Q61.8 47.7 61.8 43.5Q61.8 39.3 66 39.3H126Q130.2 39.3 130.2 43.5Q130.2 47.7 126 47.7Z" />
+</vector>

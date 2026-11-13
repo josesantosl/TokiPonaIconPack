@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- poki+pake — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M51 46.8Q55.2 46.8 55.2 51V133.5Q55.2 136.8 58.5 136.8H133.5Q136.8 136.8 136.8 133.5V51Q136.8 46.8 141 46.8Q145.2 46.8 145.2 51V141Q145.2 145.2 141 145.2H51Q46.8 145.2 46.8 141V51Q46.8 46.8 51 46.8ZM73.2 74.7H118.8Q123 74.7 123 78.9Q123 83.1 118.8 83.1H103.5Q100.2 83.1 100.2 86.4V124.5Q100.2 128.7 96 128.7Q91.8 128.7 91.8 124.5V86.4Q91.8 83.1 88.5 83.1H73.2Q69 83.1 69 78.9Q69 74.7 73.2 74.7Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M51 46.8Q55.2 46.8 55.2 51V133.5Q55.2 136.8 58.5 136.8H133.5Q136.8 136.8 136.8 133.5V51Q136.8 46.8 141 46.8Q145.2 46.8 145.2 51V141Q145.2 145.2 141 145.2H51Q46.8 145.2 46.8 141V51Q46.8 46.8 51 46.8ZM73.2 74.7H118.8Q123 74.7 123 78.9Q123 83.1 118.8 83.1H103.5Q100.2 83.1 100.2 86.4V124.5Q100.2 128.7 96 128.7Q91.8 128.7 91.8 124.5V86.4Q91.8 83.1 88.5 83.1H73.2Q69 83.1 69 78.9Q69 74.7 73.2 74.7Z" />
+</vector>

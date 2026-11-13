@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- lili — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M118.5 76.8Q120.21 76.8 121.46 78.09Q122.7 79.36 122.7 81Q122.7 82.44 121.86 83.52L99.36 113.52Q99.32 113.57 99.29 113.62Q98.19 115.2 96 115.2Q93.81 115.2 92.71 113.62Q92.68 113.57 92.64 113.52L70.1 83.47Q69.3 82.44 69.3 81Q69.3 79.36 70.54 78.09Q71.79 76.8 73.5 76.8Q75.57 76.8 76.86 78.48L93.36 100.53Q93.64 100.91 94.02 101.19Q96.67 103.17 98.64 100.53L115.12 78.51Q116.43 76.8 118.5 76.8Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M118.5 76.8Q120.21 76.8 121.46 78.09Q122.7 79.36 122.7 81Q122.7 82.44 121.86 83.52L99.36 113.52Q99.32 113.57 99.29 113.62Q98.19 115.2 96 115.2Q93.81 115.2 92.71 113.62Q92.68 113.57 92.64 113.52L70.1 83.47Q69.3 82.44 69.3 81Q69.3 79.36 70.54 78.09Q71.79 76.8 73.5 76.8Q75.57 76.8 76.86 78.48L93.36 100.53Q93.64 100.91 94.02 101.19Q96.67 103.17 98.64 100.53L115.12 78.51Q116.43 76.8 118.5 76.8Z" />
+</vector>

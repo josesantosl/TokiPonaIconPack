@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- sinpin — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M54.3 148.5Q54.3 144.3 58.5 144.3H96Q99.3 144.3 99.3 141V51Q99.3 47.7 96 47.7H58.5Q54.3 47.7 54.3 43.5Q54.3 39.3 58.5 39.3H103.5Q107.7 39.3 107.7 43.5V148.5Q107.7 152.7 103.5 152.7H58.5Q54.3 152.7 54.3 148.5ZM129.75 88.05Q133 88.05 135.35 90.4Q137.7 92.75 137.7 96Q137.7 99.25 135.35 101.6Q133 103.95 129.75 103.95Q126.5 103.95 124.15 101.6Q121.8 99.25 121.8 96Q121.8 92.75 124.15 90.4Q126.5 88.05 129.75 88.05Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54.3 148.5Q54.3 144.3 58.5 144.3H96Q99.3 144.3 99.3 141V51Q99.3 47.7 96 47.7H58.5Q54.3 47.7 54.3 43.5Q54.3 39.3 58.5 39.3H103.5Q107.7 39.3 107.7 43.5V148.5Q107.7 152.7 103.5 152.7H58.5Q54.3 152.7 54.3 148.5ZM129.75 88.05Q133 88.05 135.35 90.4Q137.7 92.75 137.7 96Q137.7 99.25 135.35 101.6Q133 103.95 129.75 103.95Q126.5 103.95 124.15 101.6Q121.8 99.25 121.8 96Q121.8 92.75 124.15 90.4Q126.5 88.05 129.75 88.05Z" />
+</vector>

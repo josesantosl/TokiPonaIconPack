@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- meso — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M51 31.8Q55.2 31.8 55.2 36V156Q55.2 160.2 51 160.2Q46.8 160.2 46.8 156V36Q46.8 31.8 51 31.8ZM141 31.8Q145.2 31.8 145.2 36V156Q145.2 160.2 141 160.2Q136.8 160.2 136.8 156V36Q136.8 31.8 141 31.8ZM103.95 96Q103.95 99.25 101.6 101.6Q99.25 103.95 96 103.95Q92.75 103.95 90.4 101.6Q88.05 99.25 88.05 96Q88.05 92.75 90.4 90.4Q92.75 88.05 96 88.05Q99.25 88.05 101.6 90.4Q103.95 92.75 103.95 96Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M51 31.8Q55.2 31.8 55.2 36V156Q55.2 160.2 51 160.2Q46.8 160.2 46.8 156V36Q46.8 31.8 51 31.8ZM141 31.8Q145.2 31.8 145.2 36V156Q145.2 160.2 141 160.2Q136.8 160.2 136.8 156V36Q136.8 31.8 141 31.8ZM103.95 96Q103.95 99.25 101.6 101.6Q99.25 103.95 96 103.95Q92.75 103.95 90.4 101.6Q88.05 99.25 88.05 96Q88.05 92.75 90.4 90.4Q92.75 88.05 96 88.05Q99.25 88.05 101.6 90.4Q103.95 92.75 103.95 96Z" />
+</vector>

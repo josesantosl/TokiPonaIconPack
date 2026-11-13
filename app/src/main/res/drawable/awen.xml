@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- awen — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M99.94 42.04 99.94 42.06 135.64 142.11Q136.42 144.3 138.75 144.3H156Q160.2 144.3 160.2 148.5Q160.2 152.7 156 152.7H133.5Q130.52 152.7 129.56 149.94L99.11 64.74Q98.58 63.27 97.11 62.74Q95.56 62.19 94.5 62.69Q93.45 63.19 92.89 64.74L62.44 149.96Q61.48 152.7 58.5 152.7H36Q31.8 152.7 31.8 148.5Q31.8 144.3 36 144.3H53.25Q55.58 144.3 56.36 142.11L92.06 42.04Q93.02 39.3 96 39.3Q98.98 39.3 99.94 42.04Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M99.94 42.04 99.94 42.06 135.64 142.11Q136.42 144.3 138.75 144.3H156Q160.2 144.3 160.2 148.5Q160.2 152.7 156 152.7H133.5Q130.52 152.7 129.56 149.94L99.11 64.74Q98.58 63.27 97.11 62.74Q95.56 62.19 94.5 62.69Q93.45 63.19 92.89 64.74L62.44 149.96Q61.48 152.7 58.5 152.7H36Q31.8 152.7 31.8 148.5Q31.8 144.3 36 144.3H53.25Q55.58 144.3 56.36 142.11L92.06 42.04Q93.02 39.3 96 39.3Q98.98 39.3 99.94 42.04Z" />
+</vector>

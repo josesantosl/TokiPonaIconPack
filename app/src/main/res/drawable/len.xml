@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- len — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M51 39.3H141Q145.2 39.3 145.2 43.5V156Q145.2 160.2 141 160.2Q136.8 160.2 136.8 156V133.5Q136.8 130.2 133.5 130.2H103.5Q100.2 130.2 100.2 133.5V156Q100.2 160.2 96 160.2Q91.8 160.2 91.8 156V133.5Q91.8 130.2 88.5 130.2H58.5Q55.2 130.2 55.2 133.5V156Q55.2 160.2 51 160.2Q46.8 160.2 46.8 156V43.5Q46.8 39.3 51 39.3ZM133.5 121.8Q136.8 121.8 136.8 118.5V51Q136.8 47.7 133.5 47.7H58.5Q55.2 47.7 55.2 51V118.5Q55.2 121.8 58.5 121.8Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M51 39.3H141Q145.2 39.3 145.2 43.5V156Q145.2 160.2 141 160.2Q136.8 160.2 136.8 156V133.5Q136.8 130.2 133.5 130.2H103.5Q100.2 130.2 100.2 133.5V156Q100.2 160.2 96 160.2Q91.8 160.2 91.8 156V133.5Q91.8 130.2 88.5 130.2H58.5Q55.2 130.2 55.2 133.5V156Q55.2 160.2 51 160.2Q46.8 160.2 46.8 156V43.5Q46.8 39.3 51 39.3ZM133.5 121.8Q136.8 121.8 136.8 118.5V51Q136.8 47.7 133.5 47.7H58.5Q55.2 47.7 55.2 51V118.5Q55.2 121.8 58.5 121.8Z" />
+</vector>

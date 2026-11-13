@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- en — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M100.2 43.5V88.5Q100.2 91.8 103.5 91.8H148.5Q152.7 91.8 152.7 96Q152.7 100.2 148.5 100.2H103.5Q100.2 100.2 100.2 103.5V148.5Q100.2 152.7 96 152.7Q91.8 152.7 91.8 148.5V103.5Q91.8 100.2 88.5 100.2H43.5Q39.3 100.2 39.3 96Q39.3 91.8 43.5 91.8H88.5Q91.8 91.8 91.8 88.5V43.5Q91.8 39.3 96 39.3Q100.2 39.3 100.2 43.5Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M100.2 43.5V88.5Q100.2 91.8 103.5 91.8H148.5Q152.7 91.8 152.7 96Q152.7 100.2 148.5 100.2H103.5Q100.2 100.2 100.2 103.5V148.5Q100.2 152.7 96 152.7Q91.8 152.7 91.8 148.5V103.5Q91.8 100.2 88.5 100.2H43.5Q39.3 100.2 39.3 96Q39.3 91.8 43.5 91.8H88.5Q91.8 91.8 91.8 88.5V43.5Q91.8 39.3 96 39.3Q100.2 39.3 100.2 43.5Z" />
+</vector>

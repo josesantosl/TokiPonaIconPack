@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- supa — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M36 69.3H156Q160.2 69.3 160.2 73.5Q160.2 77.7 156 77.7H138Q134.7 77.7 134.7 81V118.5Q134.7 122.7 130.5 122.7Q126.3 122.7 126.3 118.5V81Q126.3 77.7 123 77.7H69Q65.7 77.7 65.7 81V118.5Q65.7 122.7 61.5 122.7Q57.3 122.7 57.3 118.5V81Q57.3 77.7 54 77.7H36Q31.8 77.7 31.8 73.5Q31.8 69.3 36 69.3Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M36 69.3H156Q160.2 69.3 160.2 73.5Q160.2 77.7 156 77.7H138Q134.7 77.7 134.7 81V118.5Q134.7 122.7 130.5 122.7Q126.3 122.7 126.3 118.5V81Q126.3 77.7 123 77.7H69Q65.7 77.7 65.7 81V118.5Q65.7 122.7 61.5 122.7Q57.3 122.7 57.3 118.5V81Q57.3 77.7 54 77.7H36Q31.8 77.7 31.8 73.5Q31.8 69.3 36 69.3Z" />
+</vector>

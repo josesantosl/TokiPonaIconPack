@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ijo — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M96 160.2Q69.35 160.2 50.58 141.42Q31.8 122.65 31.8 96Q31.8 69.35 50.58 50.58Q69.35 31.8 96 31.8Q122.65 31.8 141.42 50.58Q160.2 69.35 160.2 96Q160.2 122.65 141.42 141.42Q122.65 160.2 96 160.2ZM96 151.8Q119.08 151.8 135.44 135.44Q151.8 119.08 151.8 96Q151.8 72.92 135.44 56.56Q119.08 40.2 96 40.2Q72.92 40.2 56.56 56.56Q40.2 72.92 40.2 96Q40.2 119.08 56.56 135.44Q72.92 151.8 96 151.8Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M96 160.2Q69.35 160.2 50.58 141.42Q31.8 122.65 31.8 96Q31.8 69.35 50.58 50.58Q69.35 31.8 96 31.8Q122.65 31.8 141.42 50.58Q160.2 69.35 160.2 96Q160.2 122.65 141.42 141.42Q122.65 160.2 96 160.2ZM96 151.8Q119.08 151.8 135.44 135.44Q151.8 119.08 151.8 96Q151.8 72.92 135.44 56.56Q119.08 40.2 96 40.2Q72.92 40.2 56.56 56.56Q40.2 72.92 40.2 96Q40.2 119.08 56.56 135.44Q72.92 151.8 96 151.8Z" />
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- sijelo — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M49.2 147Q49.2 151.2 45 151.2Q40.8 151.2 40.8 147V45Q40.8 40.8 45 40.8H147Q151.2 40.8 151.2 45V147Q151.2 151.2 147 151.2Q142.8 151.2 142.8 147V52.5Q142.8 49.2 139.5 49.2H103.5Q100.2 49.2 100.2 52.5V139.65Q100.2 143.85 96 143.85Q91.8 143.85 91.8 139.65V52.5Q91.8 49.2 88.5 49.2H52.5Q49.2 49.2 49.2 52.5Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M49.2 147Q49.2 151.2 45 151.2Q40.8 151.2 40.8 147V45Q40.8 40.8 45 40.8H147Q151.2 40.8 151.2 45V147Q151.2 151.2 147 151.2Q142.8 151.2 142.8 147V52.5Q142.8 49.2 139.5 49.2H103.5Q100.2 49.2 100.2 52.5V139.65Q100.2 143.85 96 143.85Q91.8 143.85 91.8 139.65V52.5Q91.8 49.2 88.5 49.2H52.5Q49.2 49.2 49.2 52.5Z" />
+</vector>

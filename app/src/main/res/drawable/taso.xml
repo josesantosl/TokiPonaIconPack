@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- taso — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M118.5 31.8Q122.7 31.8 122.7 36V156Q122.7 160.2 118.5 160.2Q114.3 160.2 114.3 156V103.5Q114.3 100.2 111 100.2H73.5Q69.3 100.2 69.3 96Q69.3 91.8 73.5 91.8H111Q114.3 91.8 114.3 88.5V36Q114.3 31.8 118.5 31.8Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M118.5 31.8Q122.7 31.8 122.7 36V156Q122.7 160.2 118.5 160.2Q114.3 160.2 114.3 156V103.5Q114.3 100.2 111 100.2H73.5Q69.3 100.2 69.3 96Q69.3 91.8 73.5 91.8H111Q114.3 91.8 114.3 88.5V36Q114.3 31.8 118.5 31.8Z" />
+</vector>

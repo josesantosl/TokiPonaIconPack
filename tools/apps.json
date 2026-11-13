@@ -1,0 +1,238 @@
+{
+  "_comment": "words: 'toki' | 'linluwi:1' (variante) | 'ilo tenpo' (automático: anidado si empieza por una palabra de NEST_HEADS (sitelen, toki, lipu, tomo, jan, poki), si no apilado con la primera palabra abajo) | 'ilo^tenpo' (fuerza apilado) | 'poki+sewi' (fuerza anidado). Ejecuta tools/generate_icons.py después de editar.",
+  "icons": [
+    { "label": "Teléfono", "words": "ilo toki", "components": [
+      "com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity",
+      "com.android.dialer/com.android.dialer.main.impl.MainActivity",
+      "com.android.dialer/com.android.dialer.DialtactsActivity",
+      "com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity"
+    ]},
+    { "label": "Mensajes", "words": "nimi", "components": [
+      "com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity",
+      "com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity",
+      "com.samsung.android.messaging/com.android.mms.ui.ConversationComposer"
+    ]},
+    { "label": "Contactos", "words": "jan", "components": [
+      "com.google.android.contacts/com.android.contacts.activities.PeopleActivity",
+      "com.android.contacts/com.android.contacts.activities.PeopleActivity"
+    ]},
+    { "label": "Cámara", "words": "ilo sitelen", "components": [
+      "com.google.android.GoogleCamera/com.android.camera.CameraLauncher",
+      "com.android.camera2/com.android.camera.CameraLauncher",
+      "org.lineageos.aperture/org.lineageos.aperture.CameraLauncher",
+      "com.sec.android.app.camera/com.sec.android.app.camera.Camera",
+      "com.fp5.camera/com.android.camera.CameraLauncher",
+      "org.fossify.camera/org.fossify.camera.activities.SplashActivity.Grey_black"
+    ]},
+    { "label": "Fotos / Galería", "words": "sitelen", "components": [
+      "com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity",
+      "com.android.gallery3d/com.android.gallery3d.app.GalleryActivity",
+      "com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryActivity",
+      "org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Grey_black"
+    ]},
+    { "label": "Ajustes", "words": "ilo", "components": [
+      "com.android.settings/com.android.settings.Settings"
+    ]},
+    { "label": "Reloj", "words": "ilo tenpo", "components": [
+      "com.google.android.deskclock/com.android.deskclock.DeskClock",
+      "com.android.deskclock/com.android.deskclock.DeskClock",
+      "com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage"
+    ]},
+    { "label": "Calendario", "words": "lipu tenpo", "components": [
+      "com.google.android.calendar/com.android.calendar.AllInOneActivity",
+      "com.android.calendar/com.android.calendar.AllInOneActivity",
+      "com.samsung.android.calendar/com.android.calendar.AllInOneActivity"
+    ]},
+    { "label": "Calculadora", "words": "nanpa", "components": [
+      "com.google.android.calculator/com.android.calculator2.Calculator",
+      "com.android.calculator2/com.android.calculator2.Calculator",
+      "com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator"
+    ]},
+    { "label": "Archivos", "words": "poki", "components": [
+      "com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity",
+      "com.android.documentsui/com.android.documentsui.LauncherActivity",
+      "org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Grey_black"
+    ]},
+    { "label": "Google Drive", "words": "poki+sewi:1", "components": [
+      "com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity"
+    ]},
+    { "label": "Google Keep", "words": "lipu lili", "components": [
+      "com.google.android.keep/com.google.android.keep.activities.BrowseActivity",
+      "org.fossify.notes/org.fossify.notes.activities.SplashActivity.Grey_black"
+    ]},
+    { "label": "Grabadora", "words": "ilo kute", "components": [
+      "com.google.android.apps.recorder/com.google.android.apps.recorder.ui.main.MainActivity"
+    ]},
+    { "label": "Google", "words": "alasa", "components": [
+      "com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity"
+    ]},
+    { "label": "Traductor", "words": "toki ante", "components": [
+      "com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity"
+    ]},
+    { "label": "Chrome", "words": "linluwi", "components": [
+      "com.android.chrome/com.google.android.apps.chrome.Main"
+    ]},
+    { "label": "Firefox", "words": "soweli", "components": [
+      "org.mozilla.firefox/org.mozilla.fenix.HomeActivity",
+      "org.mozilla.firefox/org.mozilla.firefox.App"
+    ]},
+    { "label": "Gmail", "words": "lipu", "components": [
+      "com.google.android.gm/com.google.android.gm.ConversationListActivityGmail"
+    ]},
+    { "label": "Maps", "words": "ma", "components": [
+      "com.google.android.apps.maps/com.google.android.maps.MapsActivity"
+    ]},
+    { "label": "Play Store", "words": "esun", "components": [
+      "com.android.vending/com.android.vending.AssetBrowserActivity"
+    ]},
+    { "label": "Amazon", "words": "esun pona", "components": [
+      "com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity"
+    ]},
+    { "label": "Google Wallet", "words": "mani", "components": [
+      "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity"
+    ]},
+    { "label": "Google Fit", "words": "sijelo", "components": [
+      "com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity"
+    ]},
+    { "label": "Google Home", "words": "tomo", "components": [
+      "com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity"
+    ]},
+    { "label": "YouTube", "words": "sitelen tawa", "components": [
+      "com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+    ]},
+    { "label": "YouTube Music", "words": "kalama musi", "components": [
+      "com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity"
+    ]},
+    { "label": "Spotify", "words": "kalama", "components": [
+      "com.spotify.music/com.spotify.music.MainActivity"
+    ]},
+    { "label": "Netflix", "words": "musi", "components": [
+      "com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity"
+    ]},
+    { "label": "TikTok", "words": "tawa musi", "components": [
+      "com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity"
+    ]},
+    { "label": "WhatsApp", "words": "toki", "components": [
+      "com.whatsapp/com.whatsapp.Main"
+    ]},
+    { "label": "Telegram", "words": "tawa", "components": [
+      "org.telegram.messenger/org.telegram.messenger.DefaultIcon",
+      "org.telegram.messenger/org.telegram.ui.LaunchActivity",
+      "com.amanoteam.flonne/org.telegram.messenger.NoxIcon"
+    ]},
+    { "label": "Signal", "words": "toki len", "components": [
+      "org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity"
+    ]},
+    { "label": "X / Twitter", "words": "waso", "components": [
+      "com.twitter.android/com.twitter.android.StartActivity",
+      "com.twitter.android/com.x.android.main.MainActivity"
+    ]},
+    { "label": "Instagram", "words": "sitelen kule", "components": [
+      "com.instagram.android/com.instagram.android.activity.MainTabActivity"
+    ]},
+    { "label": "Facebook", "words": "kulupu", "components": [
+      "com.facebook.katana/com.facebook.katana.LoginActivity"
+    ]},
+    { "label": "Snapchat", "words": "kon", "components": [
+      "com.snapchat.android/com.snapchat.android.LandingPageActivity"
+    ]},
+    { "label": "Discord", "words": "toki kulupu", "components": [
+      "com.discord/com.discord.main.MainActivity",
+      "com.discord/com.discord.main.MainDefault"
+    ]},
+    { "label": "Reddit", "words": "lipu kulupu", "components": [
+      "com.reddit.frontpage/com.reddit.frontpage.main.MainActivity",
+      "com.reddit.frontpage/launcher.default"
+    ]},
+    { "label": "LinkedIn", "words": "pali", "components": [
+      "com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity",
+      "com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault"
+    ]},
+    { "label": "Wikipedia", "words": "sona", "components": [
+      "org.wikipedia/org.wikipedia.main.MainActivity"
+    ]},
+    { "label": "Duolingo", "words": "kama sona", "components": [
+      "com.duolingo/com.duolingo.app.LoginActivity"
+    ]},
+    { "label": "Termux", "words": "ilo nanpa", "components": [
+      "com.termux/com.termux.app.TermuxActivity"
+    ]},
+
+    { "label": "Toki Pona Icon Pack", "words": "toki pona", "components": ["com.pepesantos.tokiponaiconpack/com.pepesantos.tokiponaiconpack.MainActivity"]},
+    { "label": "Scontrino", "words": "lipu mani", "components": ["com.pepesantos.scontrino/com.pepesantos.scontrino.MainActivity"]},
+    { "label": "Brújula", "words": "nasin", "components": ["app.chompass/app.chompass.LauncherGraphite"]},
+    { "label": "Organic Maps", "words": "ma kasi", "components": ["app.organicmaps/app.organicmaps.DownloadResourcesActivity"]},
+    { "label": "Pro Launcher", "words": "tomo ilo", "components": ["app.prolauncher/app.prolauncher.compose.ui.ComposeMainActivity"]},
+    { "label": "Bitpit Launcher", "words": "tomo nanpa", "components": ["bitpit.launcher/bitpit.launcher.ui.HomeActivity"]},
+    { "label": "Minimal Detox Launcher", "words": "tomo lili", "components": ["com.minimaa.minimal.detox.launcher/com.minimaa.minimal.detox.launcher.MainActivity"]},
+    { "label": "Proton Mail", "words": "lipu len", "components": ["ch.protonmail.android/ch.protonmail.android.RoutingActivity"]},
+    { "label": "Tuta Mail", "words": "lipu awen", "components": ["de.tutao.tutanota/de.tutao.tutanota.MainActivity"]},
+    { "label": "Proton Drive", "words": "poki len", "components": ["me.proton.android.drive/me.proton.android.drive.ui.MainActivity"]},
+    { "label": "Proton Pass", "words": "nimi len", "components": ["proton.android.pass/proton.android.pass.ui.MainActivity"]},
+    { "label": "Proton Authenticator", "words": "nanpa len", "components": ["proton.android.authenticator/proton.android.authenticator.app.ui.MainActivity"]},
+    { "label": "Bring!", "words": "lipu esun", "components": ["ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity"]},
+    { "label": "AliExpress", "words": "esun ilo", "components": ["com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity"]},
+    { "label": "Vinted", "words": "esun len", "components": ["fr.vinted/com.vinted.feature.shell.MDActivity"]},
+    { "label": "zooplus", "words": "esun soweli", "components": ["de.zooplus/de.zooplus.lib.catdog1"]},
+    { "label": "Carrefour", "words": "tomo esun", "components": ["it.carrefour.mycarrefour/it.carrefour.mycarrefour.MainActivity"]},
+    { "label": "F-Droid", "words": "esun pona", "components": ["org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity"]},
+    { "label": "Claude", "words": "ilo sona", "components": ["com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity"]},
+    { "label": "Banco Guayaquil", "words": "tomo mani", "components": ["com.bancodeguayaquil/com.bancodeguayaquil.MainActivity"]},
+    { "label": "Revolut", "words": "mani sin", "components": ["com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity"]},
+    { "label": "Satispay", "words": "pana mani", "components": ["com.satispay.customer/com.satispay.customer.main.SplashActivity"]},
+    { "label": "Kraken Pay", "words": "mani tawa", "components": ["com.kraken.pay.app/com.kraken.pay.app.MainActivity"]},
+    { "label": "Kraken", "words": "esun mani", "components": ["com.kraken.trade/com.kraken.trade.MainActivity"]},
+    { "label": "FOSS Wallet", "words": "poki lipu", "components": ["nz.eloque.foss_wallet/nz.eloque.foss_wallet.MainActivity"]},
+    { "label": "Casio Watches", "words": "tenpo luka", "components": ["com.casio.wac_app/com.casio.wac_app.MainActivityDefault"]},
+    { "label": "Arcticons", "words": "sitelen lili", "components": ["com.donnnno.arcticons/com.donnnno.arcticons.activities.MainActivity"]},
+    { "label": "DuckDuckGo", "words": "waso alasa", "components": ["com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher"]},
+    { "label": "My Fairphone", "words": "ilo pona", "components": ["com.fairphone.myfairphone/com.fairphone.presentation.ui.activity.MainActivity"]},
+    { "label": "DankChat", "words": "toki musi", "components": ["com.flxrs.dankchat/com.flxrs.dankchat.ui.main.MainActivity"]},
+    { "label": "Twitch", "words": "sitelen musi", "components": ["tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity"]},
+    { "label": "Kick", "words": "lukin musi", "components": ["com.kick.mobile/com.kick.mobile.MainActivity"]},
+    { "label": "GitHub", "words": "pali kulupu", "components": ["com.github.android/com.github.android.main.MainActivity"]},
+    { "label": "Omio", "words": "tawa ma", "components": ["com.goeuro.rosie/com.goeuro.rosie.app.TopLevelActivity"]},
+    { "label": "GTT To Move", "words": "tomo tawa", "components": ["it.to.gtt.tomove/it.fivet.gttmobile.splash.Splash2Activity"]},
+    { "label": "17TRACK", "words": "poki tawa", "components": ["yqtrack.app/yqtrack.app.MainActivity"]},
+    { "label": "Safety Hub", "words": "awen", "components": ["com.google.android.apps.safetyhub/com.google.android.apps.safetyhub.LauncherActivity"]},
+    { "label": "Google Meet", "words": "toki lukin", "components": ["com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity"]},
+    { "label": "Healthy Dining (veg)", "words": "moku kasi", "components": ["com.hcceg.veg.compassionfree/com.sisow.hcvg.healthydiningguide.app.splash.ui.SplashScreenActivity"]},
+    { "label": "Yuka", "words": "moku pona", "components": ["io.yuka.android/io.yuka.android.main.RootActivity"]},
+    { "label": "HelloChinese", "words": "sona toki", "components": ["com.hellochinese/com.hellochinese.ui.SplashActivity"]},
+    { "label": "HerePrint", "words": "ilo lipu", "components": ["com.hprt.hereprint/com.poooli.wonderfulprinter.activity.WelcomeActivity"]},
+    { "label": "iVoox", "words": "kalama toki", "components": ["com.ivoox.app/com.ivoox.app.ui.login.activity.LoginMainActivity"]},
+    { "label": "AntennaPod", "words": "kute", "components": ["de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity"]},
+    { "label": "Afinador", "words": "ilo kalama", "components": ["com.megaj.tunermain/com.megaj.tunermain.MainActivity"]},
+    { "label": "Minimal To-Do", "words": "lipu pali", "components": ["com.minimalisttodolist.pleasebethelastrecyclerview/com.minimalisttodolist.pleasebethelastrecyclerview.MainActivity"]},
+    { "label": "Balatro", "words": "musi lipu", "components": ["com.playstack.balatro.android/org.love2d.android.PlatformActivity"]},
+    { "label": "Feelfit", "words": "ilo sijelo", "components": ["com.qingniu.feelfit/com.qingniu.oversea.launcher.LauncherActivity"]},
+    { "label": "Termius", "words": "ilo linja", "components": ["com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity"]},
+    { "label": "Teclados", "words": "ilo nimi", "components": [
+      "com.tavultesoft.kmapro/com.tavultesoft.kmapro.SplashScreenActivity",
+      "com.wasimaster.wmkeyboard/com.wasimaster.wmkeyboard.app.LauncherFullName",
+      "org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Grey_black"
+    ]},
+    { "label": "Smart Life", "words": "ilo tomo", "components": ["com.tuya.smartlife/com.smart.ThingSplashActivity"]},
+    { "label": "MyUniTO", "words": "tomo sona", "components": ["it.cineca.app.MyUniTOPlus/it.cineca.app.MyUniTOPlus.MainActivity"]},
+    { "label": "MyFastweb", "words": "linluwi wawa", "components": ["it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivity"]},
+    { "label": "Iliad", "words": "linja toki", "components": ["it.iliad/it.iliad.presentation.MainActivity"]},
+    { "label": "Iren", "words": "wawa", "components": ["it.irenyou.app/it.irenyou.app.MainActivity"]},
+    { "label": "Sudoku", "words": "musi nanpa", "components": ["ee.dustland.android.dustlandsudoku/ee.dustland.android.dustlandsudoku.SudokuHostActivity"]},
+    { "label": "Lichess", "words": "musi utala", "components": ["org.lichess.mobileV2/org.lichess.mobileV2.MainActivity"]},
+    { "label": "KOReader", "words": "lipu sona", "components": ["org.koreader.launcher.fdroid/org.koreader.launcher.MainActivity"]},
+    { "label": "Jupyter", "words": "lipu nanpa", "components": ["org.termuxstudio.jupyternotebook/org.termuxstudio.jupyternotebook.MainActivity"]},
+    { "label": "Fossify Thank You", "words": "pona", "components": ["org.fossify.thankyou/org.fossify.thankyou.activities.SplashActivity.Grey_black"]},
+    { "label": "Warpinator", "words": "pana", "components": ["slowscript.warpinator/slowscript.warpinator.MainActivity"]},
+    { "label": "OpenWeather", "words": "suno", "components": ["uk.co.openweather/uk.co.openweather.MainActivity"]},
+    { "label": "Bluesky", "words": "waso laso", "components": ["xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity"]}
+  ],
+  "extra_compounds": [
+    "ilo lukin", "ilo kalama", "ilo moku", "ilo musi", "ilo suno", "ilo lipu", "ilo linluwi",
+    "ilo sona", "ilo pona", "ilo kon", "ilo telo",
+    "sitelen kalama", "sitelen musi", "lipu sona", "lipu nimi", "lipu mani", "lipu sitelen",
+    "toki pona", "toki sitelen",
+    "tomo tawa", "tomo esun", "tomo sona", "tomo+mani", "poki+mani", "poki+sitelen",
+    "tenpo suno", "tenpo pimeja", "tenpo lape", "jan pona", "kulupu jan",
+    "musi sitelen", "kalama tawa", "telo nasa", "ma tomo", "nasin tawa", "pilin+pona", "pilin+ike"
+  ]
+}

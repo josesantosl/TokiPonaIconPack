@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- lipu+pi — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M46.8 43.5Q46.8 39.3 51 39.3H141Q145.2 39.3 145.2 43.5V148.5Q145.2 152.7 141 152.7H51Q46.8 152.7 46.8 148.5ZM58.5 47.7Q55.2 47.7 55.2 51V141Q55.2 144.3 58.5 144.3H133.5Q136.8 144.3 136.8 141V51Q136.8 47.7 133.5 47.7ZM75.9 71.7Q80.1 71.7 80.1 75.9V108.6Q80.1 111.9 83.4 111.9H116.1Q120.3 111.9 120.3 116.1Q120.3 120.3 116.1 120.3H75.9Q71.7 120.3 71.7 116.1V75.9Q71.7 71.7 75.9 71.7Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M46.8 43.5Q46.8 39.3 51 39.3H141Q145.2 39.3 145.2 43.5V148.5Q145.2 152.7 141 152.7H51Q46.8 152.7 46.8 148.5ZM58.5 47.7Q55.2 47.7 55.2 51V141Q55.2 144.3 58.5 144.3H133.5Q136.8 144.3 136.8 141V51Q136.8 47.7 133.5 47.7ZM75.9 71.7Q80.1 71.7 80.1 75.9V108.6Q80.1 111.9 83.4 111.9H116.1Q120.3 111.9 120.3 116.1Q120.3 120.3 116.1 120.3H75.9Q71.7 120.3 71.7 116.1V75.9Q71.7 71.7 75.9 71.7Z" />
+</vector>

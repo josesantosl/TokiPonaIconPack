@@ -1,0 +1,22 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Herramientas locales
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Asignaciones y palabras leídas del teléfono (tools/sync_from_phone.sh): son personales
+tools/apps_device.json

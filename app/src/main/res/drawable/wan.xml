@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wan — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M114.75 31.8Q116.57 31.8 117.78 33.1Q118.95 34.35 118.95 36V156Q118.95 160.2 114.75 160.2Q110.55 160.2 110.55 156V54.15Q110.55 52.79 109.59 51.82Q108.43 50.65 107.26 50.65Q106.09 50.65 104.92 51.81L80.17 76.42Q78.88 77.7 77.25 77.7Q75.69 77.7 74.37 76.38Q73.05 75.06 73.05 73.5Q73.05 71.87 74.33 70.58L111.83 33.08Q113.12 31.8 114.75 31.8Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M114.75 31.8Q116.57 31.8 117.78 33.1Q118.95 34.35 118.95 36V156Q118.95 160.2 114.75 160.2Q110.55 160.2 110.55 156V54.15Q110.55 52.79 109.59 51.82Q108.43 50.65 107.26 50.65Q106.09 50.65 104.92 51.81L80.17 76.42Q78.88 77.7 77.25 77.7Q75.69 77.7 74.37 76.38Q73.05 75.06 73.05 73.5Q73.05 71.87 74.33 70.58L111.83 33.08Q113.12 31.8 114.75 31.8Z" />
+</vector>

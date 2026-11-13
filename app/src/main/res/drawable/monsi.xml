@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- monsi — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M137.7 148.5Q137.7 152.7 133.5 152.7H88.5Q84.3 152.7 84.3 148.5V43.5Q84.3 39.3 88.5 39.3H133.5Q137.7 39.3 137.7 43.5Q137.7 47.7 133.5 47.7H96Q92.7 47.7 92.7 51V141Q92.7 144.3 96 144.3H133.5Q137.7 144.3 137.7 148.5ZM62.25 88.05Q65.5 88.05 67.85 90.4Q70.2 92.75 70.2 96Q70.2 99.25 67.85 101.6Q65.5 103.95 62.25 103.95Q59 103.95 56.65 101.6Q54.3 99.25 54.3 96Q54.3 92.75 56.65 90.4Q59 88.05 62.25 88.05Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M137.7 148.5Q137.7 152.7 133.5 152.7H88.5Q84.3 152.7 84.3 148.5V43.5Q84.3 39.3 88.5 39.3H133.5Q137.7 39.3 137.7 43.5Q137.7 47.7 133.5 47.7H96Q92.7 47.7 92.7 51V141Q92.7 144.3 96 144.3H133.5Q137.7 144.3 137.7 148.5ZM62.25 88.05Q65.5 88.05 67.85 90.4Q70.2 92.75 70.2 96Q70.2 99.25 67.85 101.6Q65.5 103.95 62.25 103.95Q59 103.95 56.65 101.6Q54.3 99.25 54.3 96Q54.3 92.75 56.65 90.4Q59 88.05 62.25 88.05Z" />
+</vector>

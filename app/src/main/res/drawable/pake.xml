@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pake — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M43.5 39.3H148.5Q152.7 39.3 152.7 43.5Q152.7 47.7 148.5 47.7H103.5Q100.2 47.7 100.2 51V148.5Q100.2 152.7 96 152.7Q91.8 152.7 91.8 148.5V51Q91.8 47.7 88.5 47.7H43.5Q39.3 47.7 39.3 43.5Q39.3 39.3 43.5 39.3Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M43.5 39.3H148.5Q152.7 39.3 152.7 43.5Q152.7 47.7 148.5 47.7H103.5Q100.2 47.7 100.2 51V148.5Q100.2 152.7 96 152.7Q91.8 152.7 91.8 148.5V51Q91.8 47.7 88.5 47.7H43.5Q39.3 47.7 39.3 43.5Q39.3 39.3 43.5 39.3Z" />
+</vector>

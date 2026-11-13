@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Teléfono : ilo toki -->
+    <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="ilo_toki" />
+    <!-- Teléfono : ilo toki -->
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="ilo_toki" />
+    <!-- Teléfono : ilo toki -->
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="ilo_toki" />
+    <!-- Teléfono : ilo toki -->
+    <item component="ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}" drawable="ilo_toki" />
+    <!-- Mensajes : nimi -->
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="nimi" />
+    <!-- Mensajes : nimi -->
+    <item component="ComponentInfo{com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity}" drawable="nimi" />
+    <!-- Mensajes : nimi -->
+    <item component="ComponentInfo{com.samsung.android.messaging/com.android.mms.ui.ConversationComposer}" drawable="nimi" />
+    <!-- Contactos : jan -->
+    <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="jan" />
+    <!-- Contactos : jan -->
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="jan" />
+    <!-- Cámara : ilo sitelen -->
+    <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="ilo_sitelen" />
+    <!-- Cámara : ilo sitelen -->
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="ilo_sitelen" />
+    <!-- Cámara : ilo sitelen -->
+    <item component="ComponentInfo{org.lineageos.aperture/org.lineageos.aperture.CameraLauncher}" drawable="ilo_sitelen" />
+    <!-- Cámara : ilo sitelen -->
+    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="ilo_sitelen" />
+    <!-- Cámara : ilo sitelen -->
+    <item component="ComponentInfo{com.fp5.camera/com.android.camera.CameraLauncher}" drawable="ilo_sitelen" />
+    <!-- Cámara : ilo sitelen -->
+    <item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Grey_black}" drawable="ilo_sitelen" />
+    <!-- Fotos / Galería : sitelen -->
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="sitelen" />
+    <!-- Fotos / Galería : sitelen -->
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="sitelen" />
+    <!-- Fotos / Galería : sitelen -->
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryActivity}" drawable="sitelen" />
+    <!-- Fotos / Galería : sitelen -->
+    <item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Grey_black}" drawable="sitelen" />
+    <!-- Ajustes : ilo -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="ilo" />
+    <!-- Reloj : ilo tenpo -->
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="ilo_tenpo" />
+    <!-- Reloj : ilo tenpo -->
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="ilo_tenpo" />
+    <!-- Reloj : ilo tenpo -->
+    <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="ilo_tenpo" />
+    <!-- Calendario : lipu tenpo -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lipu_en_tenpo" />
+    <!-- Calendario : lipu tenpo -->
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lipu_en_tenpo" />
+    <!-- Calendario : lipu tenpo -->
+    <item component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lipu_en_tenpo" />
+    <!-- Calculadora : nanpa -->
+    <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="nanpa" />
+    <!-- Calculadora : nanpa -->
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="nanpa" />
+    <!-- Calculadora : nanpa -->
+    <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="nanpa" />
+    <!-- Archivos : poki -->
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="poki" />
+    <!-- Archivos : poki -->
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="poki" />
+    <!-- Archivos : poki -->
+    <item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Grey_black}" drawable="poki" />
+    <!-- Google Drive : poki+sewi:1 -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="poki_en_sewi_v1" />
+    <!-- Google Keep : lipu lili -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="lipu_en_lili" />
+    <!-- Google Keep : lipu lili -->
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Grey_black}" drawable="lipu_en_lili" />
+    <!-- Grabadora : ilo kute -->
+    <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.ui.main.MainActivity}" drawable="ilo_kute" />
+    <!-- Google : alasa -->
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="alasa" />
+    <!-- Traductor : toki ante -->
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="toki_en_ante" />
+    <!-- Chrome : linluwi -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="linluwi" />
+    <!-- Firefox : soweli -->
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.fenix.HomeActivity}" drawable="soweli" />
+    <!-- Firefox : soweli -->
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="soweli" />
+    <!-- Gmail : lipu -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="lipu" />
+    <!-- Maps : ma -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="ma" />
+    <!-- Amazon : esun pona -->
+    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="esun_pona" />
+    <!-- Google Wallet : mani -->
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}" drawable="mani" />
+    <!-- Google Fit : sijelo -->
+    <item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="sijelo" />
+    <!-- Google Home : tomo -->
+    <item component="ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity}" drawable="tomo" />
+    <!-- YouTube : sitelen tawa -->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="sitelen_en_tawa" />
+    <!-- YouTube Music : kalama musi -->
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="kalama_musi" />
+    <!-- Spotify : kalama -->
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="kalama" />
+    <!-- Netflix : musi -->
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="musi" />
+    <!-- TikTok : tawa musi -->
+    <item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tawa_musi" />
+    <!-- WhatsApp : toki -->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="toki" />
+    <!-- Telegram : tawa -->
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="tawa" />
+    <!-- Telegram : tawa -->
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="tawa" />
+    <!-- Telegram : tawa -->
+    <item component="ComponentInfo{com.amanoteam.flonne/org.telegram.messenger.NoxIcon}" drawable="tawa" />
+    <!-- Signal : toki len -->
+    <item component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}" drawable="toki_en_len" />
+    <!-- X / Twitter : waso -->
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="waso" />
+    <!-- X / Twitter : waso -->
+    <item component="ComponentInfo{com.twitter.android/com.x.android.main.MainActivity}" drawable="waso" />
+    <!-- Instagram : sitelen kule -->
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="sitelen_en_kule" />
+    <!-- Facebook : kulupu -->
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="kulupu" />
+    <!-- Snapchat : kon -->
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="kon" />
+    <!-- Discord : toki kulupu -->
+    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="toki_en_kulupu" />
+    <!-- Discord : toki kulupu -->
+    <item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="toki_en_kulupu" />
+    <!-- Reddit : lipu kulupu -->
+    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.main.MainActivity}" drawable="lipu_en_kulupu" />
+    <!-- Reddit : lipu kulupu -->
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="lipu_en_kulupu" />
+    <!-- LinkedIn : pali -->
+    <item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}" drawable="pali" />
+    <!-- LinkedIn : pali -->
+    <item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault}" drawable="pali" />
+    <!-- Wikipedia : sona -->
+    <item component="ComponentInfo{org.wikipedia/org.wikipedia.main.MainActivity}" drawable="sona" />
+    <!-- Duolingo : kama sona -->
+    <item component="ComponentInfo{com.duolingo/com.duolingo.app.LoginActivity}" drawable="kama_sona" />
+    <!-- Termux : ilo nanpa -->
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="ilo_nanpa" />
+    <!-- Toki Pona Icon Pack : toki pona -->
+    <item component="ComponentInfo{com.pepesantos.tokiponaiconpack/com.pepesantos.tokiponaiconpack.MainActivity}" drawable="toki_en_pona" />
+    <!-- Scontrino : lipu mani -->
+    <item component="ComponentInfo{com.pepesantos.scontrino/com.pepesantos.scontrino.MainActivity}" drawable="lipu_en_mani" />
+    <!-- Brújula : nasin -->
+    <item component="ComponentInfo{app.chompass/app.chompass.LauncherGraphite}" drawable="nasin" />
+    <!-- Organic Maps : ma kasi -->
+    <item component="ComponentInfo{app.organicmaps/app.organicmaps.DownloadResourcesActivity}" drawable="ma_kasi" />
+    <!-- Pro Launcher : tomo ilo -->
+    <item component="ComponentInfo{app.prolauncher/app.prolauncher.compose.ui.ComposeMainActivity}" drawable="tomo_en_ilo" />
+    <!-- Bitpit Launcher : tomo nanpa -->
+    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.ui.HomeActivity}" drawable="tomo_en_nanpa" />
+    <!-- Minimal Detox Launcher : tomo lili -->
+    <item component="ComponentInfo{com.minimaa.minimal.detox.launcher/com.minimaa.minimal.detox.launcher.MainActivity}" drawable="tomo_en_lili" />
+    <!-- Proton Mail : lipu len -->
+    <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingActivity}" drawable="lipu_en_len" />
+    <!-- Tuta Mail : lipu awen -->
+    <item component="ComponentInfo{de.tutao.tutanota/de.tutao.tutanota.MainActivity}" drawable="lipu_en_awen" />
+    <!-- Proton Drive : poki len -->
+    <item component="ComponentInfo{me.proton.android.drive/me.proton.android.drive.ui.MainActivity}" drawable="poki_en_len" />
+    <!-- Proton Pass : nimi len -->
+    <item component="ComponentInfo{proton.android.pass/proton.android.pass.ui.MainActivity}" drawable="nimi_en_len" />
+    <!-- Proton Authenticator : nanpa len -->
+    <item component="ComponentInfo{proton.android.authenticator/proton.android.authenticator.app.ui.MainActivity}" drawable="nanpa_en_len" />
+    <!-- Bring! : lipu esun -->
+    <item component="ComponentInfo{ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity}" drawable="lipu_en_esun" />
+    <!-- AliExpress : esun ilo -->
+    <item component="ComponentInfo{com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity}" drawable="esun_ilo" />
+    <!-- Vinted : esun len -->
+    <item component="ComponentInfo{fr.vinted/com.vinted.feature.shell.MDActivity}" drawable="esun_len" />
+    <!-- zooplus : esun soweli -->
+    <item component="ComponentInfo{de.zooplus/de.zooplus.lib.catdog1}" drawable="esun_soweli" />
+    <!-- Carrefour : tomo esun -->
+    <item component="ComponentInfo{it.carrefour.mycarrefour/it.carrefour.mycarrefour.MainActivity}" drawable="tomo_en_esun" />
+    <!-- Banco Guayaquil : tomo mani -->
+    <item component="ComponentInfo{com.bancodeguayaquil/com.bancodeguayaquil.MainActivity}" drawable="tomo_en_mani" />
+    <!-- Revolut : mani sin -->
+    <item component="ComponentInfo{com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity}" drawable="mani_en_sin" />
+    <!-- Satispay : pana mani -->
+    <item component="ComponentInfo{com.satispay.customer/com.satispay.customer.main.SplashActivity}" drawable="pana_mani" />
+    <!-- Kraken Pay : mani tawa -->
+    <item component="ComponentInfo{com.kraken.pay.app/com.kraken.pay.app.MainActivity}" drawable="mani_en_tawa" />
+    <!-- Kraken : esun mani -->
+    <item component="ComponentInfo{com.kraken.trade/com.kraken.trade.MainActivity}" drawable="esun_mani" />
+    <!-- FOSS Wallet : poki lipu -->
+    <item component="ComponentInfo{nz.eloque.foss_wallet/nz.eloque.foss_wallet.MainActivity}" drawable="poki_en_lipu" />
+    <!-- Casio Watches : tenpo luka -->
+    <item component="ComponentInfo{com.casio.wac_app/com.casio.wac_app.MainActivityDefault}" drawable="tenpo_luka" />
+    <!-- Arcticons : sitelen lili -->
+    <item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.MainActivity}" drawable="sitelen_en_lili" />
+    <!-- DuckDuckGo : waso alasa -->
+    <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="waso_alasa" />
+    <!-- My Fairphone : ilo pona -->
+    <item component="ComponentInfo{com.fairphone.myfairphone/com.fairphone.presentation.ui.activity.MainActivity}" drawable="ilo_pona" />
+    <!-- DankChat : toki musi -->
+    <item component="ComponentInfo{com.flxrs.dankchat/com.flxrs.dankchat.ui.main.MainActivity}" drawable="toki_en_musi" />
+    <!-- Twitch : sitelen musi -->
+    <item component="ComponentInfo{tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity}" drawable="sitelen_en_musi" />
+    <!-- Kick : lukin musi -->
+    <item component="ComponentInfo{com.kick.mobile/com.kick.mobile.MainActivity}" drawable="lukin_musi" />
+    <!-- GitHub : pali kulupu -->
+    <item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="pali_kulupu" />
+    <!-- Omio : tawa ma -->
+    <item component="ComponentInfo{com.goeuro.rosie/com.goeuro.rosie.app.TopLevelActivity}" drawable="tawa_ma" />
+    <!-- 17TRACK : poki tawa -->
+    <item component="ComponentInfo{yqtrack.app/yqtrack.app.MainActivity}" drawable="poki_en_tawa" />
+    <!-- Safety Hub : awen -->
+    <item component="ComponentInfo{com.google.android.apps.safetyhub/com.google.android.apps.safetyhub.LauncherActivity}" drawable="awen" />
+    <!-- Google Meet : toki lukin -->
+    <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="toki_en_lukin" />
+    <!-- Healthy Dining (veg) : moku kasi -->
+    <item component="ComponentInfo{com.hcceg.veg.compassionfree/com.sisow.hcvg.healthydiningguide.app.splash.ui.SplashScreenActivity}" drawable="moku_kasi" />
+    <!-- Yuka : moku pona -->
+    <item component="ComponentInfo{io.yuka.android/io.yuka.android.main.RootActivity}" drawable="moku_pona" />
+    <!-- HelloChinese : sona toki -->
+    <item component="ComponentInfo{com.hellochinese/com.hellochinese.ui.SplashActivity}" drawable="sona_en_toki" />
+    <!-- HerePrint : ilo lipu -->
+    <item component="ComponentInfo{com.hprt.hereprint/com.poooli.wonderfulprinter.activity.WelcomeActivity}" drawable="ilo_lipu" />
+    <!-- Minimal To-Do : lipu pali -->
+    <item component="ComponentInfo{com.minimalisttodolist.pleasebethelastrecyclerview/com.minimalisttodolist.pleasebethelastrecyclerview.MainActivity}" drawable="lipu_en_pali" />
+    <!-- Balatro : musi lipu -->
+    <item component="ComponentInfo{com.playstack.balatro.android/org.love2d.android.PlatformActivity}" drawable="musi_en_lipu" />
+    <!-- Feelfit : ilo sijelo -->
+    <item component="ComponentInfo{com.qingniu.feelfit/com.qingniu.oversea.launcher.LauncherActivity}" drawable="ilo_sijelo" />
+    <!-- Termius : ilo linja -->
+    <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity}" drawable="ilo_linja" />
+    <!-- Teclados : ilo nimi -->
+    <item component="ComponentInfo{com.tavultesoft.kmapro/com.tavultesoft.kmapro.SplashScreenActivity}" drawable="ilo_nimi" />
+    <!-- Teclados : ilo nimi -->
+    <item component="ComponentInfo{com.wasimaster.wmkeyboard/com.wasimaster.wmkeyboard.app.LauncherFullName}" drawable="ilo_nimi" />
+    <!-- Teclados : ilo nimi -->
+    <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Grey_black}" drawable="ilo_nimi" />
+    <!-- Smart Life : ilo tomo -->
+    <item component="ComponentInfo{com.tuya.smartlife/com.smart.ThingSplashActivity}" drawable="ilo_tomo" />
+    <!-- MyUniTO : tomo sona -->
+    <item component="ComponentInfo{it.cineca.app.MyUniTOPlus/it.cineca.app.MyUniTOPlus.MainActivity}" drawable="tomo_en_sona" />
+    <!-- Iliad : linja toki -->
+    <item component="ComponentInfo{it.iliad/it.iliad.presentation.MainActivity}" drawable="linja_toki" />
+    <!-- Iren : wawa -->
+    <item component="ComponentInfo{it.irenyou.app/it.irenyou.app.MainActivity}" drawable="wawa" />
+    <!-- Sudoku : musi nanpa -->
+    <item component="ComponentInfo{ee.dustland.android.dustlandsudoku/ee.dustland.android.dustlandsudoku.SudokuHostActivity}" drawable="musi_en_nanpa" />
+    <!-- Lichess : musi utala -->
+    <item component="ComponentInfo{org.lichess.mobileV2/org.lichess.mobileV2.MainActivity}" drawable="musi_en_utala" />
+    <!-- KOReader : lipu sona -->
+    <item component="ComponentInfo{org.koreader.launcher.fdroid/org.koreader.launcher.MainActivity}" drawable="lipu_en_sona" />
+    <!-- Jupyter : lipu nanpa -->
+    <item component="ComponentInfo{org.termuxstudio.jupyternotebook/org.termuxstudio.jupyternotebook.MainActivity}" drawable="lipu_en_nanpa" />
+    <!-- Fossify Thank You : pona -->
+    <item component="ComponentInfo{org.fossify.thankyou/org.fossify.thankyou.activities.SplashActivity.Grey_black}" drawable="pona" />
+    <!-- Warpinator : pana -->
+    <item component="ComponentInfo{slowscript.warpinator/slowscript.warpinator.MainActivity}" drawable="pana" />
+    <!-- OpenWeather : suno -->
+    <item component="ComponentInfo{uk.co.openweather/uk.co.openweather.MainActivity}" drawable="suno" />
+    <!-- Bluesky : waso laso -->
+    <item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="waso_laso" />
+    <!-- MyFastweb : mani+linluwi -->
+    <item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivity}" drawable="mani_en_linluwi" />
+    <!-- Claude : lawa^powe -->
+    <item component="ComponentInfo{com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity}" drawable="lawa_powe" />
+    <!-- F-Droid : kama ilo -->
+    <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="kama_ilo" />
+    <!-- Play Store : kama ilo -->
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="kama_ilo" />
+    <!-- TO move : tomo tawa -->
+    <item component="ComponentInfo{it.to.gtt.tomove/it.fivet.gttmobile.splash.Splash2Activity}" drawable="tomo_en_tawa" />
+    <!-- AntennaPod : jan+toki -->
+    <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity}" drawable="jan_en_toki" />
+    <!-- iVoox : jan+toki -->
+    <item component="ComponentInfo{com.ivoox.app/com.ivoox.app.ui.login.activity.LoginMainActivity}" drawable="jan_en_toki" />
+    <!-- Accordatore Cromatico : pona^kalama -->
+    <item component="ComponentInfo{com.megaj.tunermain/com.megaj.tunermain.MainActivity}" drawable="pona_kalama" />
+</resources>
