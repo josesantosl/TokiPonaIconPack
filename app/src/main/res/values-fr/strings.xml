@@ -1,0 +1,57 @@
+<resources>
+    <string name="how_to_apply">Pour utiliser le pack d’icônes complet : réglages de votre launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Apparence → Pack d’icônes → Toki Pona Icon Pack.\n\nGlyphes : police nasin-nanpa de jan Itan (licence MIT). Touchez ici ou « Crédits » pour voir la licence complète.</string>
+
+    <string name="credits">Crédits</string>
+    <string name="credits_title">Crédits et licences</string>
+    <string name="credits_body">Tous les glyphes de sitelen pona de cette app et du pack d’icônes sont dessinés avec la police nasin-nanpa, créée par jan Itan.</string>
+    <string name="credits_license_note">La licence de la police est affichée dans sa langue d’origine (anglais).</string>
+
+    <string name="expr_invalid">nasin-nanpa ne reconnaît pas ce mot ou ce composé</string>
+    <string name="label_foreground">kule sitelen (glyphe)</string>
+    <string name="label_background">kule monsi (fond)</string>
+    <string name="thickness">suli linja (épaisseur) : %1$s</string>
+    <string name="thickness_original">originale</string>
+    <string name="thickness_thin">fine</string>
+
+    <string name="save">Enregistrer</string>
+    <string name="export_svg">Exporter en SVG</string>
+    <string name="export_png">Exporter en PNG</string>
+    <string name="shortcut">Raccourci…</string>
+    <string name="assign_to_app">Attribuer à une app…</string>
+
+    <plurals name="missing_count">
+        <item quantity="one">%d app sans icône dans le pack</item>
+        <item quantity="many">%d apps sans icône dans le pack</item>
+        <item quantity="other">%d apps sans icône dans le pack</item>
+    </plurals>
+    <string name="missing_tap">Touchez pour voir les suggestions et les attribuer</string>
+
+    <string name="saved_empty">nimi sina : vous n’en avez encore enregistré aucun</string>
+    <string name="assignments_title">attributions pour le pack</string>
+    <string name="assignments_hint">Elles sont ajoutées au pack d’icônes en lançant tools/sync_from_phone.sh sur le PC.</string>
+
+    <string name="picker_question_shortcut">Quelle app ouvre « %1$s » ?</string>
+    <string name="picker_question_assign">À quelle app attribuer « %1$s » dans le pack ?</string>
+    <string name="search">alasa (rechercher)</string>
+
+    <string name="icon_picker_title">Choisir une icône</string>
+    <string name="cancel">Annuler</string>
+    <string name="saved_in_app_header">nimi sina (enregistrés dans l’app)</string>
+
+    <string name="missing_title">ilo sin sitelen (apps sans icône)</string>
+    <string name="missing_none">Toutes vos apps ont une icône dans le pack ou une attribution en attente. pona !</string>
+    <string name="missing_hint">Vérifiez les suggestions, modifiez-les si vous voulez et attribuez-les. Elles sont ajoutées au pack en lançant tools/sync_from_phone.sh.</string>
+    <string name="assign_all">Tout attribuer (%d)</string>
+
+    <string name="msg_saved">Enregistré : %1$s</string>
+    <string name="msg_exported">Exporté en %1$s</string>
+    <string name="msg_export_failed">Impossible d’exporter</string>
+    <string name="msg_assigned">« %1$s » → %2$s. Sera inclus lors de la synchronisation du pack.</string>
+    <plurals name="msg_assigned_many">
+        <item quantity="one">%d app attribuée. Elle sera incluse lors de la synchronisation du pack.</item>
+        <item quantity="many">%d apps attribuées. Elles seront incluses lors de la synchronisation du pack.</item>
+        <item quantity="other">%d apps attribuées. Elles seront incluses lors de la synchronisation du pack.</item>
+    </plurals>
+    <string name="msg_pin_confirm">Confirmez dans votre launcher pour ajouter « %1$s » avec %2$s</string>
+    <string name="msg_pin_unsupported">Votre launcher ne permet pas d’épingler des raccourcis</string>
+</resources>

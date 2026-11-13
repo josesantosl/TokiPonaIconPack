@@ -27,7 +27,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.pepesantos.tokiponaiconpack.R
 import com.pepesantos.tokiponaiconpack.data.LaunchableApp
 
 /**
@@ -52,25 +54,24 @@ fun MissingAppsSheet(
             .padding(horizontal = 16.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        Text("ilo sin sitelen (apps sin icono)", style = MaterialTheme.typography.titleMedium)
+        Text(stringResource(R.string.missing_title), style = MaterialTheme.typography.titleMedium)
         if (missing.isEmpty()) {
             Text(
-                "Todas tus apps tienen icono en el pack o una asignación pendiente. pona!",
+                stringResource(R.string.missing_none),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(vertical = 24.dp),
             )
             return@Column
         }
         Text(
-            "Revisa las sugerencias, cámbialas si quieres y asígnalas. " +
-                "Entran al pack al ejecutar tools/sync_from_phone.sh.",
+            stringResource(R.string.missing_hint),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
         Button(
             onClick = { vm.assignAll(missing.map { it to choiceFor(it) }) },
             modifier = Modifier.fillMaxWidth(),
-        ) { Text("Asignar todas (${missing.size})") }
+        ) { Text(stringResource(R.string.assign_all, missing.size)) }
 
         LazyColumn {
             items(missing, key = { it.component.flattenToString() }) { app ->

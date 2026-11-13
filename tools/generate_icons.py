@@ -23,6 +23,7 @@ Uso:
 """
 import argparse
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -216,10 +217,21 @@ DEVICE_EXPORT = "tokipona_export.json"   # lo escribe la app (data/AssignmentsSt
 
 def pull_from_device(dest: Path):
     """Copia por ADB el archivo con las asignaciones y palabras guardadas en la app."""
-    adb = shutil.which("adb") or str(Path.home() / "Android/Sdk/platform-tools/adb")
+    adb = [shutil.which("adb") or str(Path.home() / "Android/Sdk/platform-tools/adb")]
+    # Con varias conexiones (p. ej. el mismo teléfono por USB y por wifi) adb exige elegir una:
+    # se usa ANDROID_SERIAL si está definida y, si no, la primera conexión disponible.
+    if not os.environ.get("ANDROID_SERIAL"):
+        try:
+            out = subprocess.run(adb + ["devices"], capture_output=True, text=True, timeout=15).stdout
+        except (OSError, subprocess.TimeoutExpired):
+            out = ""
+        serials = [l.split("\t")[0] for l in out.splitlines()[1:] if l.endswith("\tdevice")]
+        if len(serials) > 1:
+            print(f"Varias conexiones ADB; uso {serials[0]} (elige otra con ANDROID_SERIAL=...)")
+            adb += ["-s", serials[0]]
     attempts = [
-        [adb, "exec-out", "run-as", APP_PACKAGE, "cat", f"files/{DEVICE_EXPORT}"],   # build debug
-        [adb, "exec-out", "cat", f"/sdcard/Android/data/{APP_PACKAGE}/files/{DEVICE_EXPORT}"],
+        adb + ["exec-out", "run-as", APP_PACKAGE, "cat", f"files/{DEVICE_EXPORT}"],   # build debug
+        adb + ["exec-out", "cat", f"/sdcard/Android/data/{APP_PACKAGE}/files/{DEVICE_EXPORT}"],
     ]
     for cmd in attempts:
         try:

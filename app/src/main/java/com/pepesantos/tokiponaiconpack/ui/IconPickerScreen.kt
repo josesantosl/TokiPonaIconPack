@@ -34,6 +34,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import com.pepesantos.tokiponaiconpack.R
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -59,12 +61,13 @@ fun IconPickerScreen(
     val wordsStore = remember { SavedWordsStore(context) }
     val saved by wordsStore.words.collectAsStateWithLifecycle()
     val categories = remember { PackIcons.load(context) }
+    val savedHeader = stringResource(R.string.saved_in_app_header)
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Elige un icono") },
-                actions = { TextButton(onClick = onCancel) { Text("Cancelar") } },
+                title = { Text(stringResource(R.string.icon_picker_title)) },
+                actions = { TextButton(onClick = onCancel) { Text(stringResource(R.string.cancel)) } },
             )
         },
     ) { padding ->
@@ -81,7 +84,7 @@ fun IconPickerScreen(
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             if (saved.isNotEmpty()) {
-                header("nimi sina (guardadas en la app)", key = "saved")
+                header(savedHeader, key = "saved")
                 items(saved, key = { "saved:$it" }) { word ->
                     Tile(label = word, onClick = {
                         renderer.renderBitmap(word, IconPickerActivity.RESULT_PX, style)?.let(onPickBitmap)

@@ -58,6 +58,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
@@ -96,7 +97,7 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
         topBar = {
             TopAppBar(
                 title = { Text("sitelen pona") },
-                actions = { TextButton(onClick = { showCredits = true }) { Text("Créditos") } },
+                actions = { TextButton(onClick = { showCredits = true }) { Text(stringResource(R.string.credits)) } },
             )
         },
         snackbarHost = { SnackbarHost(snackbar) },
@@ -138,7 +139,7 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                         supportingText = {
                             Text(
                                 if (vm.expr.isNotBlank() && !vm.isValid) {
-                                    "nasin-nanpa no reconoce esta palabra o este compuesto"
+                                    stringResource(R.string.expr_invalid)
                                 } else {
                                     "toki · ilo tenpo · poki+sewi1 · ilo^toki"
                                 }
@@ -152,14 +153,17 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                         modifier = Modifier.fillMaxWidth(),
                     )
 
-                    SwatchRow("kule sitelen (glifo)", ForegroundSwatches, vm.foreground, vm::selectForeground)
-                    SwatchRow("kule monsi (fondo)", BackgroundSwatches, vm.background, vm::selectBackground)
+                    SwatchRow(stringResource(R.string.label_foreground), ForegroundSwatches, vm.foreground, vm::selectForeground)
+                    SwatchRow(stringResource(R.string.label_background), BackgroundSwatches, vm.background, vm::selectBackground)
 
                     Column {
                         // El trazo de nasin-nanpa mide ~100 unidades; se quitan `thin` por cada lado.
                         val percent = (100 - 2 * vm.thin).roundToInt()
                         Text(
-                            "suli linja (grosor): " + if (vm.thin < 0.5f) "original" else "$percent%",
+                            stringResource(
+                                R.string.thickness,
+                                if (vm.thin < 0.5f) stringResource(R.string.thickness_original) else "$percent%",
+                            ),
                             style = MaterialTheme.typography.labelLarge,
                         )
                         // Izquierda = fino, derecha = grosor original de la fuente.
@@ -170,8 +174,8 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                             valueRange = 0f..GlyphStyle.MAX_THIN,
                         )
                         Row {
-                            Text("fino", style = MaterialTheme.typography.labelSmall, modifier = Modifier.weight(1f))
-                            Text("original", style = MaterialTheme.typography.labelSmall)
+                            Text(stringResource(R.string.thickness_thin), style = MaterialTheme.typography.labelSmall, modifier = Modifier.weight(1f))
+                            Text(stringResource(R.string.thickness_original), style = MaterialTheme.typography.labelSmall)
                         }
                     }
 
@@ -179,23 +183,23 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                         horizontalArrangement = Arrangement.spacedBy(8.dp),
                         verticalArrangement = Arrangement.spacedBy(8.dp),
                     ) {
-                        Button(onClick = vm::save, enabled = vm.isValid) { Text("Guardar") }
+                        Button(onClick = vm::save, enabled = vm.isValid) { Text(stringResource(R.string.save)) }
                         OutlinedButton(
                             onClick = { exportSvg.launch(vm.suggestedFileName(ExportFormat.SVG)) },
                             enabled = vm.isValid,
-                        ) { Text("Exportar SVG") }
+                        ) { Text(stringResource(R.string.export_svg)) }
                         OutlinedButton(
                             onClick = { exportPng.launch(vm.suggestedFileName(ExportFormat.PNG)) },
                             enabled = vm.isValid,
-                        ) { Text("Exportar PNG") }
+                        ) { Text(stringResource(R.string.export_png)) }
                         OutlinedButton(
                             onClick = { vm.loadApps(); pickerMode = PickerMode.SHORTCUT },
                             enabled = vm.isValid && vm.canPinShortcuts(),
-                        ) { Text("Acceso directo…") }
+                        ) { Text(stringResource(R.string.shortcut)) }
                         OutlinedButton(
                             onClick = { vm.loadApps(); pickerMode = PickerMode.ASSIGN },
                             enabled = vm.isValid,
-                        ) { Text("Asignar a app…") }
+                        ) { Text(stringResource(R.string.assign_to_app)) }
                     }
 
                     if (missing != null && missing.isNotEmpty()) {
@@ -206,11 +210,11 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                         ) {
                             Column(Modifier.padding(16.dp)) {
                                 Text(
-                                    "${missing.size} apps sin icono en el pack",
+                                    pluralStringResource(R.plurals.missing_count, missing.size, missing.size),
                                     style = MaterialTheme.typography.titleSmall,
                                 )
                                 Text(
-                                    "Toca para ver sugerencias y asignarlas",
+                                    stringResource(R.string.missing_tap),
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 )
@@ -219,7 +223,7 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                     }
 
                     Text(
-                        if (saved.isEmpty()) "nimi sina: aún no has guardado ninguna" else "nimi sina",
+                        if (saved.isEmpty()) stringResource(R.string.saved_empty) else "nimi sina",
                         style = MaterialTheme.typography.titleMedium,
                     )
                 }
@@ -232,9 +236,9 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
             if (assignments.isNotEmpty()) {
                 item(span = { GridItemSpan(maxLineSpan) }) {
                     Column(Modifier.padding(top = 8.dp)) {
-                        Text("asignaciones para el pack", style = MaterialTheme.typography.titleMedium)
+                        Text(stringResource(R.string.assignments_title), style = MaterialTheme.typography.titleMedium)
                         Text(
-                            "Se incluyen en el icon pack al ejecutar tools/sync_from_phone.sh en el PC.",
+                            stringResource(R.string.assignments_hint),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -304,8 +308,8 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                         )
                         Text(
                             when (mode) {
-                                PickerMode.SHORTCUT -> "¿Qué app abre «${vm.expr.trim()}»?"
-                                PickerMode.ASSIGN -> "¿A qué app le pongo «${vm.expr.trim()}» en el pack?"
+                                PickerMode.SHORTCUT -> stringResource(R.string.picker_question_shortcut, vm.expr.trim())
+                                PickerMode.ASSIGN -> stringResource(R.string.picker_question_assign, vm.expr.trim())
                             },
                             style = MaterialTheme.typography.titleMedium,
                         )
@@ -343,7 +347,7 @@ private fun AppPicker(
         OutlinedTextField(
             value = query,
             onValueChange = { query = it },
-            label = { Text("alasa (buscar)") },
+            label = { Text(stringResource(R.string.search)) },
             singleLine = true,
             modifier = Modifier.fillMaxWidth(),
         )

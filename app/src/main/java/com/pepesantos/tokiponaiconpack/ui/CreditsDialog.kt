@@ -14,7 +14,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
+import com.pepesantos.tokiponaiconpack.R
 import androidx.compose.ui.unit.dp
 
 private const val FONT_REPO = "https://github.com/ETBCOR/nasin-nanpa"
@@ -32,7 +34,7 @@ fun CreditsDialog(onDismiss: () -> Unit) {
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Créditos y licencias") },
+        title = { Text(stringResource(R.string.credits_title)) },
         text = {
             Column(
                 Modifier
@@ -40,14 +42,15 @@ fun CreditsDialog(onDismiss: () -> Unit) {
                     .verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(12.dp),
             ) {
-                Text(
-                    "Todos los glifos de sitelen pona de esta app y del icon pack se dibujan con " +
-                        "la fuente nasin-nanpa, creada por jan Itan.",
-                    style = MaterialTheme.typography.bodyMedium,
-                )
+                Text(stringResource(R.string.credits_body), style = MaterialTheme.typography.bodyMedium)
                 TextButton(onClick = { uriHandler.openUri(FONT_REPO) }) {
                     Text("github.com/ETBCOR/nasin-nanpa")
                 }
+                // La licencia de jan Itan se muestra siempre literal, en inglés.
+                Text(
+                    stringResource(R.string.credits_license_note),
+                    style = MaterialTheme.typography.bodySmall,
+                )
                 Text(
                     license,
                     style = MaterialTheme.typography.bodySmall.copy(fontFamily = FontFamily.Monospace),

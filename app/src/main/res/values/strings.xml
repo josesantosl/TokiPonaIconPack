@@ -1,4 +1,58 @@
 <resources>
-    <string name="app_name">Toki Pona Icon Pack</string>
-    <string name="how_to_apply">Para usar el icon pack completo: ajustes de tu launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Apariencia → Paquete de iconos → Toki Pona Icon Pack.\n\nGlifos: fuente nasin-nanpa de jan Itan (licencia MIT). Toca aquí o en «Créditos» para ver la licencia completa.</string>
+    <!-- Idioma por defecto: inglés. Traducciones en values-es, values-fr, values-eo.
+         Las etiquetas en toki pona (nimi, kule sitelen, nimi sina…) no se traducen. -->
+    <string name="app_name" translatable="false">Toki Pona Icon Pack</string>
+    <string name="how_to_apply">To use the full icon pack: your launcher settings (Nova, Lawnchair, Niagara, Smart Launcher…) → Appearance → Icon pack → Toki Pona Icon Pack.\n\nGlyphs: nasin-nanpa font by jan Itan (MIT license). Tap here or “Credits” to see the full license.</string>
+
+    <string name="credits">Credits</string>
+    <string name="credits_title">Credits and licenses</string>
+    <string name="credits_body">All sitelen pona glyphs in this app and in the icon pack are drawn with the nasin-nanpa font, created by jan Itan.</string>
+    <string name="credits_license_note">The font license is shown in its original language (English).</string>
+
+    <string name="expr_invalid">nasin-nanpa doesn’t recognize this word or compound</string>
+    <string name="label_foreground">kule sitelen (glyph)</string>
+    <string name="label_background">kule monsi (background)</string>
+    <string name="thickness">suli linja (thickness): %1$s</string>
+    <string name="thickness_original">original</string>
+    <string name="thickness_thin">thin</string>
+
+    <string name="save">Save</string>
+    <string name="export_svg">Export SVG</string>
+    <string name="export_png">Export PNG</string>
+    <string name="shortcut">Shortcut…</string>
+    <string name="assign_to_app">Assign to app…</string>
+
+    <plurals name="missing_count">
+        <item quantity="one">%d app without an icon in the pack</item>
+        <item quantity="other">%d apps without an icon in the pack</item>
+    </plurals>
+    <string name="missing_tap">Tap to see suggestions and assign them</string>
+
+    <string name="saved_empty">nimi sina: you haven’t saved any yet</string>
+    <string name="assignments_title">assignments for the pack</string>
+    <string name="assignments_hint">They are added to the icon pack when you run tools/sync_from_phone.sh on the PC.</string>
+
+    <string name="picker_question_shortcut">Which app does “%1$s” open?</string>
+    <string name="picker_question_assign">Which app gets “%1$s” in the pack?</string>
+    <string name="search">alasa (search)</string>
+
+    <string name="icon_picker_title">Choose an icon</string>
+    <string name="cancel">Cancel</string>
+    <string name="saved_in_app_header">nimi sina (saved in the app)</string>
+
+    <string name="missing_title">ilo sin sitelen (apps without an icon)</string>
+    <string name="missing_none">All your apps have an icon in the pack or a pending assignment. pona!</string>
+    <string name="missing_hint">Review the suggestions, change them if you like and assign them. They are added to the pack when you run tools/sync_from_phone.sh.</string>
+    <string name="assign_all">Assign all (%d)</string>
+
+    <string name="msg_saved">Saved: %1$s</string>
+    <string name="msg_exported">Exported %1$s</string>
+    <string name="msg_export_failed">Couldn’t export</string>
+    <string name="msg_assigned">“%1$s” → %2$s. It will be included when you sync the pack.</string>
+    <plurals name="msg_assigned_many">
+        <item quantity="one">%d app assigned. It will be included when you sync the pack.</item>
+        <item quantity="other">%d apps assigned. They will be included when you sync the pack.</item>
+    </plurals>
+    <string name="msg_pin_confirm">Confirm in your launcher to add “%1$s” with %2$s</string>
+    <string name="msg_pin_unsupported">Your launcher doesn’t allow pinning shortcuts</string>
 </resources>

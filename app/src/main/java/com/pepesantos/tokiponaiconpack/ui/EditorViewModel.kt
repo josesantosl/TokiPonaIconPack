@@ -3,7 +3,9 @@ package com.pepesantos.tokiponaiconpack.ui
 import android.app.Application
 import android.graphics.Bitmap
 import android.net.Uri
+import androidx.annotation.StringRes
 import androidx.compose.runtime.getValue
+import com.pepesantos.tokiponaiconpack.R
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
@@ -118,7 +120,7 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
     fun save() {
         if (!isValid) return
         words.add(expr)
-        _messages.trySend("Guardado: ${expr.trim()}")
+        _messages.trySend(str(R.string.msg_saved, expr.trim()))
     }
 
     fun load(saved: String) {
@@ -150,7 +152,10 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
                     }
                 }.isSuccess
             }
-            _messages.send(if (ok) "Exportado ${format.extension.uppercase()}" else "No se pudo exportar")
+            _messages.send(
+                if (ok) str(R.string.msg_exported, format.extension.uppercase())
+                else str(R.string.msg_export_failed)
+            )
         }
     }
 
@@ -192,7 +197,10 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
     fun assignAll(choices: List<Pair<LaunchableApp, String>>) {
         val valid = choices.filter { (_, g) -> renderer.isValid(g) }
         valid.forEach { (app, g) -> assign(app, g) }
-        _messages.trySend("${valid.size} apps asignadas. Se incluirán al sincronizar el pack.")
+        _messages.trySend(
+            getApplication<Application>().resources
+                .getQuantityString(R.plurals.msg_assigned_many, valid.size, valid.size)
+        )
     }
 
     // ---- Asignaciones para el icon pack --------------------------------------
@@ -200,7 +208,7 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
     fun assignToApp(app: LaunchableApp) {
         if (!isValid) return
         assignmentsStore.assign(Assignment(app.component.flattenToString(), app.label, expr.trim()))
-        _messages.trySend("«${app.label}» → ${expr.trim()}. Se incluirá al sincronizar el pack.")
+        _messages.trySend(str(R.string.msg_assigned, app.label, expr.trim()))
     }
 
     fun removeAssignment(a: Assignment) = assignmentsStore.remove(a.component)
@@ -208,8 +216,8 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
     fun pinShortcut(app: LaunchableApp) {
         val ok = Shortcuts.requestPin(getApplication(), renderer, expr, style, app)
         _messages.trySend(
-            if (ok) "Confirma en tu launcher para añadir «${app.label}» con ${expr.trim()}"
-            else "Tu launcher no permite anclar accesos directos"
+            if (ok) str(R.string.msg_pin_confirm, app.label, expr.trim())
+            else str(R.string.msg_pin_unsupported)
         )
     }
 
@@ -218,6 +226,10 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
     init {
         loadApps()
     }
+
+    /** Texto traducido según el idioma actual de la app. */
+    private fun str(@StringRes id: Int, vararg args: Any): String =
+        getApplication<Application>().getString(id, *args)
 
     private companion object {
         const val PNG_SIZE = 512

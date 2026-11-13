@@ -1,0 +1,55 @@
+<resources>
+    <string name="how_to_apply">Por uzi la tutan piktogramaron: agordoj de via lanĉilo (Nova, Lawnchair, Niagara, Smart Launcher…) → Aspekto → Piktogramaro → Toki Pona Icon Pack.\n\nGlifoj: tiparo nasin-nanpa de jan Itan (permesilo MIT). Tuŝu ĉi tie aŭ «Kreditoj» por vidi la tutan permesilon.</string>
+
+    <string name="credits">Kreditoj</string>
+    <string name="credits_title">Kreditoj kaj permesiloj</string>
+    <string name="credits_body">Ĉiuj glifoj de sitelen pona en ĉi tiu aplikaĵo kaj en la piktogramaro estas desegnitaj per la tiparo nasin-nanpa, kreita de jan Itan.</string>
+    <string name="credits_license_note">La permesilo de la tiparo estas montrata en sia originala lingvo (la angla).</string>
+
+    <string name="expr_invalid">nasin-nanpa ne rekonas ĉi tiun vorton aŭ kunmetaĵon</string>
+    <string name="label_foreground">kule sitelen (glifo)</string>
+    <string name="label_background">kule monsi (fono)</string>
+    <string name="thickness">suli linja (dikeco): %1$s</string>
+    <string name="thickness_original">originala</string>
+    <string name="thickness_thin">maldika</string>
+
+    <string name="save">Konservi</string>
+    <string name="export_svg">Eksporti SVG</string>
+    <string name="export_png">Eksporti PNG</string>
+    <string name="shortcut">Ŝparvojo…</string>
+    <string name="assign_to_app">Atribui al aplikaĵo…</string>
+
+    <plurals name="missing_count">
+        <item quantity="one">%d aplikaĵo sen piktogramo en la aro</item>
+        <item quantity="other">%d aplikaĵoj sen piktogramo en la aro</item>
+    </plurals>
+    <string name="missing_tap">Tuŝu por vidi proponojn kaj atribui ilin</string>
+
+    <string name="saved_empty">nimi sina: vi ankoraŭ konservis neniun</string>
+    <string name="assignments_title">atribuoj por la piktogramaro</string>
+    <string name="assignments_hint">Ili aldoniĝas al la piktogramaro kiam vi rulas tools/sync_from_phone.sh en la komputilo.</string>
+
+    <string name="picker_question_shortcut">Kiun aplikaĵon malfermas «%1$s»?</string>
+    <string name="picker_question_assign">Al kiu aplikaĵo atribui «%1$s» en la piktogramaro?</string>
+    <string name="search">alasa (serĉi)</string>
+
+    <string name="icon_picker_title">Elektu piktogramon</string>
+    <string name="cancel">Nuligi</string>
+    <string name="saved_in_app_header">nimi sina (konservitaj en la aplikaĵo)</string>
+
+    <string name="missing_title">ilo sin sitelen (aplikaĵoj sen piktogramo)</string>
+    <string name="missing_none">Ĉiuj viaj aplikaĵoj havas piktogramon en la aro aŭ atendantan atribuon. pona!</string>
+    <string name="missing_hint">Kontrolu la proponojn, ŝanĝu ilin se vi volas kaj atribuu ilin. Ili aldoniĝas al la aro kiam vi rulas tools/sync_from_phone.sh.</string>
+    <string name="assign_all">Atribui ĉiujn (%d)</string>
+
+    <string name="msg_saved">Konservita: %1$s</string>
+    <string name="msg_exported">Eksportita %1$s</string>
+    <string name="msg_export_failed">Ne eblis eksporti</string>
+    <string name="msg_assigned">«%1$s» → %2$s. Ĝi estos inkluzivita kiam vi sinkronigos la aron.</string>
+    <plurals name="msg_assigned_many">
+        <item quantity="one">%d aplikaĵo atribuita. Ĝi estos inkluzivita kiam vi sinkronigos la aron.</item>
+        <item quantity="other">%d aplikaĵoj atribuitaj. Ili estos inkluzivitaj kiam vi sinkronigos la aron.</item>
+    </plurals>
+    <string name="msg_pin_confirm">Konfirmu en via lanĉilo por aldoni «%1$s» kun %2$s</string>
+    <string name="msg_pin_unsupported">Via lanĉilo ne permesas alpingli ŝparvojojn</string>
+</resources>
