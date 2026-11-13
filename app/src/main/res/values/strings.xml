@@ -43,6 +43,7 @@
     <string name="missing_title">ilo sin sitelen (apps without an icon)</string>
     <string name="missing_none">All your apps have an icon in the pack or a pending assignment. pona!</string>
     <string name="missing_hint">Review the suggestions, change them if you like and assign them. They are added to the pack when you run tools/sync_from_phone.sh.</string>
+    <string name="missing_hint_shortcut">Review the suggestions, change them if you like, and tap ✓ to add a shortcut with that glyph to your home screen.</string>
     <string name="assign_all">Assign all (%d)</string>
 
     <string name="msg_saved">Saved: %1$s</string>

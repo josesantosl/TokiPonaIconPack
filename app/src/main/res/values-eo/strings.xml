@@ -40,6 +40,7 @@
     <string name="missing_title">ilo sin sitelen (aplikaĵoj sen piktogramo)</string>
     <string name="missing_none">Ĉiuj viaj aplikaĵoj havas piktogramon en la aro aŭ atendantan atribuon. pona!</string>
     <string name="missing_hint">Kontrolu la proponojn, ŝanĝu ilin se vi volas kaj atribuu ilin. Ili aldoniĝas al la aro kiam vi rulas tools/sync_from_phone.sh.</string>
+    <string name="missing_hint_shortcut">Kontrolu la proponojn, ŝanĝu ilin se vi volas, kaj tuŝu ✓ por aldoni al via hejmekrano ŝparvojon kun tiu glifo.</string>
     <string name="assign_all">Atribui ĉiujn (%d)</string>
 
     <string name="msg_saved">Konservita: %1$s</string>

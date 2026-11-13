@@ -41,6 +41,7 @@
     <string name="missing_title">ilo sin sitelen (apps sin icono)</string>
     <string name="missing_none">Todas tus apps tienen icono en el pack o una asignación pendiente. pona!</string>
     <string name="missing_hint">Revisa las sugerencias, cámbialas si quieres y asígnalas. Entran al pack al ejecutar tools/sync_from_phone.sh.</string>
+    <string name="missing_hint_shortcut">Revisa las sugerencias, cámbialas si quieres y toca ✓ para añadir a tu pantalla de inicio un acceso directo con ese glifo.</string>
     <string name="assign_all">Asignar todas (%d)</string>
 
     <string name="msg_saved">Guardado: %1$s</string>

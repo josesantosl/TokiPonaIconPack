@@ -33,6 +33,9 @@ android {
     }
     buildFeatures {
         compose = true
+        // BuildConfig.DEBUG separa las herramientas de desarrollo (asignar + sync por ADB)
+        // de la versión para la tienda.
+        buildConfig = true
     }
 }
 

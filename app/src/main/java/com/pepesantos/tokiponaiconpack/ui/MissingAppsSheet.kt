@@ -34,6 +34,9 @@ import com.pepesantos.tokiponaiconpack.data.LaunchableApp
 
 /**
  * Lista de apps instaladas sin icono en el pack, con un glifo sugerido editable para cada una.
+ *
+ * - Versión de la tienda: ✓ crea un acceso directo con ese glifo (funciona sin PC).
+ * - Debug ([devTools]): ✓ asigna el glifo para incluirlo en el pack con tools/sync_from_phone.sh.
  */
 @Composable
 fun MissingAppsSheet(
@@ -41,6 +44,7 @@ fun MissingAppsSheet(
     missing: List<LaunchableApp>,
     foreground: Color,
     background: Color,
+    devTools: Boolean,
 ) {
     // Glifos que el usuario editó; las demás apps usan la sugerencia.
     val edited = remember { mutableStateMapOf<String, String>() }
@@ -64,14 +68,16 @@ fun MissingAppsSheet(
             return@Column
         }
         Text(
-            stringResource(R.string.missing_hint),
+            stringResource(if (devTools) R.string.missing_hint else R.string.missing_hint_shortcut),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
-        Button(
-            onClick = { vm.assignAll(missing.map { it to choiceFor(it) }) },
-            modifier = Modifier.fillMaxWidth(),
-        ) { Text(stringResource(R.string.assign_all, missing.size)) }
+        if (devTools) {
+            Button(
+                onClick = { vm.assignAll(missing.map { it to choiceFor(it) }) },
+                modifier = Modifier.fillMaxWidth(),
+            ) { Text(stringResource(R.string.assign_all, missing.size)) }
+        }
 
         LazyColumn {
             items(missing, key = { it.component.flattenToString() }) { app ->
@@ -112,7 +118,10 @@ fun MissingAppsSheet(
                         thin = vm.thin,
                         modifier = Modifier.size(48.dp).clip(RoundedCornerShape(12.dp)),
                     )
-                    TextButton(onClick = { vm.assign(app, glyph) }, enabled = valid) { Text("✓") }
+                    TextButton(
+                        onClick = { if (devTools) vm.assign(app, glyph) else vm.pinShortcut(app, glyph) },
+                        enabled = valid,
+                    ) { Text("✓") }
                 }
                 HorizontalDivider()
             }

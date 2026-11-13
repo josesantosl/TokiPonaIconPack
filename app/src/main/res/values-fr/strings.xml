@@ -41,6 +41,7 @@
     <string name="missing_title">ilo sin sitelen (apps sans icône)</string>
     <string name="missing_none">Toutes vos apps ont une icône dans le pack ou une attribution en attente. pona !</string>
     <string name="missing_hint">Vérifiez les suggestions, modifiez-les si vous voulez et attribuez-les. Elles sont ajoutées au pack en lançant tools/sync_from_phone.sh.</string>
+    <string name="missing_hint_shortcut">Vérifiez les suggestions, modifiez-les si vous voulez, puis touchez ✓ pour ajouter à votre écran d’accueil un raccourci avec ce glyphe.</string>
     <string name="assign_all">Tout attribuer (%d)</string>
 
     <string name="msg_saved">Enregistré : %1$s</string>

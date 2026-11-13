@@ -80,7 +80,8 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
     var pickerMode by rememberSaveable { mutableStateOf<PickerMode?>(null) }
     var showMissing by rememberSaveable { mutableStateOf(false) }
     var showCredits by rememberSaveable { mutableStateOf(false) }
-    val missing = vm.apps?.let { vm.missingApps(it, assignments) }
+    // En la versión de la tienda no hay asignaciones: no deben ocultar apps de la lista.
+    val missing = vm.apps?.let { vm.missingApps(it, if (vm.devTools) assignments else emptyList()) }
 
     val exportSvg = rememberLauncherForActivityResult(
         ActivityResultContracts.CreateDocument(ExportFormat.SVG.mime)
@@ -196,10 +197,12 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                             onClick = { vm.loadApps(); pickerMode = PickerMode.SHORTCUT },
                             enabled = vm.isValid && vm.canPinShortcuts(),
                         ) { Text(stringResource(R.string.shortcut)) }
-                        OutlinedButton(
-                            onClick = { vm.loadApps(); pickerMode = PickerMode.ASSIGN },
-                            enabled = vm.isValid,
-                        ) { Text(stringResource(R.string.assign_to_app)) }
+                        if (vm.devTools) {
+                            OutlinedButton(
+                                onClick = { vm.loadApps(); pickerMode = PickerMode.ASSIGN },
+                                enabled = vm.isValid,
+                            ) { Text(stringResource(R.string.assign_to_app)) }
+                        }
                     }
 
                     if (missing != null && missing.isNotEmpty()) {
@@ -233,7 +236,7 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
                 SavedTile(vm, word, fg, previewBg)
             }
 
-            if (assignments.isNotEmpty()) {
+            if (vm.devTools && assignments.isNotEmpty()) {
                 item(span = { GridItemSpan(maxLineSpan) }) {
                     Column(Modifier.padding(top = 8.dp)) {
                         Text(stringResource(R.string.assignments_title), style = MaterialTheme.typography.titleMedium)
@@ -285,7 +288,7 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
 
     if (showMissing && missing != null) {
         ModalBottomSheet(onDismissRequest = { showMissing = false }) {
-            MissingAppsSheet(vm, missing, fg, previewBg)
+            MissingAppsSheet(vm, missing, fg, previewBg, devTools = vm.devTools)
         }
     }
 

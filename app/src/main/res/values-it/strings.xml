@@ -41,6 +41,7 @@
     <string name="missing_title">ilo sin sitelen (app senza icona)</string>
     <string name="missing_none">Tutte le tue app hanno un’icona nel pacchetto o un’assegnazione in sospeso. pona!</string>
     <string name="missing_hint">Controlla i suggerimenti, cambiali se vuoi e assegnali. Entrano nel pacchetto eseguendo tools/sync_from_phone.sh.</string>
+    <string name="missing_hint_shortcut">Controlla i suggerimenti, cambiali se vuoi e tocca ✓ per aggiungere alla schermata Home una scorciatoia con quel glifo.</string>
     <string name="assign_all">Assegna tutte (%d)</string>
 
     <string name="msg_saved">Salvato: %1$s</string>

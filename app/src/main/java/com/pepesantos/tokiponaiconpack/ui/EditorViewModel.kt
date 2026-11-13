@@ -5,6 +5,7 @@ import android.graphics.Bitmap
 import android.net.Uri
 import androidx.annotation.StringRes
 import androidx.compose.runtime.getValue
+import com.pepesantos.tokiponaiconpack.BuildConfig
 import com.pepesantos.tokiponaiconpack.R
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -66,11 +67,16 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
     val saved: StateFlow<List<String>> = words.words
     val assignments: StateFlow<List<Assignment>> = assignmentsStore.items
 
+    /** Herramientas de desarrollo (asignar a app + tools/sync_from_phone.sh): solo en builds debug. */
+    val devTools: Boolean = BuildConfig.DEBUG
+
     init {
-        // Mantiene al día el archivo que lee tools/sync_from_phone.sh.
-        viewModelScope.launch {
-            combine(assignmentsStore.items, words.words, ::Pair).collect { (a, s) ->
-                withContext(Dispatchers.IO) { runCatching { DeviceExport.write(app, a, s) } }
+        // Mantiene al día el archivo que lee tools/sync_from_phone.sh (solo tiene sentido en debug).
+        if (devTools) {
+            viewModelScope.launch {
+                combine(assignmentsStore.items, words.words, ::Pair).collect { (a, s) ->
+                    withContext(Dispatchers.IO) { runCatching { DeviceExport.write(app, a, s) } }
+                }
             }
         }
     }
@@ -213,10 +219,12 @@ class EditorViewModel(app: Application) : AndroidViewModel(app) {
 
     fun removeAssignment(a: Assignment) = assignmentsStore.remove(a.component)
 
-    fun pinShortcut(app: LaunchableApp) {
-        val ok = Shortcuts.requestPin(getApplication(), renderer, expr, style, app)
+    /** Acceso directo a [app] con el glifo [glyph] (por defecto, el del editor). */
+    fun pinShortcut(app: LaunchableApp, glyph: String = expr) {
+        if (!renderer.isValid(glyph)) return
+        val ok = Shortcuts.requestPin(getApplication(), renderer, glyph, style, app)
         _messages.trySend(
-            if (ok) str(R.string.msg_pin_confirm, app.label, expr.trim())
+            if (ok) str(R.string.msg_pin_confirm, app.label, glyph.trim())
             else str(R.string.msg_pin_unsupported)
         )
     }
