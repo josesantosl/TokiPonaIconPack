@@ -32,7 +32,6 @@
     <item drawable="toki_en_ante" />
     <item drawable="soweli" />
     <item drawable="esun" />
-    <item drawable="esun_pona" />
     <item drawable="tomo" />
     <item drawable="kalama" />
     <item drawable="musi" />
@@ -56,10 +55,9 @@
     <item drawable="lipu_en_awen" />
     <item drawable="poki_en_len" />
     <item drawable="lipu_en_esun" />
-    <item drawable="esun_ilo" />
     <item drawable="esun_len" />
     <item drawable="esun_soweli" />
-    <item drawable="ilo_sona" />
+    <item drawable="esun_pona" />
     <item drawable="mani_en_sin" />
     <item drawable="pana_mani" />
     <item drawable="mani_en_tawa" />
@@ -137,7 +135,6 @@
     <item drawable="poki_en_sewi_v1" />
     <item drawable="ilo_kute" />
     <item drawable="toki_en_ante" />
-    <item drawable="esun_pona" />
     <item drawable="tawa_musi" />
     <item drawable="toki_en_len" />
     <item drawable="sitelen_en_kule" />
@@ -152,10 +149,9 @@
     <item drawable="lipu_en_awen" />
     <item drawable="poki_en_len" />
     <item drawable="lipu_en_esun" />
-    <item drawable="esun_ilo" />
     <item drawable="esun_len" />
     <item drawable="esun_soweli" />
-    <item drawable="ilo_sona" />
+    <item drawable="esun_pona" />
     <item drawable="mani_en_sin" />
     <item drawable="pana_mani" />
     <item drawable="mani_en_tawa" />
@@ -216,6 +212,7 @@
     <item drawable="ilo_musi" />
     <item drawable="ilo_suno" />
     <item drawable="ilo_linluwi" />
+    <item drawable="ilo_sona" />
     <item drawable="ilo_kon" />
     <item drawable="ilo_telo" />
     <item drawable="sitelen_en_kalama" />

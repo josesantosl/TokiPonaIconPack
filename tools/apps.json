@@ -70,7 +70,7 @@
     { "label": "Play Store", "words": "esun", "components": [
       "com.android.vending/com.android.vending.AssetBrowserActivity"
     ]},
-    { "label": "Amazon", "words": "esun pona", "components": [
+    { "label": "Amazon", "words": "esun", "components": [
       "com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity"
     ]},
     { "label": "Google Home", "words": "tomo", "components": [
@@ -129,11 +129,10 @@
     { "label": "Tuta Mail", "words": "lipu awen", "components": ["de.tutao.tutanota/de.tutao.tutanota.MainActivity"]},
     { "label": "Proton Drive", "words": "poki len", "components": ["me.proton.android.drive/me.proton.android.drive.ui.MainActivity"]},
     { "label": "Bring!", "words": "lipu esun", "components": ["ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity"]},
-    { "label": "AliExpress", "words": "esun ilo", "components": ["com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity"]},
+    { "label": "AliExpress", "words": "ilo", "components": ["com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity"]},
     { "label": "Vinted", "words": "esun len", "components": ["fr.vinted/com.vinted.feature.shell.MDActivity"]},
     { "label": "zooplus", "words": "esun soweli", "components": ["de.zooplus/de.zooplus.lib.catdog1"]},
     { "label": "F-Droid", "words": "esun pona", "components": ["org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity"]},
-    { "label": "Claude", "words": "ilo sona", "components": ["com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity"]},
     { "label": "Revolut", "words": "mani sin", "components": ["com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity"]},
     { "label": "Satispay", "words": "pana mani", "components": ["com.satispay.customer/com.satispay.customer.main.SplashActivity"]},
     { "label": "Kraken Pay", "words": "mani tawa", "components": ["com.kraken.pay.app/com.kraken.pay.app.MainActivity"]},

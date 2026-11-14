@@ -94,6 +94,12 @@
       "com.google.android.apps.authenticator2", "com.beemdevelopment.aegis", "com.authy.authy",
       "com.azure.authenticator", "proton.android.authenticator"
     ]},
+    { "label": "ai assistants", "words": "sona", "packages": [
+      "com.openai.chatgpt", "com.google.android.apps.bard", "com.anthropic.claude",
+      "ai.perplexity.app.android", "com.microsoft.copilot", "ai.mistral.chat", "com.deepseek.chat"
+    ], "components": [
+      "com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity"
+    ]},
     { "label": "learning", "words": "kama sona", "packages": [
       "com.duolingo", "com.babbel.mobile.android.en", "com.ichi2.anki",
       "com.memrise.android.memrisecompanion", "com.busuu.android.enc", "org.khanacademy.android",

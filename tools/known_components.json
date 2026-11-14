@@ -1,6 +1,14 @@
 {
  "_source": "https://raw.githubusercontent.com/Arcticons-Team/Arcticons/main/app/src/main/res/xml/appfilter.xml",
  "components": {
+  "ai.mistral.chat": [
+   "ai.mistral.chat/ai.mistral.chat.MainActivity"
+  ],
+  "ai.perplexity.app.android": [
+   "ai.perplexity.app.android/ai.perplexity.app.android.authorization.exception.MainActivity",
+   "ai.perplexity.app.android/ai.perplexity.app.android.ui.main.MainActivity",
+   "ai.perplexity.app.android/com.google.android.archive.ReactivateActivity"
+  ],
   "app.lawnchair": [
    "app.lawnchair/app.lawnchair.LawnchairLauncher",
    "app.lawnchair/app.lawnchair.LawnchairLauncherQuickstep"
@@ -128,6 +136,9 @@
    "com.android.chrome/com.android.chrome.Main",
    "com.android.chrome/com.google.android.apps.chrome.Main"
   ],
+  "com.anthropic.claude": [
+   "com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity"
+  ],
   "com.app.tgtg": [
    "com.app.tgtg/com.app.tgtg.activities.ActivitySplash",
    "com.app.tgtg/com.app.tgtg.activities.SplashActivity",
@@ -229,6 +240,11 @@
    "com.crunchyroll.crunchyroid/com.crunchyroll.neo.android.activity.DelegatingActivity",
    "com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity",
    "com.crunchyroll.crunchyroid/com.google.android.archive.ReactivateActivity"
+  ],
+  "com.deepseek.chat": [
+   "com.deepseek.chat/com.deepseek.chat.MainActivity",
+   "com.deepseek.chat/com.deepseek.chat.MainActivityoctopus",
+   "com.deepseek.chat/com.google.android.archive.ReactivateActivity"
   ],
   "com.deliveroo.orderapp": [
    "com.deliveroo.orderapp/com.deliveroo.orderapp.activities.RooNavActivity",
@@ -479,6 +495,9 @@
    "com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity",
    "com.google.android.apps.authenticator2/com.google.android.archive.ReactivateActivity"
   ],
+  "com.google.android.apps.bard": [
+   "com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity"
+  ],
   "com.google.android.apps.books": [
    "com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity",
    "com.google.android.apps.books/com.google.android.apps.books.app.HomeActivity",
@@ -704,6 +723,13 @@
   "com.memrise.android.memrisecompanion": [
    "com.memrise.android.memrisecompanion/com.memrise.android.memrisecompanion.ui.activity.LauncherActivity"
   ],
+  "com.microsoft.copilot": [
+   "com.microsoft.copilot/com.google.android.archive.ReactivateActivity",
+   "com.microsoft.copilot/com.microsoft.copilotn.MainActivity",
+   "com.microsoft.copilot/com.microsoft.copilotn.MainActivityDefault",
+   "com.microsoft.copilot/com.microsoft.sapphire.app.main.SapphireMainActivity",
+   "com.microsoft.copilot/com.microsoft.shappire.app.main.ShappireMainActivity"
+  ],
   "com.microsoft.emmx": [
    "com.microsoft.emmx/com.google.android.apps.chrome.Main",
    "com.microsoft.emmx/com.microsoft.ruby.Main",
@@ -768,6 +794,12 @@
   ],
   "com.onepassword.android": [
    "com.onepassword.android/com.onepassword.android.app.StartActivity"
+  ],
+  "com.openai.chatgpt": [
+   "com.openai.chatgpt/com.google.android.archive.ReactivateActivity",
+   "com.openai.chatgpt/com.openai.chatgpt.CodexLauncherActivity",
+   "com.openai.chatgpt/com.openai.chatgpt.MainActivity",
+   "com.openai.chatgpt/md.elway.evo.screen.chat.ChatActivity"
   ],
   "com.opera.browser": [
    "com.opera.browser/com.opera.Launcher1",
