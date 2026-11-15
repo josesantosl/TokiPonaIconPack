@@ -62,6 +62,7 @@ import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -96,10 +97,7 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
 
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { Text("sitelen pona") },
-                actions = { TextButton(onClick = { showCredits = true }) { Text(stringResource(R.string.credits)) } },
-            )
+            TopAppBar(title = { Text("sitelen pona") })
         },
         snackbarHost = { SnackbarHost(snackbar) },
     ) { padding ->
@@ -270,14 +268,22 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
             }
 
             item(span = { GridItemSpan(maxLineSpan) }) {
-                Text(
-                    stringResource(R.string.how_to_apply),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier
-                        .padding(top = 16.dp)
-                        .clickable { showCredits = true },
-                )
+                Column(Modifier.padding(top = 16.dp)) {
+                    Text(
+                        stringResource(R.string.how_to_apply),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Text(
+                        stringResource(R.string.credits_link),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        textDecoration = TextDecoration.Underline,
+                        modifier = Modifier
+                            .padding(top = 8.dp)
+                            .clickable { showCredits = true },
+                    )
+                }
             }
         }
     }

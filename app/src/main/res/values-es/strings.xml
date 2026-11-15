@@ -1,7 +1,7 @@
 <resources>
-    <string name="how_to_apply">Para usar el icon pack completo: ajustes de tu launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Apariencia → Paquete de iconos → Toki Pona Icon Pack.\n\nGlifos: fuente nasin-nanpa de jan Itan (licencia MIT). Toca aquí o en «Créditos» para ver la licencia completa.</string>
+    <string name="how_to_apply">Para usar el icon pack completo: ajustes de tu launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Apariencia → Paquete de iconos → Toki Pona Icon Pack.</string>
+    <string name="credits_link">Glifos: fuente nasin-nanpa de jan Itan (licencia MIT). Ver la licencia completa.</string>
 
-    <string name="credits">Créditos</string>
     <string name="credits_title">Créditos y licencias</string>
     <string name="credits_body">Todos los glifos de sitelen pona de esta app y del icon pack se dibujan con la fuente nasin-nanpa, creada por jan Itan.</string>
     <string name="credits_license_note">La licencia de la fuente se muestra en su idioma original (inglés).</string>

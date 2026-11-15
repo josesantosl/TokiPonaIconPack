@@ -2,9 +2,9 @@
     <!-- Idioma por defecto: inglés. Traducciones en values-es, values-fr, values-eo.
          Las etiquetas en toki pona (nimi, kule sitelen, nimi sina…) no se traducen. -->
     <string name="app_name" translatable="false">Toki Pona Icon Pack</string>
-    <string name="how_to_apply">To use the full icon pack: your launcher settings (Nova, Lawnchair, Niagara, Smart Launcher…) → Appearance → Icon pack → Toki Pona Icon Pack.\n\nGlyphs: nasin-nanpa font by jan Itan (MIT license). Tap here or “Credits” to see the full license.</string>
+    <string name="how_to_apply">To use the full icon pack: your launcher settings (Nova, Lawnchair, Niagara, Smart Launcher…) → Appearance → Icon pack → Toki Pona Icon Pack.</string>
+    <string name="credits_link">Glyphs: nasin-nanpa font by jan Itan (MIT license). See the full license.</string>
 
-    <string name="credits">Credits</string>
     <string name="credits_title">Credits and licenses</string>
     <string name="credits_body">All sitelen pona glyphs in this app and in the icon pack are drawn with the nasin-nanpa font, created by jan Itan.</string>
     <string name="credits_license_note">The font license is shown in its original language (English).</string>

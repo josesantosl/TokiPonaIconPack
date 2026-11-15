@@ -1,7 +1,7 @@
 <resources>
-    <string name="how_to_apply">Pour utiliser le pack d’icônes complet : réglages de votre launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Apparence → Pack d’icônes → Toki Pona Icon Pack.\n\nGlyphes : police nasin-nanpa de jan Itan (licence MIT). Touchez ici ou « Crédits » pour voir la licence complète.</string>
+    <string name="how_to_apply">Pour utiliser le pack d’icônes complet : réglages de votre launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Apparence → Pack d’icônes → Toki Pona Icon Pack.</string>
+    <string name="credits_link">Glyphes : police nasin-nanpa de jan Itan (licence MIT). Voir la licence complète.</string>
 
-    <string name="credits">Crédits</string>
     <string name="credits_title">Crédits et licences</string>
     <string name="credits_body">Tous les glyphes de sitelen pona de cette app et du pack d’icônes sont dessinés avec la police nasin-nanpa, créée par jan Itan.</string>
     <string name="credits_license_note">La licence de la police est affichée dans sa langue d’origine (anglais).</string>

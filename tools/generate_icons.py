@@ -48,7 +48,7 @@ SAFE = 150              # lado del área donde cabe el glifo (dentro del viewpor
 FILL = "#FFFFFFFF"      # color del glifo
 OUTLINE = "#59000000"   # contorno suave para que se lea en fondos claros (None = sin contorno)
 OUTLINE_WIDTH = 4       # en unidades del viewport
-THIN = 22               # adelgaza el trazo: unidades de fuente que se quitan por cada lado
+THIN = 34               # adelgaza el trazo: unidades de fuente que se quitan por cada lado
                         # (el trazo de nasin-nanpa mide ~100; 0 = grosor original)
 LAUNCHER_WORD = "toki pona"  # glifo del icono de la propia app (pona dentro de toki)
 

@@ -15,7 +15,7 @@ data class GlyphStyle(
 ) {
     companion object {
         /** Mismo valor que THIN en tools/generate_icons.py, para que coincida con el pack. */
-        const val DEFAULT_THIN = 22f
+        const val DEFAULT_THIN = 34f
         const val MAX_THIN = 40f
         val Default = GlyphStyle(foreground = 0xFFFFFFFF.toInt(), background = 0xFF1B1B1F.toInt())
     }
