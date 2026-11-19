@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- mute — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<!-- mute — glifo de Fairfax HD (Kreative Software, licencia OFL) -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="96dp"
     android:height="96dp"
@@ -9,8 +9,8 @@
         android:strokeColor="#59000000"
         android:strokeWidth="4"
         android:strokeLineJoin="round"
-        android:pathData="M58.5 158.4Q56.1 158.4 56.1 156V36Q56.1 33.6 58.5 33.6Q60.9 33.6 60.9 36V156Q60.9 158.4 58.5 158.4ZM133.5 158.4Q131.1 158.4 131.1 156V36Q131.1 33.6 133.5 33.6Q135.9 33.6 135.9 36V156Q135.9 158.4 133.5 158.4ZM96 156.9Q93.6 156.9 93.6 154.5V37.5Q93.6 35.1 96 35.1Q98.4 35.1 98.4 37.5V154.5Q98.4 156.9 96 156.9Z" />
+        android:pathData="M60.38 155.38V36.62H56.62V155.38H60.38ZM97.88 155.38V36.62H94.12V155.38H97.88ZM135.38 155.38V36.62H131.62V155.38H135.38Z" />
     <path
         android:fillColor="#FFFFFFFF"
-        android:pathData="M58.5 158.4Q56.1 158.4 56.1 156V36Q56.1 33.6 58.5 33.6Q60.9 33.6 60.9 36V156Q60.9 158.4 58.5 158.4ZM133.5 158.4Q131.1 158.4 131.1 156V36Q131.1 33.6 133.5 33.6Q135.9 33.6 135.9 36V156Q135.9 158.4 133.5 158.4ZM96 156.9Q93.6 156.9 93.6 154.5V37.5Q93.6 35.1 96 35.1Q98.4 35.1 98.4 37.5V154.5Q98.4 156.9 96 156.9Z" />
+        android:pathData="M60.38 155.38V36.62H56.62V155.38H60.38ZM97.88 155.38V36.62H94.12V155.38H97.88ZM135.38 155.38V36.62H131.62V155.38H135.38Z" />
 </vector>

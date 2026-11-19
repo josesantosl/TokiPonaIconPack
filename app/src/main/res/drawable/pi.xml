@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- pi — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<!-- pi — glifo de Fairfax HD (Kreative Software, licencia OFL) -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="96dp"
     android:height="96dp"
@@ -9,8 +9,8 @@
         android:strokeColor="#59000000"
         android:strokeWidth="4"
         android:strokeLineJoin="round"
-        android:pathData="M43.5 41.1Q45.9 41.1 45.9 43.5V141Q45.9 143.11 47.39 144.61Q48.89 146.1 51 146.1H148.5Q150.9 146.1 150.9 148.5Q150.9 150.9 148.5 150.9H43.5Q41.1 150.9 41.1 148.5V43.5Q41.1 41.1 43.5 41.1Z" />
+        android:pathData="M41 36.62H37.25V154.12H154.75V150.38H44.12Q43.5 150.38 42.93 150.14Q42.35 149.9 41.92 149.46Q41.48 149.02 41.24 148.45Q41 147.87 41 147.25V36.62Z" />
     <path
         android:fillColor="#FFFFFFFF"
-        android:pathData="M43.5 41.1Q45.9 41.1 45.9 43.5V141Q45.9 143.11 47.39 144.61Q48.89 146.1 51 146.1H148.5Q150.9 146.1 150.9 148.5Q150.9 150.9 148.5 150.9H43.5Q41.1 150.9 41.1 148.5V43.5Q41.1 41.1 43.5 41.1Z" />
+        android:pathData="M41 36.62H37.25V154.12H154.75V150.38H44.12Q43.5 150.38 42.93 150.14Q42.35 149.9 41.92 149.46Q41.48 149.02 41.24 148.45Q41 147.87 41 147.25V36.62Z" />
 </vector>

@@ -3,13 +3,13 @@
          Las etiquetas en toki pona (nimi, kule sitelen, nimi sina…) no se traducen. -->
     <string name="app_name" translatable="false">Toki Pona Icon Pack</string>
     <string name="how_to_apply">To use the full icon pack: your launcher settings (Nova, Lawnchair, Niagara, Smart Launcher…) → Appearance → Icon pack → Toki Pona Icon Pack.</string>
-    <string name="credits_link">Glyphs: nasin-nanpa font by jan Itan (MIT license). See the full license.</string>
+    <string name="credits_link">Glyphs: Fairfax HD font by Kreative Software (Open Font License). See credits and licenses.</string>
 
     <string name="credits_title">Credits and licenses</string>
-    <string name="credits_body">All sitelen pona glyphs in this app and in the icon pack are drawn with the nasin-nanpa font, created by jan Itan.</string>
+    <string name="credits_body_fairfax">All sitelen pona glyphs in this app and in the icon pack come from the Fairfax HD font by Kreative Software (Rebecca Bettencourt, jan Lepeka), under the SIL Open Font License. Compounds the font doesn’t include are composed following its own.</string>
     <string name="credits_license_note">The font license is shown in its original language (English).</string>
 
-    <string name="expr_invalid">nasin-nanpa doesn’t recognize this word or compound</string>
+    <string name="expr_invalid">Unknown word or compound</string>
     <string name="label_foreground">kule sitelen (glyph)</string>
     <string name="label_background">kule monsi (background)</string>
     <string name="thickness">suli linja (thickness): %1$s</string>
@@ -43,6 +43,10 @@
     <string name="gallery_title">Icons in the pack</string>
     <string name="close">Close</string>
     <string name="no_results">No icons match</string>
+    <string name="category_saved">nimi sina (your words)</string>
+    <string name="category_apps">ilo (apps)</string>
+    <string name="category_compounds">nimi tu (compounds)</string>
+    <string name="category_all_words">nimi ale (all words)</string>
     <plurals name="gallery_count">
         <item quantity="one">%d icon</item>
         <item quantity="other">%d icons</item>

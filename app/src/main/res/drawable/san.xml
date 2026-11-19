@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- san — glifo de Fairfax HD (Kreative Software, licencia OFL) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M155.38 131.62H36.62V135.38H155.38V131.62ZM155.38 94.12H36.62V97.88H155.38V94.12ZM155.38 56.62H36.62V60.38H155.38V56.62Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M155.38 131.62H36.62V135.38H155.38V131.62ZM155.38 94.12H36.62V97.88H155.38V94.12ZM155.38 56.62H36.62V60.38H155.38V56.62Z" />
+</vector>

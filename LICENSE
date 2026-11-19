@@ -21,7 +21,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---------------------------------------------------------------------------
-The nasin-nanpa font (app/src/main/res/font/nasin_nanpa.otf) and the glyph
-shapes derived from it (app/src/main/res/drawable/) are NOT covered by the
-copyright above. They belong to their author and are distributed under the
-font's own license: see LICENSE-nasin-nanpa.txt.
+The Fairfax HD font (app/src/main/res/font/fairfax_pona_hd.ttf, a subset of
+Fairfax Pona HD by Kreative Software) is NOT covered by the copyright above. It
+belongs to its author and is distributed under the SIL Open Font License 1.1:
+see LICENSE-fairfax-hd.txt. The glyph shapes in app/src/main/res/drawable/ are
+drawn with that font.

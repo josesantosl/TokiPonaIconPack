@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- sama — glifo de nasin-nanpa de jan Itan (licencia MIT) -->
+<!-- sama — glifo de Fairfax HD (Kreative Software, licencia OFL) -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="96dp"
     android:height="96dp"
@@ -9,8 +9,8 @@
         android:strokeColor="#59000000"
         android:strokeWidth="4"
         android:strokeLineJoin="round"
-        android:pathData="M149.4 69Q149.4 71.4 147 71.4H45Q42.6 71.4 42.6 69Q42.6 66.6 45 66.6H147Q149.4 66.6 149.4 69ZM149.4 123Q149.4 125.4 147 125.4H45Q42.6 125.4 42.6 123Q42.6 120.6 45 120.6H147Q149.4 120.6 149.4 123Z" />
+        android:pathData="M142.88 120.38V116.62H49.12V120.38H142.88ZM142.88 75.38V71.62H49.12V75.38H142.88Z" />
     <path
         android:fillColor="#FFFFFFFF"
-        android:pathData="M149.4 69Q149.4 71.4 147 71.4H45Q42.6 71.4 42.6 69Q42.6 66.6 45 66.6H147Q149.4 66.6 149.4 69ZM149.4 123Q149.4 125.4 147 125.4H45Q42.6 125.4 42.6 123Q42.6 120.6 45 120.6H147Q149.4 120.6 149.4 123Z" />
+        android:pathData="M142.88 120.38V116.62H49.12V120.38H142.88ZM142.88 75.38V71.62H49.12V75.38H142.88Z" />
 </vector>

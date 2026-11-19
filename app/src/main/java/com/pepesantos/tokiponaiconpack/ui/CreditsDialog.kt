@@ -16,20 +16,32 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
-import com.pepesantos.tokiponaiconpack.R
 import androidx.compose.ui.unit.dp
+import com.pepesantos.tokiponaiconpack.R
 
-private const val FONT_REPO = "https://github.com/ETBCOR/nasin-nanpa"
+/** Una fuente usada por la app: texto, enlace y licencia (literal, de assets/licenses/). */
+private data class FontCredit(val body: Int, val url: String, val urlLabel: String, val licenseAsset: String)
 
-/** Créditos de la fuente y su licencia (texto literal de assets/licenses/nasin-nanpa.txt). */
+private val FONTS = listOf(
+    // Todos los glifos: icon pack y editor (y los compuestos que se componen con ella).
+    FontCredit(
+        R.string.credits_body_fairfax,
+        "https://www.kreativekorp.com/software/fonts/fairfaxhd/",
+        "kreativekorp.com/software/fonts/fairfaxhd",
+        "licenses/fairfax-hd.txt",
+    ),
+)
+
+/** Créditos de las fuentes y sus licencias. */
 @Composable
 fun CreditsDialog(onDismiss: () -> Unit) {
     val context = LocalContext.current
     val uriHandler = LocalUriHandler.current
-    val license = remember {
-        runCatching {
-            context.assets.open("licenses/nasin-nanpa.txt").bufferedReader().use { it.readText() }
-        }.getOrDefault("")
+    val licenses = remember {
+        FONTS.associateWith { f ->
+            runCatching { context.assets.open(f.licenseAsset).bufferedReader().use { it.readText() } }
+                .getOrDefault("")
+        }
     }
 
     AlertDialog(
@@ -42,20 +54,22 @@ fun CreditsDialog(onDismiss: () -> Unit) {
                     .verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(12.dp),
             ) {
-                Text(stringResource(R.string.credits_body), style = MaterialTheme.typography.bodyMedium)
-                TextButton(onClick = { uriHandler.openUri(FONT_REPO) }) {
-                    Text("github.com/ETBCOR/nasin-nanpa")
+                FONTS.forEach { f ->
+                    Text(stringResource(f.body), style = MaterialTheme.typography.bodyMedium)
+                    TextButton(onClick = { uriHandler.openUri(f.url) }) { Text(f.urlLabel) }
                 }
-                // La licencia de jan Itan se muestra siempre literal, en inglés.
+                // Las licencias se muestran siempre literales, en inglés.
                 Text(
                     stringResource(R.string.credits_license_note),
                     style = MaterialTheme.typography.bodySmall,
                 )
-                Text(
-                    license,
-                    style = MaterialTheme.typography.bodySmall.copy(fontFamily = FontFamily.Monospace),
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+                FONTS.forEach { f ->
+                    Text(
+                        licenses[f].orEmpty(),
+                        style = MaterialTheme.typography.bodySmall.copy(fontFamily = FontFamily.Monospace),
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
             }
         },
         confirmButton = { TextButton(onClick = onDismiss) { Text("pona") } },

@@ -1,12 +1,12 @@
 <resources>
     <string name="how_to_apply">Por uzi la tutan piktogramaron: agordoj de via lanĉilo (Nova, Lawnchair, Niagara, Smart Launcher…) → Aspekto → Piktogramaro → Toki Pona Icon Pack.</string>
-    <string name="credits_link">Glifoj: tiparo nasin-nanpa de jan Itan (permesilo MIT). Vidu la tutan permesilon.</string>
+    <string name="credits_link">Glifoj: tiparo Fairfax HD de Kreative Software (Open Font License). Vidu kreditojn kaj permesilojn.</string>
 
     <string name="credits_title">Kreditoj kaj permesiloj</string>
-    <string name="credits_body">Ĉiuj glifoj de sitelen pona en ĉi tiu aplikaĵo kaj en la piktogramaro estas desegnitaj per la tiparo nasin-nanpa, kreita de jan Itan.</string>
+    <string name="credits_body_fairfax">Ĉiuj glifoj de sitelen pona en ĉi tiu aplikaĵo kaj en la piktogramaro venas el la tiparo Fairfax HD de Kreative Software (Rebecca Bettencourt, jan Lepeka), laŭ la permesilo SIL Open Font License. Kunmetaĵoj, kiujn la tiparo ne havas, estas kunmetitaj laŭ ĝiaj propraj.</string>
     <string name="credits_license_note">La permesilo de la tiparo estas montrata en sia originala lingvo (la angla).</string>
 
-    <string name="expr_invalid">nasin-nanpa ne rekonas ĉi tiun vorton aŭ kunmetaĵon</string>
+    <string name="expr_invalid">Nekonata vorto aŭ kunmetaĵo</string>
     <string name="label_foreground">kule sitelen (glifo)</string>
     <string name="label_background">kule monsi (fono)</string>
     <string name="thickness">suli linja (dikeco): %1$s</string>
@@ -40,6 +40,10 @@
     <string name="gallery_title">Piktogramoj de la aro</string>
     <string name="close">Fermi</string>
     <string name="no_results">Neniu piktogramo kongruas</string>
+    <string name="category_saved">nimi sina (viaj vortoj)</string>
+    <string name="category_apps">ilo (aplikaĵoj)</string>
+    <string name="category_compounds">nimi tu (kunmetaĵoj)</string>
+    <string name="category_all_words">nimi ale (ĉiuj vortoj)</string>
     <plurals name="gallery_count">
         <item quantity="one">%d piktogramo</item>
         <item quantity="other">%d piktogramoj</item>

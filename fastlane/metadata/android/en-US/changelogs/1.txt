@@ -1,0 +1,7 @@
+First release.
+
+• Icon pack in sitelen pona for Niagara, Nova, Lawnchair, Smart Launcher, ADW and more
+• About 3,700 icons, more than 1,500 apps covered
+• Icon gallery with search
+• Glyph editor with colours, stroke weight and SVG/PNG export
+• Home screen shortcuts with any glyph

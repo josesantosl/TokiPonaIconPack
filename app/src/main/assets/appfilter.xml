@@ -68,10 +68,6 @@
     <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="alasa" />
     <!-- Translate : toki ante -->
     <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="toki_en_ante" />
-    <!-- Firefox : soweli -->
-    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.fenix.HomeActivity}" drawable="soweli" />
-    <!-- Firefox : soweli -->
-    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="soweli" />
     <!-- Amazon : pona -->
     <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="pona" />
     <!-- Google Home : tomo -->
@@ -1134,6 +1130,7 @@
     <item component="ComponentInfo{de.komoot.android/de.komoot.android.ui.RootActivityInverted}" drawable="ma" />
     <item component="ComponentInfo{de.komoot.android/de.komoot.android.ui.inspiration.InspirationActivity}" drawable="ma" />
     <!-- category: browsers : linluwi -->
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.fenix.HomeActivity}" drawable="linluwi" />
     <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="linluwi" />
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="linluwi" />
     <item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="linluwi" />
@@ -1188,6 +1185,7 @@
     <item component="ComponentInfo{org.torproject.torbrowser/org.torproject.torbrowser.App}" drawable="linluwi" />
     <item component="ComponentInfo{org.mozilla.firefox/com.google.android.archive.ReactivateActivity}" drawable="linluwi" />
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AlternativeApp}" drawable="linluwi" />
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="linluwi" />
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppCool}" drawable="linluwi" />
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppCuddling}" drawable="linluwi" />
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppFlaming}" drawable="linluwi" />

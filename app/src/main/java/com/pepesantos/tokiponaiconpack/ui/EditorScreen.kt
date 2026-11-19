@@ -157,7 +157,7 @@ fun EditorScreen(onOpenGallery: () -> Unit, vm: EditorViewModel = viewModel()) {
                                 if (vm.expr.isNotBlank() && !vm.isValid) {
                                     stringResource(R.string.expr_invalid)
                                 } else {
-                                    "toki · ilo tenpo · poki+sewi1 · ilo^toki"
+                                    "toki · ilo tenpo · poki+sewi · ilo^toki"
                                 }
                             )
                         },
@@ -173,8 +173,8 @@ fun EditorScreen(onOpenGallery: () -> Unit, vm: EditorViewModel = viewModel()) {
                     SwatchRow(stringResource(R.string.label_background), BackgroundSwatches, vm.background, vm::selectBackground)
 
                     Column {
-                        // El trazo de nasin-nanpa mide ~100 unidades; se quitan `thin` por cada lado.
-                        val percent = (100 - 2 * vm.thin).roundToInt()
+                        // Se quitan `thin` unidades por cada lado del trazo de la fuente.
+                        val percent = ((GlyphStyle.FONT_STROKE - 2 * vm.thin) / GlyphStyle.FONT_STROKE * 100).roundToInt()
                         Text(
                             stringResource(
                                 R.string.thickness,

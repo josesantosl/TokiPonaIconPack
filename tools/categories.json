@@ -78,6 +78,8 @@
       "com.android.chrome", "com.brave.browser", "com.microsoft.emmx", "com.opera.browser",
       "com.sec.android.app.sbrowser", "com.vivaldi.browser", "org.torproject.torbrowser",
       "org.mozilla.firefox", "com.duckduckgo.mobile.android", "org.mozilla.focus"
+    ], "components": [
+      "org.mozilla.firefox/org.mozilla.fenix.HomeActivity"
     ]},
     { "label": "notes", "words": "lipu", "packages": [
       "com.google.android.keep", "notion.id", "md.obsidian", "com.evernote", "com.microsoft.office.onenote",

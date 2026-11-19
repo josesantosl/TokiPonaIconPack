@@ -26,7 +26,7 @@ object PackIcons {
             while (p.next() != XmlPullParser.END_DOCUMENT) {
                 if (p.eventType != XmlPullParser.START_TAG) continue
                 when (p.name) {
-                    "category" -> { flush(); title = p.getAttributeValue(null, "title") }
+                    "category" -> { flush(); title = localizedTitle(context, p.getAttributeValue(null, "title")) }
                     "item" -> {
                         val name = p.getAttributeValue(null, "drawable") ?: continue
                         val id = res.getIdentifier(name, "drawable", context.packageName)
@@ -37,6 +37,21 @@ object PackIcons {
         }
         flush()
         return result
+    }
+
+    /**
+     * Los títulos de drawable.xml van en inglés (los leen también los launchers); en la app se
+     * traducen por su parte en toki pona. Los demás ("ilo …") son solo toki pona y se dejan.
+     */
+    private fun localizedTitle(context: Context, title: String?): String? {
+        val res = when (title?.substringBefore(" (")?.trim()) {
+            "nimi sina" -> R.string.category_saved
+            "ilo" -> R.string.category_apps
+            "nimi tu" -> R.string.category_compounds
+            "nimi ale" -> R.string.category_all_words
+            else -> return title
+        }
+        return context.getString(res)
     }
 
     /** Componentes ("paquete/Clase") que ya tienen icono en res/xml/appfilter.xml. */

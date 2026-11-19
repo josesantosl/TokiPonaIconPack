@@ -1,12 +1,12 @@
 <resources>
     <string name="how_to_apply">Pour utiliser le pack d’icônes complet : réglages de votre launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Apparence → Pack d’icônes → Toki Pona Icon Pack.</string>
-    <string name="credits_link">Glyphes : police nasin-nanpa de jan Itan (licence MIT). Voir la licence complète.</string>
+    <string name="credits_link">Glyphes : police Fairfax HD de Kreative Software (Open Font License). Voir crédits et licences.</string>
 
     <string name="credits_title">Crédits et licences</string>
-    <string name="credits_body">Tous les glyphes de sitelen pona de cette app et du pack d’icônes sont dessinés avec la police nasin-nanpa, créée par jan Itan.</string>
+    <string name="credits_body_fairfax">Tous les glyphes de sitelen pona de cette app et du pack d’icônes proviennent de la police Fairfax HD de Kreative Software (Rebecca Bettencourt, jan Lepeka), sous licence SIL Open Font License. Les composés que la police n’inclut pas sont composés d’après les siens.</string>
     <string name="credits_license_note">La licence de la police est affichée dans sa langue d’origine (anglais).</string>
 
-    <string name="expr_invalid">nasin-nanpa ne reconnaît pas ce mot ou ce composé</string>
+    <string name="expr_invalid">Mot ou composé inconnu</string>
     <string name="label_foreground">kule sitelen (glyphe)</string>
     <string name="label_background">kule monsi (fond)</string>
     <string name="thickness">suli linja (épaisseur) : %1$s</string>
@@ -41,6 +41,10 @@
     <string name="gallery_title">Icônes du pack</string>
     <string name="close">Fermer</string>
     <string name="no_results">Aucune icône ne correspond</string>
+    <string name="category_saved">nimi sina (vos mots)</string>
+    <string name="category_apps">ilo (applis)</string>
+    <string name="category_compounds">nimi tu (mots composés)</string>
+    <string name="category_all_words">nimi ale (tous les mots)</string>
     <plurals name="gallery_count">
         <item quantity="one">%d icône</item>
         <item quantity="many">%d icônes</item>

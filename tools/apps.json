@@ -63,10 +63,6 @@
     { "label": "Translate", "words": "toki ante", "components": [
       "com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity"
     ]},
-    { "label": "Firefox", "words": "soweli", "components": [
-      "org.mozilla.firefox/org.mozilla.fenix.HomeActivity",
-      "org.mozilla.firefox/org.mozilla.firefox.App"
-    ]},
     { "label": "Play Store", "words": "esun", "components": [
       "com.android.vending/com.android.vending.AssetBrowserActivity"
     ]},
@@ -177,7 +173,7 @@
     "ilo sona", "ilo pona", "ilo kon", "ilo telo",
     "ilo tenpo", "ilo kute", "ilo sijelo", "ilo linja", "ilo tomo", "ilo nanpa", "tomo ilo",
     "lipu tenpo", "lipu kulupu", "lipu len", "lipu awen", "lipu esun", "lipu pali", "lipu nanpa",
-    "lipu lili", "lipu sin", "poki+sewi:1", "poki len", "poki lipu", "poki tawa",
+    "lipu lili", "lipu sin", "poki+sewi", "poki len", "poki lipu", "poki tawa",
     "sitelen kule", "sitelen lili", "toki kulupu", "toki musi", "toki lukin", "sona toki", "kalama toki",
     "kalama musi", "ma kasi", "tomo nanpa", "tomo lili", "tomo mani", "tomo lape",
     "esun len", "esun soweli", "esun pona", "esun mani", "mani sin", "pana mani", "mani tawa",

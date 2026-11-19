@@ -17,7 +17,7 @@ object SvgExport {
         val d = pathData(path)
         return buildString {
             appendLine("""<?xml version="1.0" encoding="UTF-8"?>""")
-            appendLine("<!-- ${expr.trim()} — sitelen pona, fuente nasin-nanpa de jan Itan (licencia MIT) -->")
+            appendLine("<!-- ${expr.trim()} — sitelen pona, fuente Fairfax HD de Kreative Software (licencia OFL) -->")
             appendLine("""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 $SIZE $SIZE" width="$SIZE" height="$SIZE">""")
             var mask = ""
             if (style.thin > 0f) {

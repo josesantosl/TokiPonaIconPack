@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- poki+san — glifo de Fairfax HD (Kreative Software, licencia OFL) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:strokeColor="#59000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M41.62 36.62H37.88V154.12H154.12V36.62H150.38V147.25Q150.37 147.87 150.14 148.45Q149.9 149.02 149.46 149.46Q149.02 149.9 148.45 150.14Q147.87 150.38 147.25 150.38H44.75Q44.13 150.38 43.55 150.14Q42.98 149.9 42.54 149.46Q42.1 149.02 41.86 148.45Q41.62 147.87 41.62 147.25V36.62ZM132.38 104.38V100.62H60.88V104.38H132.38ZM132.38 82.25V78.5H60.88V82.25H132.38ZM132.38 60.12V56.38H60.88V60.12H132.38Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M41.62 36.62H37.88V154.12H154.12V36.62H150.38V147.25Q150.37 147.87 150.14 148.45Q149.9 149.02 149.46 149.46Q149.02 149.9 148.45 150.14Q147.87 150.38 147.25 150.38H44.75Q44.13 150.38 43.55 150.14Q42.98 149.9 42.54 149.46Q42.1 149.02 41.86 148.45Q41.62 147.87 41.62 147.25V36.62ZM132.38 104.38V100.62H60.88V104.38H132.38ZM132.38 82.25V78.5H60.88V82.25H132.38ZM132.38 60.12V56.38H60.88V60.12H132.38Z" />
+</vector>

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Genera el icon pack a partir de la fuente nasin-nanpa.
+Genera el icon pack a partir de la fuente Fairfax Pona HD (Kreative Software, OFL), recortada a
+su parte de sitelen pona en app/src/main/res/font/fairfax_pona_hd.ttf.
 
   - app/src/main/res/drawable/<palabra>.xml      (un vector por glifo / compuesto)
   - app/src/main/res/xml/appfilter.xml           (componente -> drawable)
@@ -10,16 +11,20 @@ Genera el icon pack a partir de la fuente nasin-nanpa.
 
 Sintaxis de "words" en tools/apps.json:
   toki            una palabra
-  linluwi:1       variante 1 de la palabra (glifo <palabra>Tok_VAR01)
-  ilo tenpo       compuesto automático: anidado si la primera palabra tiene hueco en la fuente
-                  (NEST_HEADS), apilado en los demás casos
+  ilo tenpo       compuesto automático: anidado si la primera palabra tiene hueco (NEST_HEADS),
+                  apilado en los demás casos
   ilo^tenpo       fuerza apilado: la primera palabra abajo (ilo), la segunda arriba (tenpo)
   poki+sewi       fuerza anidado: la segunda palabra dentro de la primera (sewi dentro de poki)
+
+Compuestos: si Fairfax trae ese compuesto dibujado (unos 400), se usa tal cual. Si no, se
+compone con lo que se aprende de los suyos: dentro de cada contenedor, la caja donde Fairfax
+pone la segunda palabra; en los apilados, sus dos cajas (abajo y arriba). La pieza reducida
+recupera el grosor de trazo de la fuente, como en los compuestos de Fairfax.
 
 Uso:
   python3 -m venv ~/.venvs/tokipona-icons
   ~/.venvs/tokipona-icons/bin/pip install -r tools/requirements.txt
-  ~/.venvs/tokipona-icons/bin/python -I tools/generate_icons.py [--from-device] [--font RUTA.otf]
+  ~/.venvs/tokipona-icons/bin/python -I tools/generate_icons.py [--from-device] [--font RUTA.ttf]
 """
 import argparse
 import json
@@ -30,7 +35,7 @@ import subprocess
 from pathlib import Path
 from xml.sax.saxutils import quoteattr
 
-from fontTools.pens.boundsPen import BoundsPen
+from fontTools.pens.roundingPen import RoundingPen
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
@@ -48,13 +53,13 @@ SAFE = 150              # lado del área donde cabe el glifo (dentro del viewpor
 FILL = "#FFFFFFFF"      # color del glifo
 OUTLINE = "#59000000"   # contorno suave para que se lea en fondos claros (None = sin contorno)
 OUTLINE_WIDTH = 4       # en unidades del viewport
-THIN = 34               # adelgaza el trazo: unidades de fuente que se quitan por cada lado
-                        # (el trazo de nasin-nanpa mide ~100; 0 = grosor original)
+THIN = 25               # adelgaza el trazo: unidades de fuente que se quitan por cada lado
+                        # (el trazo de Fairfax HD mide 80; 0 = grosor original)
 LAUNCHER_WORD = "toki pona"  # glifo del icono de la propia app (pona dentro de toki)
 
 # Combinaciones automáticas: cada una de estas palabras + cualquier otra palabra de la fuente.
 # Si la primera tiene hueco (contenedor), la segunda va dentro; si no, apiladas.
-# [] = desactivado. Cada cabeza añade ~140 iconos (~0,6 KB cada uno en el APK).
+# [] = desactivado. Cada cabeza añade ~170 iconos (~0,6 KB cada uno en el APK).
 COMBO_HEADS = [
     "ilo", "tomo", "lipu", "jan", "sitelen", "toki", "poki", "ma", "kalama", "musi",
     "esun", "mani", "nasin", "tenpo", "kulupu", "pilin", "lawa", "sona", "telo", "moku",
@@ -62,21 +67,37 @@ COMBO_HEADS = [
 ]
 # Palabras con hueco que NO quieres anidar automáticamente (se apilan salvo que uses '+').
 NEVER_NEST: set = set()
+# Nombres de personas (no son palabras del idioma y confunden en el pack) y te/to, que son las
+# comillas.
+NOT_WORDS = {"itan", "lepeka", "lipamanka", "te", "to"}
+# La fuente acepta varias grafías para algunas palabras (ale/ali, tomo/toma, tenpo/ten…);
+# estas son las que se usan como nombre. Para el resto de sinónimos, la más larga.
+PREFERRED_NAMES = {"ale", "kepeken", "kijetesantakalu", "linluwi", "ni", "oke", "san", "sike",
+                   "tenpo", "tomo", "wuwojiti"}
 # -----------------------------------------------------------------------------
 
-# Caja de los glifos de nasin-nanpa (unidades de fuente). Todos se escalan igual,
+# Medidas de Fairfax HD (unidades de fuente, 1200 por em). Todos los glifos se escalan igual,
 # así el grosor del trazo es el mismo en todos los iconos.
-EM_W = 1000
-EM_CENTER_Y = 400
-MARKER = "glifo de nasin-nanpa"   # comentario que identifica los drawables generados
-# Palabras que anidan automáticamente: todas las que tienen hueco en la fuente (se calcula
-# al cargarla, menos NEVER_NEST). Debe coincidir con SitelenExpression.NEST_HEADS en la app.
+EM_W = 1200             # lado de la caja que se ajusta a SAFE
+EM_CENTER_X = 600
+EM_CENTER_Y = 300       # los glifos ocupan de -190 a 790
+EM_X0, EM_X1 = 110, 1090   # y de 110 a 1090 en horizontal
+EM_Y1 = 790
+FONT_STROKE = 80        # grosor del trazo
+STACK, SCALE = "\U000F1995", "\U000F1996"      # controles UCSUR: apilar / escalar (anidar)
+# Palabras de sitelen pona en UCSUR (fuera quedan la puntuación y los controles, U+F1990–F199F).
+WORD_RANGES = ((0xF1900, 0xF198F), (0xF19A0, 0xF19FF))
+# Si un contenedor no tiene compuestos anidados propios en Fairfax, su caja sale del hueco del
+# glifo: solo cuenta un hueco vacío que ocupe al menos esta parte de la caja del glifo.
+MIN_HOLLOW = 0.3
+MIN_NEST_BOX = 0.35     # y la caja que queda para la segunda palabra, al menos esta parte del lado
+MIN_HOLLOW_FILL = 0.75  # hueco redondo o cuadrado: ocupa al menos esto de su caja
+
+MARKER = "glifo de Fairfax HD"    # comentario que identifica los drawables generados
+OLD_MARKERS = ("glifo de nasin-nanpa",)   # generados con la fuente anterior (se borran igual)
+# Palabras que anidan automáticamente: las que tienen hueco (se calcula al cargar la fuente,
+# menos NEVER_NEST). Debe coincidir con SitelenExpression.NEST_HEADS en la app.
 NEST_HEADS: set = set()
-NOT_WORDS = {"te", "to", "colon", "space"}  # comillas/puntuación con nombre "...Tok"
-# Nombres de personas que trae la fuente (jan Itan, jan Lepeka, jan lipamanka): no son
-# palabras del idioma y confunden en el pack.
-NOT_WORDS |= {"itan", "lepeka", "lipamanka"}
-BASE_RE = re.compile(r"([a-z]+)Tok(?:_VAR(\d+))?")
 
 
 def fmt(v: float) -> str:
@@ -84,61 +105,271 @@ def fmt(v: float) -> str:
     return "0" if s == "-0" else s
 
 
+def _median_box(boxes):
+    return tuple(sorted(b[i] for b in boxes)[len(boxes) // 2] for i in range(4))
+
+
+def _bbox(contours):
+    xs = [x for c in contours for x, _ in c]
+    ys = [y for c in contours for _, y in c]
+    return min(xs), min(ys), max(xs), max(ys)
+
+
+def _area(contour):
+    """Área con signo (shoelace): el signo distingue tinta de huecos."""
+    return sum(x0 * y1 - x1 * y0 for (x0, y0), (x1, y1) in zip(contour, contour[1:] + contour[:1])) / 2
+
+
 class Font:
     def __init__(self, path: Path):
-        self.font = TTFont(str(path))
-        self.gs = self.font.getGlyphSet()
+        self.tt = TTFont(str(path))
+        self.gs = self.tt.getGlyphSet()
+        self.glyf = self.tt["glyf"]
         self.hb = hb.Font(hb.Face(path.read_bytes()))
-        # Palabras con hueco: la fuente trae una versión "<palabra>Tok_joinScaleTok".
-        suffix = "Tok_joinScaleTok"
-        self.containers = {n[:-len(suffix)] for n in self.font.getGlyphOrder()
-                           if n.endswith(suffix) and BASE_RE.fullmatch(n[:-len("_joinScaleTok")])}
-        # Todas las palabras (y variantes) que trae la fuente, en su orden.
-        self.tokens = []
-        for name in self.font.getGlyphOrder():
-            m = BASE_RE.fullmatch(name)
-            if m and m.group(1) not in NOT_WORDS:
-                self.tokens.append(m.group(1) + (f":{int(m.group(2))}" if m.group(2) else ""))
+        self.words = self._read_words()             # palabra -> glifo
+        self.tokens = sorted(self.words, key=lambda w: self._cp(w))
+        self.nest_box, self.stack_boxes = self._learn()
+        self.containers = set(self.nest_box)
+        self.unnested = set()                       # compuestos con '+' que se apilaron
+        self.suspicious = set()                     # iconos cuyo adelgazado no salió bien
+
+    # -- palabras -------------------------------------------------------------------------
+    def _read_words(self):
+        """Palabras ASCII que la fuente convierte en un glifo de sitelen pona (sus ligaduras)."""
+        cmap = self.tt.getBestCmap()
+        letters = {g: chr(c) for c, g in cmap.items() if 0x61 <= c <= 0x7A}
+        word_glyphs = {g: c for c, g in cmap.items() if any(a <= c <= b for a, b in WORD_RANGES)}
+        names = {}                                  # glifo -> nombres
+        for lookup in self.tt["GSUB"].table.LookupList.Lookup:
+            for sub in lookup.SubTable:
+                if lookup.LookupType == 7:
+                    sub = sub.ExtSubTable
+                if not hasattr(sub, "ligatures"):
+                    continue
+                for first, ligs in sub.ligatures.items():
+                    for lig in ligs:
+                        seq = [first] + list(lig.Component)
+                        if lig.LigGlyph in word_glyphs and all(g in letters for g in seq):
+                            names.setdefault(lig.LigGlyph, set()).add("".join(letters[g] for g in seq))
+        for ch in "aeon":                           # palabras de una letra: no son ligaduras
+            [g] = self.shape(ch)
+            if g in word_glyphs:
+                names.setdefault(g, set()).add(ch)
+        words = {}
+        for glyph, ns in names.items():
+            # Sinónimos: el preferido; si no hay, el más largo (y si empatan, por orden alfabético).
+            word = sorted(ns, key=lambda n: (n not in PREFERRED_NAMES, -len(n), n))[0]
+            if word not in NOT_WORDS:
+                words[word] = glyph
+        return words
+
+    def _cp(self, word):
+        return int(self.words[word][1:].split(".")[0], 16)
+
+    def char(self, word):
+        if word not in self.words:
+            raise SystemExit(f"'{word}' no es una palabra de la fuente")
+        return chr(self._cp(word))
 
     def shape(self, text: str):
-        """Compone el texto con las reglas de la fuente (GSUB + GPOS): [(glifo, x, y)]."""
         buf = hb.Buffer()
         buf.add_str(text)
         buf.guess_segment_properties()
         hb.shape(self.hb, buf, {})
-        out, pen_x = [], 0
-        for info, pos in zip(buf.glyph_infos, buf.glyph_positions):
-            out.append((self.hb.glyph_to_string(info.codepoint),
-                        pen_x + pos.x_offset, pos.y_offset))
-            pen_x += pos.x_advance
+        return [self.hb.glyph_to_string(i.codepoint) for i in buf.glyph_infos]
+
+    def contours(self, glyph):
+        """Contornos del glifo como tuplas de puntos (sirven para compararlos entre glifos)."""
+        if self.glyf[glyph].isComposite():
+            p = pathops.Path()
+            self.gs[glyph].draw(p.getPen(glyphSet=self.gs))
+            return self._contours_from_path(p)
+        co, ends, _ = self.glyf[glyph].getCoordinates(self.glyf)
+        out, start = [], 0
+        for e in ends:
+            out.append(tuple(map(tuple, co[start:e + 1])))
+            start = e + 1
         return out
 
-    def bounds(self, parts):
-        pen = BoundsPen(self.gs)
-        for glyph, dx, dy in parts:
-            self.gs[glyph].draw(TransformPen(pen, (1, 0, 0, 1, dx, dy)))
-        return pen.bounds
+    @staticmethod
+    def _contours_from_path(path):
+        out, cur = [], []
+        for verb, pts in path:
+            if verb == pathops.PathVerb.MOVE:
+                cur = [pts[0]]
+            elif verb == pathops.PathVerb.CLOSE:
+                out.append(tuple(cur))
+            else:
+                cur.extend(pts)
+        return out
 
-    def path(self, parts, s, ox, oy, thin=0.0) -> str:
+    # -- lo que se aprende de los compuestos de la fuente --------------------------------
+    def _learn(self):
+        nest, bottoms, tops = {}, [], []
+        for a in self.tokens:
+            a_cont = set(self.contours(self.words[a]))
+            for b in self.tokens:
+                g = self.shape(self.char(a) + SCALE + self.char(b))
+                if len(g) == 1:
+                    allc = self.contours(g[0])
+                    rest = [c for c in allc if c not in a_cont]
+                    if rest and len(rest) < len(allc):     # el contenedor quedó intacto
+                        nest.setdefault(a, []).append(_bbox(rest))
+                g = self.shape(self.char(a) + STACK + self.char(b))
+                if len(g) == 1:
+                    allc = self.contours(g[0])
+                    low = [c for c in allc if (_bbox([c])[1] + _bbox([c])[3]) / 2 < EM_CENTER_Y]
+                    high = [c for c in allc if c not in low]
+                    # Solo los apilados limpios: una pieza entera debajo de la otra.
+                    if low and high and _bbox(low)[3] < _bbox(high)[1]:
+                        bottoms.append(_bbox(low))
+                        tops.append(_bbox(high))
+        nest_box = {a: _median_box(bs) for a, bs in nest.items()}
+        # Mitad de abajo: la de Fairfax (sus piezas de abajo llenan el hueco). La de arriba, igual
+        # de alta y pegada arriba (las piezas de arriba suelen ser bajitas y la mediana engaña).
+        # Anchura: toda la del em, así cada pieza toma la suya al escalarse sin deformarse.
+        b = _median_box(bottoms)
+        h = b[3] - b[1]
+        stack_boxes = ((EM_X0, b[1], EM_X1, b[3]), (EM_X0, EM_Y1 - h, EM_X1, EM_Y1))
+        # Contenedores sin compuestos anidados propios: la caja sale de su hueco, con el mismo
+        # margen que deja Fairfax en los que sí tiene.
+        insets = []
+        for a, box in nest_box.items():
+            hole = self._hollow(a)
+            if hole:
+                h = hole[0]
+                insets.append(min(box[0] - h[0], box[1] - h[1], h[2] - box[2], h[3] - box[3]))
+        margin = sorted(insets)[len(insets) // 2] if insets else FONT_STROKE
+        for a in self.tokens:
+            if a in nest_box:
+                continue
+            hole = self._hollow(a)
+            if not hole:
+                continue
+            hole_box, fill = hole
+            box = (hole_box[0] + margin, hole_box[1] + margin, hole_box[2] - margin, hole_box[3] - margin)
+            gx0, gy0, gx1, gy1 = _bbox(self.contours(self.words[a]))
+            # Caja razonable (no un resquicio como el de palisa), y hueco redondo o cuadrado: los
+            # que forman las líneas al cruzarse (ku, oko, pakala…) ocupan poco de su caja.
+            if (fill >= MIN_HOLLOW_FILL and
+                    min(box[2] - box[0], box[3] - box[1]) >= MIN_NEST_BOX * max(gx1 - gx0, gy1 - gy0)):
+                nest_box[a] = box
+        return nest_box, stack_boxes
+
+    def _hollow(self, word):
+        """(caja, relleno) del mayor hueco vacío del glifo (contorno de signo contrario sin tinta
+        dentro); relleno = qué parte de su caja ocupa el hueco."""
+        cs = self.contours(self.words[word])
+        if not cs:
+            return None
+        outer_sign = 1 if _area(max(cs, key=lambda c: abs(_area(c)))) > 0 else -1
+        gx0, gy0, gx1, gy1 = _bbox(cs)
+        best = None
+        for c in cs:
+            if _area(c) * outer_sign >= 0:
+                continue
+            x0, y0, x1, y1 = _bbox([c])
+            inside = [d for d in cs if d is not c and _area(d) * outer_sign > 0
+                      and x0 <= _bbox([d])[0] and _bbox([d])[2] <= x1
+                      and y0 <= _bbox([d])[1] and _bbox([d])[3] <= y1]
+            if inside:
+                continue                            # el hueco tiene algo dentro (ojo de lukin…)
+            if (x1 - x0) * (y1 - y0) < MIN_HOLLOW * (gx1 - gx0) * (gy1 - gy0):
+                continue
+            if best is None or (x1 - x0) * (y1 - y0) > (best[0][2] - best[0][0]) * (best[0][3] - best[0][1]):
+                best = ((x0, y0, x1, y1), abs(_area(c)) / ((x1 - x0) * (y1 - y0)))
+        return best
+
+    # -- dibujo -----------------------------------------------------------------------------
+    def glyph_path(self, glyph, transform=(1, 0, 0, 1, 0, 0)):
         p = pathops.Path()
-        for glyph, dx, dy in parts:
-            self.gs[glyph].draw(TransformPen(p.getPen(), (s, 0, 0, -s, ox + dx * s, oy - dy * s)))
-        if thin > 0:
-            # Erosión: al relleno se le resta un trazo redondo que sigue su propio contorno.
+        # Coordenadas redondeadas a unidades enteras: con ciertos desplazamientos (decimales)
+        # simplify() de skia-pathops interpreta mal los huecos y los rellena (tenpo en tenpo^suno).
+        self.gs[glyph].draw(TransformPen(RoundingPen(p.getPen(glyphSet=self.gs)), transform))
+        p.simplify()
+        return p
+
+    def piece(self, word, box):
+        """Glifo suelto escalado sin deformar dentro de `box`, con el trazo devuelto a FONT_STROKE."""
+        glyph = self.words[word]
+        gx0, gy0, gx1, gy1 = self.glyph_path(glyph).bounds
+        bx0, by0, bx1, by1 = box
+        k = min((bx1 - bx0) / (gx1 - gx0), (by1 - by0) / (gy1 - gy0))
+        tx = (bx0 + bx1) / 2 - (gx0 + gx1) / 2 * k
+        ty = (by0 + by1) / 2 - (gy0 + gy1) / 2 * k
+        p = self.glyph_path(glyph, (k, 0, 0, k, tx, ty))
+        grow = FONT_STROKE * (1 - k) / 2        # el trazo escalado mide FONT_STROKE·k
+        if grow > 0:
             edge = pathops.Path(p)
-            edge.stroke(2 * thin * s, pathops.LineCap.ROUND_CAP, pathops.LineJoin.ROUND_JOIN, 4)
+            edge.stroke(2 * grow, pathops.LineCap.BUTT_CAP, pathops.LineJoin.MITER_JOIN, 4)
             edge.convertConicsToQuads()
-            p = pathops.op(p, edge, pathops.PathOp.DIFFERENCE)
-        p.convertConicsToQuads()
+            p = pathops.op(p, edge, pathops.PathOp.UNION)
+        return p
+
+    def compose(self, expr: str):
+        """Path del glifo o compuesto, en unidades de fuente."""
+        op, tokens = parse(expr)
+        if len(tokens) == 1:
+            return self.glyph_path(self.words[tokens[0]] if tokens[0] in self.words
+                                   else self.shape(self.char(tokens[0]))[0])
+        if len(tokens) > 2:
+            raise SystemExit(f"'{expr}': solo se admiten compuestos de dos palabras")
+        a, b = tokens
+        g = self.shape(self.char(a) + (SCALE if op == "+" else STACK) + self.char(b))
+        if len(g) == 1:                             # Fairfax lo trae dibujado
+            return self.glyph_path(g[0])
+        if op == "+" and a not in self.nest_box:
+            self.unnested.add(expr)                 # sin hueco donde anidar: se apila
+            op = "^"
+        if op == "+":
+            return pathops.op(self.glyph_path(self.words[a]), self.piece(b, self.nest_box[a]),
+                              pathops.PathOp.UNION)
+        bottom, top = self.stack_boxes
+        return pathops.op(self.piece(a, bottom), self.piece(b, top), pathops.PathOp.UNION)
+
+    def thinned(self, path, thin):
+        """Erosión: al relleno se le resta un trazo redondo que sigue su propio contorno.
+
+        skia-pathops falla a veces con coordenadas decimales y rellena huecos (lawa en
+        lawa^powe). Se detecta porque la tinta apenas baja: adelgazar el trazo de FONT_STROKE a
+        FONT_STROKE - 2·thin debería dejar como mucho esa proporción (más algo por puntos y
+        extremos). Si pasa, se reintenta con coordenadas redondeadas y desplazadas un poco."""
+        expected = (FONT_STROKE - 2 * thin) / FONT_STROKE
+        for shift in (0, 0.37, 0.71, 1.13):
+            p = pathops.Path()
+            path.draw(TransformPen(RoundingPen(p.getPen()), (1, 0, 0, 1, shift, shift)))
+            p.simplify()
+            edge = pathops.Path(p)
+            edge.stroke(2 * thin, pathops.LineCap.ROUND_CAP, pathops.LineJoin.ROUND_JOIN, 4)
+            edge.convertConicsToQuads()
+            out = pathops.op(p, edge, pathops.PathOp.DIFFERENCE)
+            if out.area <= path.area * min(1.0, expected + 0.25):
+                back = pathops.Path()
+                out.draw(TransformPen(back.getPen(), (1, 0, 0, 1, -shift, -shift)))
+                return back, True
+        return out, False
+
+    def svg(self, path, s, ox, oy, thin=0.0, name=None) -> str:
+        """Adelgaza `path` (unidades de fuente) y lo pasa a coordenadas SVG (y hacia abajo)."""
+        p = pathops.Path(path)
+        if thin > 0:
+            p, ok = self.thinned(p, thin)
+            if not ok:
+                self.suspicious.add(name or "?")
+        q = pathops.Path()
+        p.draw(TransformPen(q.getPen(), (s, 0, 0, -s, ox, oy)))
+        q.convertConicsToQuads()
         pen = SVGPathPen(None, ntos=fmt)
-        p.draw(pen)
+        q.draw(pen)
         return pen.getCommands()
 
+    def place(self, path, size, cx, cy):
+        """Escala y desplazamiento para centrar `path` en (cx, cy) con la caja em de lado `size`.
 
-def ascii_token(token: str) -> str:
-    """'sewi:1' -> 'sewi1' (así pide nasin-nanpa las variantes)."""
-    word, _, var = token.partition(":")
-    return word + var
+        Centrado horizontal por la tinta y vertical por la caja em, como el pack."""
+        s = size / EM_W
+        x0, _, x1, _ = path.bounds
+        return s, cx - (x0 + x1) / 2 * s, cy + EM_CENTER_Y * s
 
 
 def parse(expr: str):
@@ -149,42 +380,16 @@ def parse(expr: str):
     if "^" in expr:
         return "^", [t.strip() for t in expr.split("^")]
     tokens = expr.split()
-    head = tokens[0].partition(":")[0]
-    return ("+" if len(tokens) > 1 and head in NEST_HEADS else "^"), tokens
-
-
-def compose(font: Font, expr: str):
-    """Devuelve [(glifo, x, y)] tal como los coloca la propia fuente.
-
-    Se le pasa a la fuente el texto ASCII que entiende: 'toki+pona' (anidado, la segunda
-    palabra pequeña dentro de la primera) o 'ilo-tenpo' (apilado).
-    """
-    op, tokens = parse(expr)
-    if len(tokens) > 2:
-        raise SystemExit(f"'{expr}': solo se admiten compuestos de dos palabras")
-    joiner = "+" if op == "+" else "-"
-    text = joiner.join(ascii_token(t) for t in tokens)
-    parts = font.shape(text)
-    words = [g for g, _, _ in parts if "Tok" in g]
-    if len(words) != len(tokens) or len(parts) != len(tokens):
-        raise SystemExit(f"'{expr}': la fuente no lo compone como {len(tokens)} glifo(s): "
-                         f"{[g for g, _, _ in parts]}")
-    if len(tokens) == 2 and not all("join" in g for g in words):
-        how = "anidar ('+')" if op == "+" else "apilar ('^')"
-        raise SystemExit(f"'{expr}': la fuente no sabe {how} estas palabras: {words}")
-    return parts
+    return ("+" if len(tokens) > 1 and tokens[0] in NEST_HEADS else "^"), tokens
 
 
 def vector_xml(font: Font, expr: str, viewport, safe, size_dp, fill, outline, outline_w):
-    parts = compose(font, expr)
-    s = safe / EM_W
-    x0, _, x1, _ = font.bounds(parts)
-    ox = viewport / 2 - (x0 + x1) / 2 * s          # centrado horizontal por la tinta
-    oy = viewport / 2 + EM_CENTER_Y * s            # centrado vertical por la caja em
-    d = font.path(parts, s, ox, oy, THIN)
+    path = font.compose(expr)
+    s, ox, oy = font.place(path, safe, viewport / 2, viewport / 2)
+    d = font.svg(path, s, ox, oy, THIN, name=expr)
     lines = [
         '<?xml version="1.0" encoding="utf-8"?>',
-        f"<!-- {expr} — {MARKER} de jan Itan (licencia MIT) -->",
+        f"<!-- {expr} — {MARKER} (Kreative Software, licencia OFL) -->",
         '<vector xmlns:android="http://schemas.android.com/apk/res/android"',
         f'    android:width="{size_dp}dp"',
         f'    android:height="{size_dp}dp"',
@@ -210,8 +415,25 @@ def vector_xml(font: Font, expr: str, viewport, safe, size_dp, fill, outline, ou
 
 def drawable_name(expr: str) -> str:
     op, tokens = parse(expr)
-    names = [t.replace(":", "_v") for t in tokens]
-    return ("_en_" if op == "+" else "_").join(names)
+    return ("_en_" if op == "+" else "_").join(tokens)
+
+
+def layout_json(font: Font) -> str:
+    """Lo que el editor de la app necesita para componer igual que el pack (GlyphRenderer.kt)."""
+    def box(b):
+        return [round(v) for v in b]
+    data = {
+        "_comment": "Generado por tools/generate_icons.py a partir de fairfax_pona_hd.ttf. No editar.",
+        "em": EM_W,
+        "centerY": EM_CENTER_Y,
+        "stroke": FONT_STROKE,
+        "thin": THIN,
+        "words": {w: f"{font._cp(w):X}" for w in font.tokens},
+        "nest": {w: box(font.nest_box[w]) for w in sorted(font.nest_box)},
+        "neverNest": sorted(NEVER_NEST),     # tienen hueco pero solo anidan con '+'
+        "stack": [box(font.stack_boxes[0]), box(font.stack_boxes[1])],
+    }
+    return json.dumps(data, indent=1, ensure_ascii=False) + "\n"
 
 
 APP_PACKAGE = "com.pepesantos.tokiponaiconpack"
@@ -283,7 +505,7 @@ def refresh_components(categories, dest: Path):
 def main():
     ap = argparse.ArgumentParser()
     # Por defecto, la misma fuente que lleva la app (así el pack y el editor coinciden).
-    ap.add_argument("--font", default=str(RES / "font" / "nasin_nanpa.otf"))
+    ap.add_argument("--font", default=str(RES / "font" / "fairfax_pona_hd.ttf"))
     ap.add_argument("--apps", default=str(ROOT / "tools" / "apps.json"))
     ap.add_argument("--device-file", default=str(ROOT / "tools" / "apps_device.json"),
                     help="asignaciones hechas en la app (se usan si el archivo existe)")
@@ -321,9 +543,11 @@ def main():
 
     drawable_dir = RES / "drawable"
     drawable_dir.mkdir(parents=True, exist_ok=True)
-    # Borra lo generado antes (marcado con MARKER; tp_* es el formato antiguo).
+    # Borra lo generado antes (marcado con MARKER o con el de la fuente anterior; tp_* es el
+    # formato antiguo).
     for old in drawable_dir.glob("*.xml"):
-        if old.name.startswith("tp_") or MARKER in old.read_text(encoding="utf-8"):
+        text = old.read_text(encoding="utf-8")
+        if old.name.startswith("tp_") or any(m in text for m in (MARKER, *OLD_MARKERS)):
             old.unlink()
 
     written = {}
@@ -338,7 +562,7 @@ def main():
             written[name] = expr
         return name
 
-    # 1) Todas las palabras y variantes, para asignarlas a mano desde el launcher.
+    # 1) Todas las palabras, para asignarlas a mano desde el launcher.
     all_words = [write_icon(t) for t in font.tokens]
 
     def try_write_icon(expr, origin):
@@ -407,19 +631,18 @@ def main():
             saved_names.append(name)
     curated = list(written)  # todo lo anterior (en orden): palabras, apps, extras y tus palabras
 
-    # 4) Combinaciones automáticas: COMBO_HEADS × todas las palabras base.
-    base_words = [t for t in font.tokens if ":" not in t]
+    # 4) Combinaciones automáticas: COMBO_HEADS × todas las palabras.
     combo_categories, combo_failed = [], 0
     for head in COMBO_HEADS:
         names = []
-        for w in base_words:
+        for w in font.tokens:
             if w == head:
                 continue
             expr = f"{head}+{w}" if head in NEST_HEADS else f"{head}^{w}"
             try:
                 names.append(write_icon(expr))
             except SystemExit:
-                combo_failed += 1  # la fuente no sabe componer esa pareja
+                combo_failed += 1
         combo_categories.append((head, names))
 
     appfilter = (
@@ -443,25 +666,38 @@ def main():
     drawable_xml = (
         '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n'
         "    <version>1</version>\n"
-        + ('    <category title="nimi sina (tus palabras)" />\n' + items(saved_names) + "\n" if saved_names else "")
+        # Títulos en inglés para los selectores de los launchers; la app los traduce por la
+        # parte en toki pona (PackIcons.localizedTitle).
+        + ('    <category title="nimi sina (your words)" />\n' + items(saved_names) + "\n" if saved_names else "")
         + '    <category title="ilo (apps)" />\n' + items(app_drawables) + "\n"
-        '    <category title="nimi tu (compuestos)" />\n' + items(compounds) + "\n"
-        '    <category title="nimi ale (todas las palabras)" />\n' + items(all_words) + "\n"
+        '    <category title="nimi ale (all words)" />\n' + items(all_words) + "\n"
+        '    <category title="nimi tu (compounds)" />\n' + items(compounds) + "\n"
         + combos_xml
         + "</resources>\n"
     )
     (RES / "xml" / "drawable.xml").write_text(drawable_xml, encoding="utf-8")
     shutil.copyfile(RES / "xml" / "drawable.xml", MAIN / "assets" / "drawable.xml")
 
+    # Para el editor de la app: palabras y cajas aprendidas de la fuente.
+    (MAIN / "assets" / "sitelen_layout.json").write_text(layout_json(font), encoding="utf-8")
+
     # 5) Icono de la propia app (adaptive icon: viewport 108, zona segura 66).
     fg = vector_xml(font, LAUNCHER_WORD, 108, 60, 108, "#FFFFFFFF", None, 0)
     (drawable_dir / "ic_launcher_foreground.xml").write_text(fg, encoding="utf-8")
 
+    learned = sorted(font.containers)
+    print(f"{len(font.tokens)} palabras; {len(learned)} contenedores (anidan): " + " ".join(learned))
+    if font.unnested:
+        print("AVISO: piden anidar en una palabra sin hueco y se apilan: "
+              + ", ".join(sorted(font.unnested)))
+    if font.suspicious:
+        print(f"AVISO: {len(font.suspicious)} iconos con el adelgazado dudoso (revísalos): "
+              + ", ".join(sorted(font.suspicious)))
     print(f"{n_category} componentes cubiertos por categorías "
           f"({len(categories)} categorías, {len(known)} paquetes conocidos)")
     n_combos = sum(len(n) for _, n in combo_categories)
-    print(f"{n_combos} combinaciones automáticas ({combo_failed} parejas que la fuente no compone)")
-    print(f"{len(all_words)} palabras/variantes, {len(compounds)} compuestos, "
+    print(f"{n_combos} combinaciones automáticas ({combo_failed} que no se pudieron componer)")
+    print(f"{len(all_words)} palabras, {len(compounds)} compuestos, "
           f"{len(filter_items)} componentes en appfilter.xml"
           + (f" ({len(device_icons)} asignaciones y {len(saved_names)} palabras desde la app)"
              if device_icons or saved_names else ""))

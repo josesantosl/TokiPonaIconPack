@@ -1,0 +1,10 @@
+An icon pack that writes your apps in sitelen pona, the script of the toki pona language. The phone is "ilo toki" (talking tool), the clock "tenpo" (time), maps "ma" (land). Apps without their own glyph get the one of their category, so more than 1,500 apps are covered.
+
+• Works with Niagara, Nova, Lawnchair, Smart Launcher, ADW and others
+• About 3,700 icons, browsable and searchable in the app
+• Glyph editor with colours, stroke weight and SVG/PNG export
+• Home screen shortcuts with any glyph, for any launcher
+
+No ads, no tracking, no internet permission.
+
+Glyphs from the Fairfax HD font by Kreative Software (Open Font License). Open source, MIT License.

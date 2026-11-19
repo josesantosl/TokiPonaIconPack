@@ -1,12 +1,12 @@
 <resources>
     <string name="how_to_apply">Per usare il pacchetto di icone completo: impostazioni del tuo launcher (Nova, Lawnchair, Niagara, Smart Launcher…) → Aspetto → Pacchetto di icone → Toki Pona Icon Pack.</string>
-    <string name="credits_link">Glifi: font nasin-nanpa di jan Itan (licenza MIT). Vedi la licenza completa.</string>
+    <string name="credits_link">Glifi: font Fairfax HD di Kreative Software (Open Font License). Vedi crediti e licenze.</string>
 
     <string name="credits_title">Crediti e licenze</string>
-    <string name="credits_body">Tutti i glifi di sitelen pona di questa app e del pacchetto di icone sono disegnati con il font nasin-nanpa, creato da jan Itan.</string>
+    <string name="credits_body_fairfax">Tutti i glifi di sitelen pona di questa app e del pacchetto di icone provengono dal font Fairfax HD di Kreative Software (Rebecca Bettencourt, jan Lepeka), con licenza SIL Open Font License. I composti che il font non include sono composti seguendo i suoi.</string>
     <string name="credits_license_note">La licenza del font è mostrata nella sua lingua originale (inglese).</string>
 
-    <string name="expr_invalid">nasin-nanpa non riconosce questa parola o questo composto</string>
+    <string name="expr_invalid">Parola o composto sconosciuto</string>
     <string name="label_foreground">kule sitelen (glifo)</string>
     <string name="label_background">kule monsi (sfondo)</string>
     <string name="thickness">suli linja (spessore): %1$s</string>
@@ -41,6 +41,10 @@
     <string name="gallery_title">Icone del pacchetto</string>
     <string name="close">Chiudi</string>
     <string name="no_results">Nessuna icona corrisponde</string>
+    <string name="category_saved">nimi sina (le tue parole)</string>
+    <string name="category_apps">ilo (app)</string>
+    <string name="category_compounds">nimi tu (parole composte)</string>
+    <string name="category_all_words">nimi ale (tutte le parole)</string>
     <plurals name="gallery_count">
         <item quantity="one">%d icona</item>
         <item quantity="many">%d icone</item>

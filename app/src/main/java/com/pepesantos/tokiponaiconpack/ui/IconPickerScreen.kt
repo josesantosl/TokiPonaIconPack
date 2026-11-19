@@ -195,7 +195,8 @@ private fun PackIconGrid(
 
     Scaffold(
         topBar = {
-            Column {
+            // Fondo opaco: si no, la rejilla se ve a través del campo de búsqueda al desplazarla.
+            Column(Modifier.background(MaterialTheme.colorScheme.surface)) {
                 TopAppBar(
                     title = { Text(title) },
                     actions = { TextButton(onClick = onClose) { Text(closeLabel) } },

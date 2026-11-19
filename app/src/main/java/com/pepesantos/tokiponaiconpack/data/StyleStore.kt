@@ -32,6 +32,7 @@ class StyleStore(context: Context) {
         const val FG = "fg"
         const val BG = "bg"
         const val HAS_BG = "has_bg"
-        const val THIN = "thin"
+        // Nueva clave al pasar a Fairfax HD: el valor antiguo estaba en unidades de nasin-nanpa.
+        const val THIN = "thin_fairfax"
     }
 }
