@@ -1,7 +1,7 @@
 {
   "_comment": "Generic glyph per app category. 'packages' are resolved to exact components via tools/known_components.json (run generate_icons.py --refresh-components after adding packages). 'components' lists exact ones that are not in that lookup. Specific entries in apps.json always win over categories.",
   "categories": [
-    { "label": "banking", "words": "tomo mani", "packages": [
+    { "label": "banking", "words": "mani", "packages": [
       "de.number26.android", "com.transferwise.android", "com.ing.mobile", "com.bbva.bbvacontigo",
       "es.bancosantander.apps", "com.latuabancaperandroid", "com.unicredit", "co.uk.getmondo",
       "com.bunq.android", "com.chase.sig.android", "com.wf.wellsfargomobile"
@@ -12,10 +12,10 @@
       "com.google.android.apps.walletnfcrel", "com.samsung.android.spay", "com.paypal.android.p2pmobile",
       "com.venmo", "com.squareup.cash"
     ]},
-    { "label": "crypto", "words": "mani sin", "packages": [
+    { "label": "crypto", "words": "mani", "packages": [
       "com.binance.dev", "com.coinbase.android", "com.kraken.trade", "com.kraken.pay.app"
     ]},
-    { "label": "email", "words": "lipu", "packages": [
+    { "label": "email", "words": "toki", "packages": [
       "com.google.android.gm", "com.microsoft.office.outlook", "com.yahoo.mobile.client.android.mail",
       "com.readdle.spark", "eu.faircode.email", "net.thunderbird.android", "com.fsck.k9",
       "com.samsung.android.email.provider"
@@ -45,7 +45,7 @@
       "com.soundcloud.android", "com.apple.android.music", "com.aspiro.tidal", "com.amazon.mp3",
       "com.shazam.android"
     ]},
-    { "label": "podcasts", "words": "kute", "packages": [
+    { "label": "podcasts", "words": "kalama", "packages": [
       "de.danoeh.antennapod", "au.com.shiftyjelly.pocketcasts"
     ]},
     { "label": "shopping", "words": "esun", "packages": [
@@ -53,14 +53,14 @@
       "com.einnovation.temu", "com.zzkko", "fr.vinted", "com.wallapop", "it.subito", "com.etsy.android",
       "com.ingka.ikea.app"
     ]},
-    { "label": "supermarkets", "words": "tomo esun", "packages": [
+    { "label": "supermarkets", "words": "esun", "packages": [
       "it.carrefour.mycarrefour", "com.lidl.eci.lidlplus", "it.esselunga.mobile"
     ]},
     { "label": "food", "words": "moku", "packages": [
       "com.glovo", "com.deliveroo.orderapp", "com.justeat.app.uk", "com.ubercab.eats", "com.app.tgtg",
       "io.yuka.android"
     ]},
-    { "label": "transport", "words": "tomo tawa", "packages": [
+    { "label": "transport", "words": "tawa", "packages": [
       "com.ubercab", "ee.mtakso.client", "com.cabify.rider", "taxi.android.client", "com.goeuro.rosie",
       "com.thetrainline", "com.tranzmate"
     ], "components": [
@@ -79,18 +79,18 @@
       "com.sec.android.app.sbrowser", "com.vivaldi.browser", "org.torproject.torbrowser",
       "org.mozilla.firefox", "com.duckduckgo.mobile.android", "org.mozilla.focus"
     ]},
-    { "label": "notes", "words": "lipu lili", "packages": [
+    { "label": "notes", "words": "lipu", "packages": [
       "com.google.android.keep", "notion.id", "md.obsidian", "com.evernote", "com.microsoft.office.onenote",
       "net.cozic.joplin", "com.standardnotes", "org.fossify.notes"
     ]},
-    { "label": "tasks", "words": "lipu pali", "packages": [
+    { "label": "tasks", "words": "pali", "packages": [
       "com.todoist", "com.microsoft.todos", "com.google.android.apps.tasks", "com.ticktick.task"
     ]},
-    { "label": "passwords", "words": "nimi len", "packages": [
+    { "label": "passwords", "words": "len", "packages": [
       "com.x8bit.bitwarden", "proton.android.pass", "com.onepassword.android",
       "com.kunzisoft.keepass.free", "com.kunzisoft.keepass.libre"
     ]},
-    { "label": "authenticators", "words": "nanpa len", "packages": [
+    { "label": "authenticators", "words": "len", "packages": [
       "com.google.android.apps.authenticator2", "com.beemdevelopment.aegis", "com.authy.authy",
       "com.azure.authenticator", "proton.android.authenticator"
     ]},
@@ -105,7 +105,7 @@
       "com.memrise.android.memrisecompanion", "com.busuu.android.enc", "org.khanacademy.android",
       "com.hellochinese"
     ]},
-    { "label": "reading", "words": "lipu sona", "packages": [
+    { "label": "reading", "words": "lipu", "packages": [
       "com.amazon.kindle", "org.koreader.launcher.fdroid", "org.koreader.launcher",
       "com.google.android.apps.books", "com.flyersoft.moonreaderp", "com.ideashower.readitlater.pro"
     ]},
@@ -128,10 +128,10 @@
       "com.strava", "com.google.android.apps.fitness", "com.sec.android.app.shealth",
       "com.fitbit.FitbitMobile", "com.myfitnesspal.android"
     ]},
-    { "label": "carriers", "words": "linja toki", "packages": [
+    { "label": "carriers", "words": "linja", "packages": [
       "it.iliad", "com.orange.orangeetmoi", "com.claro.miclaro", "it.fastweb.myfastweb"
     ]},
-    { "label": "smart home", "words": "ilo tomo", "packages": [
+    { "label": "smart home", "words": "tomo", "packages": [
       "com.tuya.smartlife", "com.philips.lighting.hue2", "com.tplink.iot",
       "io.homeassistant.companion.android", "com.google.android.apps.chromecast.app"
     ]},
@@ -139,10 +139,10 @@
       "com.google.android.inputmethod.latin", "com.touchtype.swiftkey", "org.futo.inputmethod.latin",
       "helium314.keyboard", "org.fossify.keyboard", "com.tavultesoft.kmapro"
     ]},
-    { "label": "launchers", "words": "tomo ilo", "packages": [
+    { "label": "launchers", "words": "tomo", "packages": [
       "bitpit.launcher", "com.teslacoilsw.launcher", "app.lawnchair", "app.prolauncher"
     ]},
-    { "label": "terminal", "words": "ilo nanpa", "packages": [
+    { "label": "terminal", "words": "ilo", "packages": [
       "com.termux", "com.server.auditor.ssh.client", "org.connectbot"
     ]},
     { "label": "games", "words": "musi", "packages": [

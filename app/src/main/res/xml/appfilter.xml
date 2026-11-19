@@ -36,18 +36,18 @@
     <item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryActivity}" drawable="sitelen" />
     <!-- Settings : ilo -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="ilo" />
-    <!-- Clock : ilo tenpo -->
-    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="ilo_tenpo" />
-    <!-- Clock : ilo tenpo -->
-    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="ilo_tenpo" />
-    <!-- Clock : ilo tenpo -->
-    <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="ilo_tenpo" />
-    <!-- Calendar : lipu tenpo -->
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lipu_en_tenpo" />
-    <!-- Calendar : lipu tenpo -->
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lipu_en_tenpo" />
-    <!-- Calendar : lipu tenpo -->
-    <item component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lipu_en_tenpo" />
+    <!-- Clock : tenpo -->
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="tenpo" />
+    <!-- Clock : tenpo -->
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="tenpo" />
+    <!-- Clock : tenpo -->
+    <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="tenpo" />
+    <!-- Calendar : tenpo -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="tenpo" />
+    <!-- Calendar : tenpo -->
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="tenpo" />
+    <!-- Calendar : tenpo -->
+    <item component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" drawable="tenpo" />
     <!-- Calculator : nanpa -->
     <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="nanpa" />
     <!-- Calculator : nanpa -->
@@ -60,10 +60,10 @@
     <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="poki" />
     <!-- Files : poki -->
     <item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Grey_black}" drawable="poki" />
-    <!-- Google Drive : poki+sewi:1 -->
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="poki_en_sewi_v1" />
-    <!-- Recorder : ilo kute -->
-    <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.ui.main.MainActivity}" drawable="ilo_kute" />
+    <!-- Google Drive : poki -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="poki" />
+    <!-- Recorder : kute -->
+    <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.ui.main.MainActivity}" drawable="kute" />
     <!-- Google : alasa -->
     <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="alasa" />
     <!-- Translate : toki ante -->
@@ -72,8 +72,8 @@
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.fenix.HomeActivity}" drawable="soweli" />
     <!-- Firefox : soweli -->
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="soweli" />
-    <!-- Amazon : esun -->
-    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="esun" />
+    <!-- Amazon : pona -->
+    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="pona" />
     <!-- Google Home : tomo -->
     <item component="ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity}" drawable="tomo" />
     <!-- Spotify : kalama -->
@@ -94,18 +94,18 @@
     <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="waso" />
     <!-- X / Twitter : waso -->
     <item component="ComponentInfo{com.twitter.android/com.x.android.main.MainActivity}" drawable="waso" />
-    <!-- Instagram : sitelen kule -->
-    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="sitelen_en_kule" />
+    <!-- Instagram : sitelen -->
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="sitelen" />
     <!-- Snapchat : kon -->
     <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="kon" />
-    <!-- Discord : toki kulupu -->
-    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="toki_en_kulupu" />
-    <!-- Discord : toki kulupu -->
-    <item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="toki_en_kulupu" />
-    <!-- Reddit : lipu kulupu -->
-    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.main.MainActivity}" drawable="lipu_en_kulupu" />
-    <!-- Reddit : lipu kulupu -->
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="lipu_en_kulupu" />
+    <!-- Discord : kulupu -->
+    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="kulupu" />
+    <!-- Discord : kulupu -->
+    <item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="kulupu" />
+    <!-- Reddit : kulupu -->
+    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.main.MainActivity}" drawable="kulupu" />
+    <!-- Reddit : kulupu -->
+    <item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="kulupu" />
     <!-- LinkedIn : pali -->
     <item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}" drawable="pali" />
     <!-- LinkedIn : pali -->
@@ -116,92 +116,100 @@
     <item component="ComponentInfo{com.pepesantos.tokiponaiconpack/com.pepesantos.tokiponaiconpack.MainActivity}" drawable="toki_en_pona" />
     <!-- Scontrino : lipu mani -->
     <item component="ComponentInfo{com.pepesantos.scontrino/com.pepesantos.scontrino.MainActivity}" drawable="lipu_en_mani" />
+    <!-- Scontrino : lipu mani -->
+    <item component="ComponentInfo{com.pepesantos.scontrino/com.pepesantos.scontrino.LauncherDark}" drawable="lipu_en_mani" />
     <!-- Compass : nasin -->
     <item component="ComponentInfo{app.chompass/app.chompass.LauncherGraphite}" drawable="nasin" />
-    <!-- Organic Maps : ma kasi -->
-    <item component="ComponentInfo{app.organicmaps/app.organicmaps.DownloadResourcesActivity}" drawable="ma_kasi" />
-    <!-- Bitpit Launcher : tomo nanpa -->
-    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.ui.HomeActivity}" drawable="tomo_en_nanpa" />
-    <!-- Minimal Detox Launcher : tomo lili -->
-    <item component="ComponentInfo{com.minimaa.minimal.detox.launcher/com.minimaa.minimal.detox.launcher.MainActivity}" drawable="tomo_en_lili" />
-    <!-- Proton Mail : lipu len -->
-    <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingActivity}" drawable="lipu_en_len" />
-    <!-- Tuta Mail : lipu awen -->
-    <item component="ComponentInfo{de.tutao.tutanota/de.tutao.tutanota.MainActivity}" drawable="lipu_en_awen" />
-    <!-- Proton Drive : poki len -->
-    <item component="ComponentInfo{me.proton.android.drive/me.proton.android.drive.ui.MainActivity}" drawable="poki_en_len" />
-    <!-- Bring! : lipu esun -->
-    <item component="ComponentInfo{ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity}" drawable="lipu_en_esun" />
+    <!-- Organic Maps : ma -->
+    <item component="ComponentInfo{app.organicmaps/app.organicmaps.DownloadResourcesActivity}" drawable="ma" />
+    <!-- Bitpit Launcher : tomo -->
+    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.ui.HomeActivity}" drawable="tomo" />
+    <!-- Minimal Detox Launcher : lili -->
+    <item component="ComponentInfo{com.minimaa.minimal.detox.launcher/com.minimaa.minimal.detox.launcher.MainActivity}" drawable="lili" />
+    <!-- Proton Mail : toki -->
+    <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingActivity}" drawable="toki" />
+    <!-- Tuta Mail : toki -->
+    <item component="ComponentInfo{de.tutao.tutanota/de.tutao.tutanota.MainActivity}" drawable="toki" />
+    <!-- Proton Drive : poki -->
+    <item component="ComponentInfo{me.proton.android.drive/me.proton.android.drive.ui.MainActivity}" drawable="poki" />
+    <!-- Proton Pass : len+nimi -->
+    <item component="ComponentInfo{proton.android.pass/proton.android.pass.ui.MainActivity}" drawable="len_en_nimi" />
+    <!-- Proton Authenticator : len+nanpa -->
+    <item component="ComponentInfo{proton.android.authenticator/proton.android.authenticator.app.ui.MainActivity}" drawable="len_en_nanpa" />
+    <!-- Bring! : esun -->
+    <item component="ComponentInfo{ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity}" drawable="esun" />
     <!-- AliExpress : ilo -->
     <item component="ComponentInfo{com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity}" drawable="ilo" />
-    <!-- Vinted : esun len -->
-    <item component="ComponentInfo{fr.vinted/com.vinted.feature.shell.MDActivity}" drawable="esun_len" />
-    <!-- zooplus : esun soweli -->
-    <item component="ComponentInfo{de.zooplus/de.zooplus.lib.catdog1}" drawable="esun_soweli" />
-    <!-- Revolut : mani sin -->
-    <item component="ComponentInfo{com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity}" drawable="mani_en_sin" />
-    <!-- Satispay : pana mani -->
-    <item component="ComponentInfo{com.satispay.customer/com.satispay.customer.main.SplashActivity}" drawable="pana_mani" />
-    <!-- Kraken Pay : mani tawa -->
-    <item component="ComponentInfo{com.kraken.pay.app/com.kraken.pay.app.MainActivity}" drawable="mani_en_tawa" />
-    <!-- Kraken : esun mani -->
-    <item component="ComponentInfo{com.kraken.trade/com.kraken.trade.MainActivity}" drawable="esun_mani" />
-    <!-- FOSS Wallet : poki lipu -->
-    <item component="ComponentInfo{nz.eloque.foss_wallet/nz.eloque.foss_wallet.MainActivity}" drawable="poki_en_lipu" />
-    <!-- Casio Watches : tenpo luka -->
-    <item component="ComponentInfo{com.casio.wac_app/com.casio.wac_app.MainActivityDefault}" drawable="tenpo_luka" />
-    <!-- Arcticons : sitelen lili -->
-    <item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.MainActivity}" drawable="sitelen_en_lili" />
-    <!-- DuckDuckGo : waso alasa -->
-    <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="waso_alasa" />
-    <!-- My Fairphone : ilo pona -->
-    <item component="ComponentInfo{com.fairphone.myfairphone/com.fairphone.presentation.ui.activity.MainActivity}" drawable="ilo_pona" />
-    <!-- DankChat : toki musi -->
-    <item component="ComponentInfo{com.flxrs.dankchat/com.flxrs.dankchat.ui.main.MainActivity}" drawable="toki_en_musi" />
+    <!-- Vinted : esun -->
+    <item component="ComponentInfo{fr.vinted/com.vinted.feature.shell.MDActivity}" drawable="esun" />
+    <!-- zooplus : esun -->
+    <item component="ComponentInfo{de.zooplus/de.zooplus.lib.catdog1}" drawable="esun" />
+    <!-- F-Droid : esun -->
+    <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.IconActivity}" drawable="esun" />
+    <!-- Revolut : mani -->
+    <item component="ComponentInfo{com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity}" drawable="mani" />
+    <!-- Satispay : mani -->
+    <item component="ComponentInfo{com.satispay.customer/com.satispay.customer.main.SplashActivity}" drawable="mani" />
+    <!-- Kraken Pay : mani -->
+    <item component="ComponentInfo{com.kraken.pay.app/com.kraken.pay.app.MainActivity}" drawable="mani" />
+    <!-- Kraken : esun -->
+    <item component="ComponentInfo{com.kraken.trade/com.kraken.trade.MainActivity}" drawable="esun" />
+    <!-- FOSS Wallet : poki -->
+    <item component="ComponentInfo{nz.eloque.foss_wallet/nz.eloque.foss_wallet.MainActivity}" drawable="poki" />
+    <!-- Casio Watches : tenpo -->
+    <item component="ComponentInfo{com.casio.wac_app/com.casio.wac_app.MainActivityDefault}" drawable="tenpo" />
+    <!-- Arcticons : sitelen -->
+    <item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.MainActivity}" drawable="sitelen" />
+    <!-- DuckDuckGo : alasa -->
+    <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="alasa" />
+    <!-- My Fairphone : ilo -->
+    <item component="ComponentInfo{com.fairphone.myfairphone/com.fairphone.presentation.ui.activity.MainActivity}" drawable="ilo" />
+    <!-- DankChat : toki -->
+    <item component="ComponentInfo{com.flxrs.dankchat/com.flxrs.dankchat.ui.main.MainActivity}" drawable="toki" />
     <!-- Twitch : sitelen musi -->
     <item component="ComponentInfo{tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity}" drawable="sitelen_en_musi" />
-    <!-- Kick : lukin musi -->
-    <item component="ComponentInfo{com.kick.mobile/com.kick.mobile.MainActivity}" drawable="lukin_musi" />
-    <!-- GitHub : pali kulupu -->
-    <item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="pali_kulupu" />
-    <!-- Omio : tawa ma -->
-    <item component="ComponentInfo{com.goeuro.rosie/com.goeuro.rosie.app.TopLevelActivity}" drawable="tawa_ma" />
-    <!-- 17TRACK : poki tawa -->
-    <item component="ComponentInfo{yqtrack.app/yqtrack.app.MainActivity}" drawable="poki_en_tawa" />
+    <!-- Kick : noka -->
+    <item component="ComponentInfo{com.kick.mobile/com.kick.mobile.MainActivity}" drawable="noka" />
+    <!-- GitHub : pali -->
+    <item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="pali" />
+    <!-- Omio : tawa -->
+    <item component="ComponentInfo{com.goeuro.rosie/com.goeuro.rosie.app.TopLevelActivity}" drawable="tawa" />
+    <!-- 17TRACK : poki -->
+    <item component="ComponentInfo{yqtrack.app/yqtrack.app.MainActivity}" drawable="poki" />
     <!-- Safety Hub : awen -->
     <item component="ComponentInfo{com.google.android.apps.safetyhub/com.google.android.apps.safetyhub.LauncherActivity}" drawable="awen" />
-    <!-- Healthy Dining (veg) : moku kasi -->
-    <item component="ComponentInfo{com.hcceg.veg.compassionfree/com.sisow.hcvg.healthydiningguide.app.splash.ui.SplashScreenActivity}" drawable="moku_kasi" />
-    <!-- Yuka : moku pona -->
-    <item component="ComponentInfo{io.yuka.android/io.yuka.android.main.RootActivity}" drawable="moku_pona" />
-    <!-- HelloChinese : sona toki -->
-    <item component="ComponentInfo{com.hellochinese/com.hellochinese.ui.SplashActivity}" drawable="sona_en_toki" />
-    <!-- HerePrint : ilo lipu -->
-    <item component="ComponentInfo{com.hprt.hereprint/com.poooli.wonderfulprinter.activity.WelcomeActivity}" drawable="ilo_lipu" />
-    <!-- Minimal To-Do : lipu pali -->
-    <item component="ComponentInfo{com.minimalisttodolist.pleasebethelastrecyclerview/com.minimalisttodolist.pleasebethelastrecyclerview.MainActivity}" drawable="lipu_en_pali" />
-    <!-- Feelfit : ilo sijelo -->
-    <item component="ComponentInfo{com.qingniu.feelfit/com.qingniu.oversea.launcher.LauncherActivity}" drawable="ilo_sijelo" />
-    <!-- Termius : ilo linja -->
-    <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity}" drawable="ilo_linja" />
+    <!-- Healthy Dining (veg) : kasi -->
+    <item component="ComponentInfo{com.hcceg.veg.compassionfree/com.sisow.hcvg.healthydiningguide.app.splash.ui.SplashScreenActivity}" drawable="kasi" />
+    <!-- Yuka : moku -->
+    <item component="ComponentInfo{io.yuka.android/io.yuka.android.main.RootActivity}" drawable="moku" />
+    <!-- HelloChinese : sona -->
+    <item component="ComponentInfo{com.hellochinese/com.hellochinese.ui.SplashActivity}" drawable="sona" />
+    <!-- HerePrint : lipu -->
+    <item component="ComponentInfo{com.hprt.hereprint/com.poooli.wonderfulprinter.activity.WelcomeActivity}" drawable="lipu" />
+    <!-- Minimal To-Do : pali -->
+    <item component="ComponentInfo{com.minimalisttodolist.pleasebethelastrecyclerview/com.minimalisttodolist.pleasebethelastrecyclerview.MainActivity}" drawable="pali" />
+    <!-- Feelfit : sijelo -->
+    <item component="ComponentInfo{com.qingniu.feelfit/com.qingniu.oversea.launcher.LauncherActivity}" drawable="sijelo" />
+    <!-- Termius : linja -->
+    <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity}" drawable="linja" />
     <!-- WM Keyboard : ilo nimi -->
     <item component="ComponentInfo{com.wasimaster.wmkeyboard/com.wasimaster.wmkeyboard.app.LauncherFullName}" drawable="ilo_nimi" />
     <!-- MyUniTO : tomo sona -->
     <item component="ComponentInfo{it.cineca.app.MyUniTOPlus/it.cineca.app.MyUniTOPlus.MainActivity}" drawable="tomo_en_sona" />
     <!-- Iren : wawa -->
     <item component="ComponentInfo{it.irenyou.app/it.irenyou.app.MainActivity}" drawable="wawa" />
-    <!-- Sudoku : musi nanpa -->
-    <item component="ComponentInfo{ee.dustland.android.dustlandsudoku/ee.dustland.android.dustlandsudoku.SudokuHostActivity}" drawable="musi_en_nanpa" />
-    <!-- Lichess : musi utala -->
-    <item component="ComponentInfo{org.lichess.mobileV2/org.lichess.mobileV2.MainActivity}" drawable="musi_en_utala" />
-    <!-- Jupyter : lipu nanpa -->
-    <item component="ComponentInfo{org.termuxstudio.jupyternotebook/org.termuxstudio.jupyternotebook.MainActivity}" drawable="lipu_en_nanpa" />
+    <!-- Sudoku : nanpa -->
+    <item component="ComponentInfo{ee.dustland.android.dustlandsudoku/ee.dustland.android.dustlandsudoku.SudokuHostActivity}" drawable="nanpa" />
+    <!-- Lichess : utala -->
+    <item component="ComponentInfo{org.lichess.mobileV2/org.lichess.mobileV2.MainActivity}" drawable="utala" />
+    <!-- Jupyter : nanpa -->
+    <item component="ComponentInfo{org.termuxstudio.jupyternotebook/org.termuxstudio.jupyternotebook.MainActivity}" drawable="nanpa" />
     <!-- Fossify Thank You : pona -->
     <item component="ComponentInfo{org.fossify.thankyou/org.fossify.thankyou.activities.SplashActivity.Grey_black}" drawable="pona" />
     <!-- Warpinator : pana -->
     <item component="ComponentInfo{slowscript.warpinator/slowscript.warpinator.MainActivity}" drawable="pana" />
-    <!-- Bluesky : waso laso -->
-    <item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="waso_laso" />
+    <!-- Bluesky : waso -->
+    <item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="waso" />
     <!-- Balatro : lipu musi -->
     <item component="ComponentInfo{com.playstack.balatro.android/org.love2d.android.PlatformActivity}" drawable="lipu_en_musi" />
     <!-- MyFastweb : mani+linluwi -->
@@ -220,45 +228,45 @@
     <item component="ComponentInfo{com.ivoox.app/com.ivoox.app.ui.login.activity.LoginMainActivity}" drawable="jan_en_toki" />
     <!-- Accordatore Cromatico : pona^kalama -->
     <item component="ComponentInfo{com.megaj.tunermain/com.megaj.tunermain.MainActivity}" drawable="pona_kalama" />
-    <!-- category: banking : tomo mani -->
-    <item component="ComponentInfo{com.bancodeguayaquil/com.bancodeguayaquil.MainActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{de.number26.android/com.n26.home.presentation.HomeActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.BlackActivityLauncher}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.PrideActivityLauncher}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.RavenActivityLauncher}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.TealActivityLauncher}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.WheatActivityLauncher}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.ui.landing.LandingActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.transferwise.android/com.google.android.archive.ReactivateActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.transferwise.android/com.transferwise.android.activity.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.buzz.modules.startup.StartActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.woody.app.modules.initial.splash.view.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.woody.phone.modules.initial.splash.view.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{es.bancosantander.apps/es.bancosantander.apps.mobile.android.activities.PublicActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{es.bancosantander.apps/es.bancosantander.apps.mobile.android.activities.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.latuabancaperandroid/com.latuabancaperandroid.ELoadingPageActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.latuabancaperandroid/com.latuabancaperandroid.presentation.activity.LandingPageActivity2}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.latuabancaperandroid/com.latuabancaperandroid.presentation.activity.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.unicredit/com.unicredit.MainActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.unicredit/com.unicredit.UniCreditMobileBanking}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Beta}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Black_Culture}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Investor}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Pride}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Ukraine}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Upgrade_Hot_Coral}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonBlue}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonYellow}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.bunq.android/com.bunq.android.ui.activity.SplashScreenActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.HomeActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.LoginActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.SplashActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.LauncherActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.MainActivity}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.WFMain}" drawable="tomo_en_mani" />
-    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.signon.SignOnActivity}" drawable="tomo_en_mani" />
+    <!-- category: banking : mani -->
+    <item component="ComponentInfo{com.bancodeguayaquil/com.bancodeguayaquil.MainActivity}" drawable="mani" />
+    <item component="ComponentInfo{de.number26.android/com.n26.home.presentation.HomeActivity}" drawable="mani" />
+    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.BlackActivityLauncher}" drawable="mani" />
+    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.PrideActivityLauncher}" drawable="mani" />
+    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.RavenActivityLauncher}" drawable="mani" />
+    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.TealActivityLauncher}" drawable="mani" />
+    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.WheatActivityLauncher}" drawable="mani" />
+    <item component="ComponentInfo{de.number26.android/de.number26.machete.android.ui.landing.LandingActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.transferwise.android/com.google.android.archive.ReactivateActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.transferwise.android/com.transferwise.android.activity.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.buzz.modules.startup.StartActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.woody.app.modules.initial.splash.view.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.woody.phone.modules.initial.splash.view.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{es.bancosantander.apps/es.bancosantander.apps.mobile.android.activities.PublicActivity}" drawable="mani" />
+    <item component="ComponentInfo{es.bancosantander.apps/es.bancosantander.apps.mobile.android.activities.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.latuabancaperandroid/com.latuabancaperandroid.ELoadingPageActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.latuabancaperandroid/com.latuabancaperandroid.presentation.activity.LandingPageActivity2}" drawable="mani" />
+    <item component="ComponentInfo{com.latuabancaperandroid/com.latuabancaperandroid.presentation.activity.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.unicredit/com.unicredit.MainActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.unicredit/com.unicredit.UniCreditMobileBanking}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Beta}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Black_Culture}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Investor}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Pride}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Ukraine}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Upgrade_Hot_Coral}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonBlue}" drawable="mani" />
+    <item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonYellow}" drawable="mani" />
+    <item component="ComponentInfo{com.bunq.android/com.bunq.android.ui.activity.SplashScreenActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.HomeActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.LoginActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.LauncherActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.MainActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.WFMain}" drawable="mani" />
+    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.signon.SignOnActivity}" drawable="mani" />
     <!-- category: payments : mani -->
     <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.GooglePayActivity}" drawable="mani" />
     <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.WalletRootActivity}" drawable="mani" />
@@ -281,53 +289,53 @@
     <item component="ComponentInfo{com.venmo/com.venmo.android.platform.AppExperienceLauncherActivity}" drawable="mani" />
     <item component="ComponentInfo{com.venmo/com.venmo.tabcentral.TabCentralActivity}" drawable="mani" />
     <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="mani" />
-    <!-- category: crypto : mani sin -->
-    <item component="ComponentInfo{com.binance.dev/com.binance.dev.SplashActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.main.MainActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.splash.SplashActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.BnbMainActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.MainActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.binance.dev/com.eaas.launcher.activities.main.MainActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.binance.dev/com.google.android.archive.ReactivateActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.LaunchActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.MainActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.signin.IntroActivity}" drawable="mani_en_sin" />
-    <item component="ComponentInfo{com.coinbase.android/com.coinbase.retailnativeruntime.LaunchActivity}" drawable="mani_en_sin" />
-    <!-- category: email : lipu -->
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmail}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivitygoogle_mail}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmailSafeMode}" drawable="lipu" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivityEdu}" drawable="lipu" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainCalendarActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.WearActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.activities.HubActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.ui.miit.MiitLauncherActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.google.android.archive.ReactivateActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MessageList}" drawable="lipu" />
-    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.YahooMail}" drawable="lipu" />
-    <item component="ComponentInfo{com.readdle.spark/com.readdle.spark.app.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.readdle.spark/com.readdle.spark.ui.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.readdle.spark/com.readdle.spark.ui.launch.LaunchActivity}" drawable="lipu" />
-    <item component="ComponentInfo{eu.faircode.email/eu.faircode.email.ActivityMain}" drawable="lipu" />
-    <item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MessageList}" drawable="lipu" />
-    <item component="ComponentInfo{net.thunderbird.android/net.thunderbird.android.ThunderbirdApp}" drawable="lipu" />
-    <item component="ComponentInfo{net.thunderbird.android/net.thunderbird.app.common.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="lipu" />
-    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageCompose}" drawable="lipu" />
-    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="lipu" />
-    <item component="ComponentInfo{com.fsck.k9/net.thunderbird.app.common.MainActivity}" drawable="lipu" />
-    <item component="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL}" drawable="lipu" />
+    <!-- category: crypto : mani -->
+    <item component="ComponentInfo{com.binance.dev/com.binance.dev.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.main.MainActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.splash.SplashActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.BnbMainActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.MainActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.binance.dev/com.eaas.launcher.activities.main.MainActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.binance.dev/com.google.android.archive.ReactivateActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.LaunchActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.MainActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.signin.IntroActivity}" drawable="mani" />
+    <item component="ComponentInfo{com.coinbase.android/com.coinbase.retailnativeruntime.LaunchActivity}" drawable="mani" />
+    <!-- category: email : toki -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmail}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivitygoogle_mail}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmailSafeMode}" drawable="toki" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivityEdu}" drawable="toki" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainCalendarActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.WearActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.activities.HubActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.ui.miit.MiitLauncherActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.google.android.archive.ReactivateActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MessageList}" drawable="toki" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.YahooMail}" drawable="toki" />
+    <item component="ComponentInfo{com.readdle.spark/com.readdle.spark.app.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.readdle.spark/com.readdle.spark.ui.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.readdle.spark/com.readdle.spark.ui.launch.LaunchActivity}" drawable="toki" />
+    <item component="ComponentInfo{eu.faircode.email/eu.faircode.email.ActivityMain}" drawable="toki" />
+    <item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MessageList}" drawable="toki" />
+    <item component="ComponentInfo{net.thunderbird.android/net.thunderbird.android.ThunderbirdApp}" drawable="toki" />
+    <item component="ComponentInfo{net.thunderbird.android/net.thunderbird.app.common.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="toki" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageCompose}" drawable="toki" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="toki" />
+    <item component="ComponentInfo{com.fsck.k9/net.thunderbird.app.common.MainActivity}" drawable="toki" />
+    <item component="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL}" drawable="toki" />
     <!-- category: messaging : toki -->
     <item component="ComponentInfo{com.whatsapp/com.whatsapp.0}" drawable="toki" />
     <item component="ComponentInfo{com.whatsapp/com.whatsapp.1}" drawable="toki" />
@@ -965,28 +973,28 @@
     <item component="ComponentInfo{com.shazam.android/com.shazam.android.activities.Splash}" drawable="kalama_musi" />
     <item component="ComponentInfo{com.shazam.android/com.shazam.android.activities.SplashActivity}" drawable="kalama_musi" />
     <item component="ComponentInfo{com.shazam.android/vn.adflex.sdk.AdFlexSDKActivity}" drawable="kalama_musi" />
-    <!-- category: podcasts : kute -->
-    <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivityDefault}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_0}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_1}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_10}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_11}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_12}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_13}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_14}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_16}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_18}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_2}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_3}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_4}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_5}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_6}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_7}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_8}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_9}" drawable="kute" />
-    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.TabWidget}" drawable="kute" />
+    <!-- category: podcasts : kalama -->
+    <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivityDefault}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_0}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_1}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_10}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_11}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_12}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_13}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_14}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_16}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_18}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_2}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_3}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_4}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_5}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_6}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_7}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_8}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_9}" drawable="kalama" />
+    <item component="ComponentInfo{au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.TabWidget}" drawable="kalama" />
     <!-- category: shopping : esun -->
     <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.google.android.archive.ReactivateActivity}" drawable="esun" />
     <item component="ComponentInfo{com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.SplashActivity}" drawable="esun" />
@@ -1017,12 +1025,12 @@
     <item component="ComponentInfo{com.ingka.ikea.app/com.ingka.ikea.app.SplashActivity}" drawable="esun" />
     <item component="ComponentInfo{com.ingka.ikea.app/com.ingka.ikea.app.splash.FirstEntryActivity}" drawable="esun" />
     <item component="ComponentInfo{com.ingka.ikea.app/com.ingka.ikea.app.splash.SplashActivity}" drawable="esun" />
-    <!-- category: supermarkets : tomo esun -->
-    <item component="ComponentInfo{it.carrefour.mycarrefour/it.carrefour.mycarrefour.MainActivity}" drawable="tomo_en_esun" />
-    <item component="ComponentInfo{com.lidl.eci.lidlplus/es.lidlplus.i18n.StandardLauncher}" drawable="tomo_en_esun" />
-    <item component="ComponentInfo{com.lidl.eci.lidlplus/es.lidlplus.i18n.splash.presentation.view.SplashActivity}" drawable="tomo_en_esun" />
-    <item component="ComponentInfo{it.esselunga.mobile/it.esselunga.mobile.activity.EsselungaActivity}" drawable="tomo_en_esun" />
-    <item component="ComponentInfo{it.esselunga.mobile/it.esselunga.mobile.activity.EsselungaSplashActivity}" drawable="tomo_en_esun" />
+    <!-- category: supermarkets : esun -->
+    <item component="ComponentInfo{it.carrefour.mycarrefour/it.carrefour.mycarrefour.MainActivity}" drawable="esun" />
+    <item component="ComponentInfo{com.lidl.eci.lidlplus/es.lidlplus.i18n.StandardLauncher}" drawable="esun" />
+    <item component="ComponentInfo{com.lidl.eci.lidlplus/es.lidlplus.i18n.splash.presentation.view.SplashActivity}" drawable="esun" />
+    <item component="ComponentInfo{it.esselunga.mobile/it.esselunga.mobile.activity.EsselungaActivity}" drawable="esun" />
+    <item component="ComponentInfo{it.esselunga.mobile/it.esselunga.mobile.activity.EsselungaSplashActivity}" drawable="esun" />
     <!-- category: food : moku -->
     <item component="ComponentInfo{com.glovo/com.glovoapp.onboarding.splash.SplashActivity}" drawable="moku" />
     <item component="ComponentInfo{com.glovo/glovoapp.splash.SplashActivity}" drawable="moku" />
@@ -1045,23 +1053,23 @@
     <item component="ComponentInfo{com.app.tgtg/com.app.tgtg.activities.login.SplashActivity}" drawable="moku" />
     <item component="ComponentInfo{com.app.tgtg/com.app.tgtg.feature.login.SplashActivity}" drawable="moku" />
     <item component="ComponentInfo{io.yuka.android/io.yuka.android.Main.RootActivity}" drawable="moku" />
-    <!-- category: transport : tomo tawa -->
-    <item component="ComponentInfo{com.ubercab/com.google.android.archive.ReactivateActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.ubercab/com.ubercab.UBUberActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.ubercab/com.ubercab.activities.MapActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{ee.mtakso.client/com.google.android.archive.ReactivateActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{ee.mtakso.client/ee.mtakso.client.activity.SplashHomeActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.cabify.rider/com.cabify.rider.presentation.splash.SplashActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{taxi.android.client/com.mytaxi.passenger.startup.impl.ui.RouterActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{taxi.android.client/taxi.android.client.feature.startup.ui.StartupActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartBhmIcon}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartIcon}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartIwdIcon}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartPrideIcon}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.tranzmate/com.moovit.app.home.HomeActivity}" drawable="tomo_en_tawa" />
-    <item component="ComponentInfo{com.tranzmate/com.moovit.home.HomeActivity}" drawable="tomo_en_tawa" />
+    <!-- category: transport : tawa -->
+    <item component="ComponentInfo{com.ubercab/com.google.android.archive.ReactivateActivity}" drawable="tawa" />
+    <item component="ComponentInfo{com.ubercab/com.ubercab.UBUberActivity}" drawable="tawa" />
+    <item component="ComponentInfo{com.ubercab/com.ubercab.activities.MapActivity}" drawable="tawa" />
+    <item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="tawa" />
+    <item component="ComponentInfo{ee.mtakso.client/com.google.android.archive.ReactivateActivity}" drawable="tawa" />
+    <item component="ComponentInfo{ee.mtakso.client/ee.mtakso.client.activity.SplashHomeActivity}" drawable="tawa" />
+    <item component="ComponentInfo{com.cabify.rider/com.cabify.rider.presentation.splash.SplashActivity}" drawable="tawa" />
+    <item component="ComponentInfo{taxi.android.client/com.mytaxi.passenger.startup.impl.ui.RouterActivity}" drawable="tawa" />
+    <item component="ComponentInfo{taxi.android.client/taxi.android.client.feature.startup.ui.StartupActivity}" drawable="tawa" />
+    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivity}" drawable="tawa" />
+    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartBhmIcon}" drawable="tawa" />
+    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartIcon}" drawable="tawa" />
+    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartIwdIcon}" drawable="tawa" />
+    <item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivityHeartPrideIcon}" drawable="tawa" />
+    <item component="ComponentInfo{com.tranzmate/com.moovit.app.home.HomeActivity}" drawable="tawa" />
+    <item component="ComponentInfo{com.tranzmate/com.moovit.home.HomeActivity}" drawable="tawa" />
     <!-- category: travel : tomo lape -->
     <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.activities.HomeActivityAlias}" drawable="tomo_en_lape" />
     <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.activities.MainActivity}" drawable="tomo_en_lape" />
@@ -1215,123 +1223,121 @@
     <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.onboarding.ui.OnboardingActivity}" drawable="linluwi" />
     <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo}" drawable="linluwi" />
     <item component="ComponentInfo{org.mozilla.focus/org.mozilla.focus.activity.MainActivity}" drawable="linluwi" />
-    <!-- category: notes : lipu lili -->
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.AnimatingListDetailsEditActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.Br}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverWithMimeTypeActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.ListDetailsActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.NoteToSelfActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.homescreenwidget.WidgetIntentResolverActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{notion.id/notion.id.MainActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.evernote/com.evernote.LauncherActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.evernote/com.evernote.SplashActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.evernote/com.evernote.ui.LaunchActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.evernote/com.evernote.ui.MainActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.evernote/com.evernote.ui.MainView}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMLauncherActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{net.cozic.joplin/net.cozic.joplin.MainActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{com.standardnotes/com.standardnotes.MainActivity}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Amber}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue_grey}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Brown}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Cyan}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_orange}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_purple}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Green}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Grey_black}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Indigo}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_blue}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_green}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Lime}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Orange}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Pink}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Purple}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Red}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Teal}" drawable="lipu_en_lili" />
-    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Yellow}" drawable="lipu_en_lili" />
-    <!-- category: tasks : lipu pali -->
-    <item component="ComponentInfo{com.todoist/com.todoist.activity.HomeActivity}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityAmethyst}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityBlack}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityBlueberry}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityClover}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityDark}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityDefault}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityGraphite}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityKale}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightAmethyst}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightBlueberry}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightClover}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightGold}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightGraphite}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightNoir}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightPink}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightRainbow}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightRoyalBlue}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightSky}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightTangerine}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightTodoist}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityMoonstone}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityNeutral}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityNoir}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityPink}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityRaspberry}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityRoyalBlue}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivitySky}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivitySunflower}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityTangerine}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityTodoist}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todoss}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.archive.ReactivateActivity}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_1}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_10}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_11}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_12}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_2}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_4}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_ai}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_dark_linear}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_default}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_earth}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_mechanical}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_neon}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_plump3d}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_springFestive}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_tick}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="lipu_en_pali" />
-    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.TickTickStartActivity}" drawable="lipu_en_pali" />
-    <!-- category: passwords : nimi len -->
-    <item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.x8bit.bitwarden/md5b95ad25b85f158431f24aa9fc17a1c1e.SplashActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.x8bit.bitwarden/md5fb78b69c5ddbc157f4db38fd738139a6.SplashActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{proton.android.pass/proton.android.pass.ui.MainActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.onepassword.android/com.onepassword.android.app.StartActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.kunzisoft.keepass.free/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.KeePass}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FilePickerStylishActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FileSelectActivity}" drawable="nimi_en_len" />
-    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.password.PasswordActivity}" drawable="nimi_en_len" />
-    <!-- category: authenticators : nanpa len -->
-    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.archive.ReactivateActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.AuthActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.MainActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.authy.authy/.activities.InitializationActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.authy.authy/com.authy.authy.activities.InitializationActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.MainActivity}" drawable="nanpa_en_len" />
-    <item component="ComponentInfo{proton.android.authenticator/proton.android.authenticator.app.ui.MainActivity}" drawable="nanpa_en_len" />
+    <!-- category: notes : lipu -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.AnimatingListDetailsEditActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.Br}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverWithMimeTypeActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.ListDetailsActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.NoteToSelfActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.homescreenwidget.WidgetIntentResolverActivity}" drawable="lipu" />
+    <item component="ComponentInfo{notion.id/notion.id.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.evernote/com.evernote.LauncherActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.evernote/com.evernote.SplashActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.evernote/com.evernote.ui.LaunchActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.evernote/com.evernote.ui.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.evernote/com.evernote.ui.MainView}" drawable="lipu" />
+    <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMLauncherActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity}" drawable="lipu" />
+    <item component="ComponentInfo{net.cozic.joplin/net.cozic.joplin.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.standardnotes/com.standardnotes.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Amber}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue_grey}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Brown}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Cyan}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_orange}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_purple}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Green}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Grey_black}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Indigo}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_blue}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_green}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Lime}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Orange}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Pink}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Purple}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Red}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Teal}" drawable="lipu" />
+    <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Yellow}" drawable="lipu" />
+    <!-- category: tasks : pali -->
+    <item component="ComponentInfo{com.todoist/com.todoist.activity.HomeActivity}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityAmethyst}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityBlack}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityBlueberry}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityClover}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityDark}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityDefault}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityGraphite}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityKale}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightAmethyst}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightBlueberry}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightClover}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightGold}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightGraphite}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightNoir}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightPink}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightRainbow}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightRoyalBlue}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightSky}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightTangerine}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityLightTodoist}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityMoonstone}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityNeutral}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityNoir}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityPink}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityRaspberry}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityRoyalBlue}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivitySky}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivitySunflower}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityTangerine}" drawable="pali" />
+    <item component="ComponentInfo{com.todoist/com.todoist.alias.HomeActivityTodoist}" drawable="pali" />
+    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="pali" />
+    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todoss}" drawable="pali" />
+    <item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="pali" />
+    <item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.archive.ReactivateActivity}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_1}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_10}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_11}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_12}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_2}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_4}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_ai}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_dark_linear}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_default}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_earth}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_mechanical}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_neon}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_plump3d}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_springFestive}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_tick}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="pali" />
+    <item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.TickTickStartActivity}" drawable="pali" />
+    <!-- category: passwords : len -->
+    <item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="len" />
+    <item component="ComponentInfo{com.x8bit.bitwarden/md5b95ad25b85f158431f24aa9fc17a1c1e.SplashActivity}" drawable="len" />
+    <item component="ComponentInfo{com.x8bit.bitwarden/md5fb78b69c5ddbc157f4db38fd738139a6.SplashActivity}" drawable="len" />
+    <item component="ComponentInfo{com.onepassword.android/com.onepassword.android.app.StartActivity}" drawable="len" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.free/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="len" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.KeePass}" drawable="len" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="len" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FilePickerStylishActivity}" drawable="len" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FileSelectActivity}" drawable="len" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.password.PasswordActivity}" drawable="len" />
+    <!-- category: authenticators : len -->
+    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="len" />
+    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity}" drawable="len" />
+    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.archive.ReactivateActivity}" drawable="len" />
+    <item component="ComponentInfo{com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.AuthActivity}" drawable="len" />
+    <item component="ComponentInfo{com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.MainActivity}" drawable="len" />
+    <item component="ComponentInfo{com.authy.authy/.activities.InitializationActivity}" drawable="len" />
+    <item component="ComponentInfo{com.authy.authy/com.authy.authy.activities.InitializationActivity}" drawable="len" />
+    <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}" drawable="len" />
+    <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.MainActivity}" drawable="len" />
     <!-- category: ai assistants : sona -->
     <item component="ComponentInfo{com.openai.chatgpt/com.google.android.archive.ReactivateActivity}" drawable="sona" />
     <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.CodexLauncherActivity}" drawable="sona" />
@@ -1463,26 +1469,26 @@
     <item component="ComponentInfo{org.khanacademy.android/icon.rainbow}" drawable="kama_sona" />
     <item component="ComponentInfo{org.khanacademy.android/org.khanacademy.android.ui.library.MainActivity}" drawable="kama_sona" />
     <item component="ComponentInfo{com.hellochinese/com.hellochinese.app_icon_1}" drawable="kama_sona" />
-    <!-- category: reading : lipu sona -->
-    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kcp.oob.MainActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.NewsstandStartActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.TabletStartActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.UpgradePage}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{org.koreader.launcher.fdroid/org.koreader.launcher.MainActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{org.koreader.launcher/org.koreader.launcher.MainActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.HomeActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.archive.ReactivateActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.google.android.apps.books/tgo.ngo.mockgps.ui.LauncherActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.flyersoft.moonreaderp.ActivityMain}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.flyersoft.moonreaderp.ActivityTxt}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.google.android.archive.ReactivateActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.unity.android.sdk.PlayerLauncher}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.unity.android.sdk.UnityLauncher}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.ideashower.readitlater.activity.AppCacheCheckActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.pocket.app.BlackAndWhiteLogoActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.pocket.app.ClassicLogoActivity}" drawable="lipu_en_sona" />
-    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.pocket.app.PocketPrideActivity}" drawable="lipu_en_sona" />
+    <!-- category: reading : lipu -->
+    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kcp.oob.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.NewsstandStartActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.TabletStartActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.UpgradePage}" drawable="lipu" />
+    <item component="ComponentInfo{org.koreader.launcher.fdroid/org.koreader.launcher.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{org.koreader.launcher/org.koreader.launcher.MainActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.HomeActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.archive.ReactivateActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.google.android.apps.books/tgo.ngo.mockgps.ui.LauncherActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.flyersoft.moonreaderp.ActivityMain}" drawable="lipu" />
+    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.flyersoft.moonreaderp.ActivityTxt}" drawable="lipu" />
+    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.google.android.archive.ReactivateActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.unity.android.sdk.PlayerLauncher}" drawable="lipu" />
+    <item component="ComponentInfo{com.flyersoft.moonreaderp/com.unity.android.sdk.UnityLauncher}" drawable="lipu" />
+    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.ideashower.readitlater.activity.AppCacheCheckActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.pocket.app.BlackAndWhiteLogoActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.pocket.app.ClassicLogoActivity}" drawable="lipu" />
+    <item component="ComponentInfo{com.ideashower.readitlater.pro/com.pocket.app.PocketPrideActivity}" drawable="lipu" />
     <!-- category: news : lipu sin -->
     <item component="ComponentInfo{com.google.android.apps.magazines/com.google.android.archive.ReactivateActivity}" drawable="lipu_en_sin" />
     <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="lipu_en_sin" />
@@ -1603,24 +1609,24 @@
     <item component="ComponentInfo{com.myfitnesspal.android/com.myfitnesspal.android.login.Welcome}" drawable="sijelo" />
     <item component="ComponentInfo{com.myfitnesspal.android/com.myfitnesspal.android.login.WelcomeActivity}" drawable="sijelo" />
     <item component="ComponentInfo{com.myfitnesspal.android/com.myfitnesspal.android.splash.SplashActivity}" drawable="sijelo" />
-    <!-- category: carriers : linja toki -->
-    <item component="ComponentInfo{it.iliad/it.iliad.presentation.MainActivity}" drawable="linja_toki" />
-    <item component="ComponentInfo{com.orange.orangeetmoi/com.orange.care.core.ui.SplashScreenActivity}" drawable="linja_toki" />
-    <item component="ComponentInfo{com.claro.miclaro/com.claro.app.view.SplashKTVC}" drawable="linja_toki" />
-    <item component="ComponentInfo{com.claro.miclaro/com.claro.miclaro.view.SplashKTVC}" drawable="linja_toki" />
-    <item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivityChristmas}" drawable="linja_toki" />
-    <item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivityPride}" drawable="linja_toki" />
-    <!-- category: smart home : ilo tomo -->
-    <item component="ComponentInfo{com.tuya.smartlife/com.smart.ThingSplashActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{com.tuya.smartlife/com.smart.TuyaSplashActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{com.tuya.smartlife/com.tuyasmart.sample.TuyaSplashActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{com.philips.lighting.hue2/com.philips.lighting.hue2.ContentActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{com.tplink.iot/com.google.android.archive.ReactivateActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{com.tplink.iot/com.tplink.iot.view.welcome.StartupActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{io.homeassistant.companion.android/androidx.car.app.activity.CarAppActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{io.homeassistant.companion.android/com.google.android.archive.ReactivateActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="ilo_tomo" />
-    <item component="ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.archive.ReactivateActivity}" drawable="ilo_tomo" />
+    <!-- category: carriers : linja -->
+    <item component="ComponentInfo{it.iliad/it.iliad.presentation.MainActivity}" drawable="linja" />
+    <item component="ComponentInfo{com.orange.orangeetmoi/com.orange.care.core.ui.SplashScreenActivity}" drawable="linja" />
+    <item component="ComponentInfo{com.claro.miclaro/com.claro.app.view.SplashKTVC}" drawable="linja" />
+    <item component="ComponentInfo{com.claro.miclaro/com.claro.miclaro.view.SplashKTVC}" drawable="linja" />
+    <item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivityChristmas}" drawable="linja" />
+    <item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivityPride}" drawable="linja" />
+    <!-- category: smart home : tomo -->
+    <item component="ComponentInfo{com.tuya.smartlife/com.smart.ThingSplashActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.tuya.smartlife/com.smart.TuyaSplashActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.tuya.smartlife/com.tuyasmart.sample.TuyaSplashActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.philips.lighting.hue2/com.philips.lighting.hue2.ContentActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.tplink.iot/com.google.android.archive.ReactivateActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.tplink.iot/com.tplink.iot.view.welcome.StartupActivity}" drawable="tomo" />
+    <item component="ComponentInfo{io.homeassistant.companion.android/androidx.car.app.activity.CarAppActivity}" drawable="tomo" />
+    <item component="ComponentInfo{io.homeassistant.companion.android/com.google.android.archive.ReactivateActivity}" drawable="tomo" />
+    <item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.archive.ReactivateActivity}" drawable="tomo" />
     <!-- category: keyboards : ilo nimi -->
     <item component="ComponentInfo{com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}" drawable="ilo_nimi" />
     <item component="ComponentInfo{com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}" drawable="ilo_nimi" />
@@ -1655,41 +1661,41 @@
     <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Teal}" drawable="ilo_nimi" />
     <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Yellow}" drawable="ilo_nimi" />
     <item component="ComponentInfo{com.tavultesoft.kmapro/com.tavultesoft.kmapro.SplashScreenActivity}" drawable="ilo_nimi" />
-    <!-- category: launchers : tomo ilo -->
-    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.Pro}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.RecentlyInstalled}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.Settings}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/.preferences.SettingsActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.android.launcher2.Launcher}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.android.launcher3.LauncherWallpaperPickerActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.android.launcher3.WallpaperCropActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.duapps.ad.VdAd}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.exple.gexing.qianm.MainActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.squareup.leakcanary.internal.DisplayLeakActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.ActivitiesShortcutActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.IconThemePrompt}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaLauncher}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutCreateActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.RestoreBackupFileHandler}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.preferences.SettingsActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{com.teslacoilsw.launcher/preferences.SettingsActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncherQuickstep}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{app.prolauncher/app.prolauncher.MainActivity}" drawable="tomo_en_ilo" />
-    <item component="ComponentInfo{app.prolauncher/app.prolauncher.compose.ui.ComposeMainActivity}" drawable="tomo_en_ilo" />
-    <!-- category: terminal : ilo nanpa -->
-    <item component="ComponentInfo{com.termux/.app.TermuxActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{com.termux/com.termux.KickStart}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{com.termux/com.termux.app.TermuxFailsafeActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{com.termux/com.termux.zerocore.guide.TermuxGuideActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{com.server.auditor.ssh.client/com.google.android.archive.ReactivateActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SshNavigationDrawerActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{org.connectbot/org.connectbot.ConsoleActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{org.connectbot/org.connectbot.HostListActivity}" drawable="ilo_nanpa" />
-    <item component="ComponentInfo{org.connectbot/org.connectbot.ui.MainActivity}" drawable="ilo_nanpa" />
+    <!-- category: launchers : tomo -->
+    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.Pro}" drawable="tomo" />
+    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.RecentlyInstalled}" drawable="tomo" />
+    <item component="ComponentInfo{bitpit.launcher/bitpit.launcher.Settings}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/.preferences.SettingsActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.android.launcher2.Launcher}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.android.launcher3.LauncherWallpaperPickerActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.android.launcher3.WallpaperCropActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.duapps.ad.VdAd}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.exple.gexing.qianm.MainActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.squareup.leakcanary.internal.DisplayLeakActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.ActivitiesShortcutActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.IconThemePrompt}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaLauncher}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutCreateActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.RestoreBackupFileHandler}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.preferences.SettingsActivity}" drawable="tomo" />
+    <item component="ComponentInfo{com.teslacoilsw.launcher/preferences.SettingsActivity}" drawable="tomo" />
+    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher}" drawable="tomo" />
+    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncherQuickstep}" drawable="tomo" />
+    <item component="ComponentInfo{app.prolauncher/app.prolauncher.MainActivity}" drawable="tomo" />
+    <item component="ComponentInfo{app.prolauncher/app.prolauncher.compose.ui.ComposeMainActivity}" drawable="tomo" />
+    <!-- category: terminal : ilo -->
+    <item component="ComponentInfo{com.termux/.app.TermuxActivity}" drawable="ilo" />
+    <item component="ComponentInfo{com.termux/com.termux.KickStart}" drawable="ilo" />
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="ilo" />
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxFailsafeActivity}" drawable="ilo" />
+    <item component="ComponentInfo{com.termux/com.termux.zerocore.guide.TermuxGuideActivity}" drawable="ilo" />
+    <item component="ComponentInfo{com.server.auditor.ssh.client/com.google.android.archive.ReactivateActivity}" drawable="ilo" />
+    <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity}" drawable="ilo" />
+    <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SshNavigationDrawerActivity}" drawable="ilo" />
+    <item component="ComponentInfo{org.connectbot/org.connectbot.ConsoleActivity}" drawable="ilo" />
+    <item component="ComponentInfo{org.connectbot/org.connectbot.HostListActivity}" drawable="ilo" />
+    <item component="ComponentInfo{org.connectbot/org.connectbot.ui.MainActivity}" drawable="ilo" />
     <!-- category: games : musi -->
     <item component="ComponentInfo{com.chess/com.chess.splash.SplashActivity}" drawable="musi" />
     <item component="ComponentInfo{com.chess/com.chess.ui.activities.MainActivity}" drawable="musi" />
