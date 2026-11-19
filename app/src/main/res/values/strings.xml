@@ -39,6 +39,14 @@
     <string name="icon_picker_title">Choose an icon</string>
     <string name="cancel">Cancel</string>
     <string name="saved_in_app_header">nimi sina (saved in the app)</string>
+    <string name="gallery_button">Icons</string>
+    <string name="gallery_title">Icons in the pack</string>
+    <string name="close">Close</string>
+    <string name="no_results">No icons match</string>
+    <plurals name="gallery_count">
+        <item quantity="one">%d icon</item>
+        <item quantity="other">%d icons</item>
+    </plurals>
 
     <string name="missing_title">ilo sin sitelen (apps without an icon)</string>
     <string name="missing_none">All your apps have an icon in the pack or a pending assignment. pona!</string>

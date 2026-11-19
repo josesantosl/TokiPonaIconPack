@@ -67,7 +67,6 @@
     <item drawable="pana" />
     <item drawable="lipu_en_musi" />
     <item drawable="mani_en_linluwi" />
-    <item drawable="lawa_powe" />
     <item drawable="kama_ilo" />
     <item drawable="tomo_en_tawa" />
     <item drawable="jan_en_toki" />
@@ -95,7 +94,6 @@
     <item drawable="tomo_en_sona" />
     <item drawable="lipu_en_musi" />
     <item drawable="mani_en_linluwi" />
-    <item drawable="lawa_powe" />
     <item drawable="kama_ilo" />
     <item drawable="tomo_en_tawa" />
     <item drawable="jan_en_toki" />
@@ -189,13 +187,11 @@
     <item drawable="pilin_en_pona" />
     <item drawable="pilin_en_ike" />
     <item drawable="lawa_en_powe" />
+    <item drawable="lawa_powe" />
     <item drawable="sona_en_ala" />
     <item drawable="tomo_en_moku" />
     <item drawable="kama_poki" />
     <category title="nimi ale (todas las palabras)" />
-    <item drawable="itan" />
-    <item drawable="lipamanka" />
-    <item drawable="lepeka" />
     <item drawable="a" />
     <item drawable="akesi" />
     <item drawable="ala" />

@@ -33,6 +33,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
@@ -73,7 +74,7 @@ import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun EditorScreen(vm: EditorViewModel = viewModel()) {
+fun EditorScreen(onOpenGallery: () -> Unit, vm: EditorViewModel = viewModel()) {
     val saved by vm.saved.collectAsStateWithLifecycle()
     val assignments by vm.assignments.collectAsStateWithLifecycle()
     val snackbar = remember { SnackbarHostState() }
@@ -97,7 +98,23 @@ fun EditorScreen(vm: EditorViewModel = viewModel()) {
 
     Scaffold(
         topBar = {
-            TopAppBar(title = { Text("sitelen pona") })
+            TopAppBar(
+                title = { Text("sitelen pona") },
+                actions = {
+                    TextButton(onClick = onOpenGallery) {
+                        Text(stringResource(R.string.gallery_button))
+                        // sitelen+pona (pona dentro de sitelen), con el grosor original de la fuente:
+                        // el trazo adelgazado del pack apenas se ve a este tamaño.
+                        GlyphPreview(
+                            renderer = vm.renderer,
+                            expr = "sitelen+pona",
+                            foreground = LocalContentColor.current,
+                            background = null,
+                            modifier = Modifier.padding(start = 6.dp).size(28.dp),
+                        )
+                    }
+                },
+            )
         },
         snackbarHost = { SnackbarHost(snackbar) },
     ) { padding ->

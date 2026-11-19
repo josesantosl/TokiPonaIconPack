@@ -73,6 +73,9 @@ MARKER = "glifo de nasin-nanpa"   # comentario que identifica los drawables gene
 # al cargarla, menos NEVER_NEST). Debe coincidir con SitelenExpression.NEST_HEADS en la app.
 NEST_HEADS: set = set()
 NOT_WORDS = {"te", "to", "colon", "space"}  # comillas/puntuación con nombre "...Tok"
+# Nombres de personas que trae la fuente (jan Itan, jan Lepeka, jan lipamanka): no son
+# palabras del idioma y confunden en el pack.
+NOT_WORDS |= {"itan", "lepeka", "lipamanka"}
 BASE_RE = re.compile(r"([a-z]+)Tok(?:_VAR(\d+))?")
 
 

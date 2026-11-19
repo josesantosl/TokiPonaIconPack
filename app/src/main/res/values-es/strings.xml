@@ -37,6 +37,15 @@
     <string name="icon_picker_title">Elige un icono</string>
     <string name="cancel">Cancelar</string>
     <string name="saved_in_app_header">nimi sina (guardadas en la app)</string>
+    <string name="gallery_button">Iconos</string>
+    <string name="gallery_title">Iconos del pack</string>
+    <string name="close">Cerrar</string>
+    <string name="no_results">Ningún icono coincide</string>
+    <plurals name="gallery_count">
+        <item quantity="one">%d icono</item>
+        <item quantity="many">%d iconos</item>
+        <item quantity="other">%d iconos</item>
+    </plurals>
 
     <string name="missing_title">ilo sin sitelen (apps sin icono)</string>
     <string name="missing_none">Todas tus apps tienen icono en el pack o una asignación pendiente. pona!</string>

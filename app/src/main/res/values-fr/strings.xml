@@ -37,6 +37,15 @@
     <string name="icon_picker_title">Choisir une icône</string>
     <string name="cancel">Annuler</string>
     <string name="saved_in_app_header">nimi sina (enregistrés dans l’app)</string>
+    <string name="gallery_button">Icônes</string>
+    <string name="gallery_title">Icônes du pack</string>
+    <string name="close">Fermer</string>
+    <string name="no_results">Aucune icône ne correspond</string>
+    <plurals name="gallery_count">
+        <item quantity="one">%d icône</item>
+        <item quantity="many">%d icônes</item>
+        <item quantity="other">%d icônes</item>
+    </plurals>
 
     <string name="missing_title">ilo sin sitelen (apps sans icône)</string>
     <string name="missing_none">Toutes vos apps ont une icône dans le pack ou une attribution en attente. pona !</string>

@@ -214,8 +214,6 @@
     <item component="ComponentInfo{com.playstack.balatro.android/org.love2d.android.PlatformActivity}" drawable="lipu_en_musi" />
     <!-- MyFastweb : mani+linluwi -->
     <item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivity}" drawable="mani_en_linluwi" />
-    <!-- Claude : lawa^powe -->
-    <item component="ComponentInfo{com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity}" drawable="lawa_powe" />
     <!-- F-Droid : kama ilo -->
     <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="kama_ilo" />
     <!-- Play Store : kama ilo -->
@@ -1339,6 +1337,7 @@
     <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}" drawable="len" />
     <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.MainActivity}" drawable="len" />
     <!-- category: ai assistants : sona -->
+    <item component="ComponentInfo{com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity}" drawable="sona" />
     <item component="ComponentInfo{com.openai.chatgpt/com.google.android.archive.ReactivateActivity}" drawable="sona" />
     <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.CodexLauncherActivity}" drawable="sona" />
     <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="sona" />

@@ -37,6 +37,15 @@
     <string name="icon_picker_title">Scegli un’icona</string>
     <string name="cancel">Annulla</string>
     <string name="saved_in_app_header">nimi sina (salvate nell’app)</string>
+    <string name="gallery_button">Icone</string>
+    <string name="gallery_title">Icone del pacchetto</string>
+    <string name="close">Chiudi</string>
+    <string name="no_results">Nessuna icona corrisponde</string>
+    <plurals name="gallery_count">
+        <item quantity="one">%d icona</item>
+        <item quantity="many">%d icone</item>
+        <item quantity="other">%d icone</item>
+    </plurals>
 
     <string name="missing_title">ilo sin sitelen (app senza icona)</string>
     <string name="missing_none">Tutte le tue app hanno un’icona nel pacchetto o un’assegnazione in sospeso. pona!</string>

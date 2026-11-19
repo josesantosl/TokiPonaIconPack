@@ -36,6 +36,14 @@
     <string name="icon_picker_title">Elektu piktogramon</string>
     <string name="cancel">Nuligi</string>
     <string name="saved_in_app_header">nimi sina (konservitaj en la aplikaĵo)</string>
+    <string name="gallery_button">Piktogramoj</string>
+    <string name="gallery_title">Piktogramoj de la aro</string>
+    <string name="close">Fermi</string>
+    <string name="no_results">Neniu piktogramo kongruas</string>
+    <plurals name="gallery_count">
+        <item quantity="one">%d piktogramo</item>
+        <item quantity="other">%d piktogramoj</item>
+    </plurals>
 
     <string name="missing_title">ilo sin sitelen (aplikaĵoj sen piktogramo)</string>
     <string name="missing_none">Ĉiuj viaj aplikaĵoj havas piktogramon en la aro aŭ atendantan atribuon. pona!</string>
